@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmatecomponentui\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=matecomponent&component=libmatecomponentui\n"
-"POT-Creation-Date: 2010-10-29 20:30+0000\n"
+"POT-Creation-Date: 2010-11-13 23:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Gheyret Kenji<gheyret@yahoo.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -256,7 +256,7 @@ msgstr ""
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
-msgstr ""
+msgstr "ئىككىلىسى(_O)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
@@ -418,7 +418,7 @@ msgstr ""
 
 #: ../tools/browser/matecomponent-browser.xml.h:1
 msgid "About this program..."
-msgstr ""
+msgstr "بۇ پروگرامما ھەققىدە..."
 
 #: ../tools/browser/matecomponent-browser.xml.h:2
 msgid "Close the current window"
@@ -469,7 +469,7 @@ msgstr ""
 
 #: ../tools/browser/window.c:208
 msgid "MateComponent Browser"
-msgstr ""
+msgstr "MateComponent كۆرگۈ"
 
 #: ../tools/browser/window.c:210
 msgid "Copyright 2001, The MATE Foundation"
