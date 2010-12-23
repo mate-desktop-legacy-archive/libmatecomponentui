@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmatecomponentui\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=matecomponent&component=libmatecomponentui\n"
-"POT-Creation-Date: 2010-11-13 23:06+0000\n"
+"POT-Creation-Date: 2010-11-20 10:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Gheyret Kenji<gheyret@yahoo.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: ../matecomponent/matecomponent-selector.c:347
 msgid "One of the interfaces that's required"
-msgstr ""
+msgstr "تەلەپ قىلىنغان بىز ئارايۈز"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
-msgstr ""
+msgstr "پۈتۈن UI(كۆرۈنمەيۈز) نىڭ XML چۈشەندۈرۈشىنى ئېكراندا كۆرسىتىدۇ"
 
 #: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
@@ -228,11 +228,11 @@ msgstr "تۈر"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:162
 msgid "Gtk+ debugging flags to set"
-msgstr ""
+msgstr "بەلگىلەيدىغان Gtk+ تەڭشەك بەلگىسى"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "Gtk+ debugging flags to unset"
-msgstr ""
+msgstr "بەلگىلىمەيدىغان Gtk+ تەڭشەك بەلگىسى"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:168
 msgid "Make all warnings fatal"
@@ -264,7 +264,7 @@ msgstr ""
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
-msgstr ""
+msgstr "ھۈنەرلەرنى يوشۇر(_I)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
@@ -276,11 +276,11 @@ msgstr ""
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
-msgstr ""
+msgstr "ئۆزلەشتۈر(_Z)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
-msgstr ""
+msgstr "ئۆزلەشتۈرۈلگەن قورال بالداق"
 
 #: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
@@ -296,7 +296,7 @@ msgstr ""
 
 #: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
-msgstr ""
+msgstr "بۇ پروگراممىنىڭ ياردەم ئۇچۇرىنى كۆرسىتەلمىدى."
 
 #: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
@@ -398,7 +398,7 @@ msgstr ""
 #. Create Label and put it in the Button:
 #: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
-msgstr ""
+msgstr "سالام دۇنيا!"
 
 #: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
@@ -406,7 +406,7 @@ msgstr ""
 
 #: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
-msgstr ""
+msgstr "MateComponent UI(كۆرۈنمەيۈز)نى دەسلەپلەشتۈرەلمىدى"
 
 #: ../tools/browser/matecomponent-browser.desktop.in.h:1
 msgid "MateComponent Component Browser"
@@ -426,7 +426,7 @@ msgstr "نۆۋەتتىكى كۆزنەكنى ياپىدۇ"
 
 #: ../tools/browser/matecomponent-browser.xml.h:3
 msgid "Open a new window"
-msgstr "يېڭى كۆزنەكتىن بىرنى ئاچ"
+msgstr "يېڭى كۆزنەكتىن بىرنى ئاچىدۇ"
 
 #: ../tools/browser/matecomponent-browser.xml.h:5
 msgid "_Help"
@@ -435,12 +435,12 @@ msgstr "ياردەم(_H)"
 #. Build the general tab
 #: ../tools/browser/component-details.c:103
 msgid "General"
-msgstr "ئادەتتە"
+msgstr "ئادەتتىكى"
 
 #: ../tools/browser/component-details.c:110
 #: ../tools/browser/component-list.c:389
 msgid "IID"
-msgstr ""
+msgstr "IID"
 
 #: ../tools/browser/component-details.c:111
 msgid "Location"
@@ -453,7 +453,7 @@ msgstr "تەپسىلاتى"
 
 #: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
-msgstr ""
+msgstr "تەپسىلىي ئۇچۇر"
 
 #: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
@@ -481,10 +481,8 @@ msgstr ""
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr "Sahran <sahran@live.com>\n"
-"Gheyret T.Kenji <gheyret@yahoo.com>\n"
-"Zeper <zeper@msn.com>\n"
-"Abduxukur Abdurixit <abduxukur.abdurixit@t-systems.ch>"
+msgstr "Gheyret Kenji <gheyret@gmail.com>\n"
+"Sahran<sahran@live.com>"
 
 #. create the window
 #: ../tools/browser/window.c:240
