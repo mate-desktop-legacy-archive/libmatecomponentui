@@ -4,12 +4,13 @@
 # Gheyret Kenji<gheyret@yahoo.com>,2010.
 # Sahran <sahran.ug@gmail.com>, 2010.
 # Zeper <zeper@msn.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: libmatecomponentui\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=matecomponent&component=libmatecomponentui\n"
-"POT-Creation-Date: 2010-11-20 10:59+0000\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=matecomponent&component=libmatecomponentui\n"
+"POT-Creation-Date: 2011-01-02 20:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Gheyret Kenji<gheyret@yahoo.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -19,32 +20,32 @@ msgstr ""
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
-msgstr ""
+msgstr "corba زاۋۇتى"
 
 #: ../matecomponent/matecomponent-canvas-item.c:681
 msgid "The factory pointer"
-msgstr ""
+msgstr "زاۋۇت كۆرسەتكۈچى"
 
 #: ../matecomponent/matecomponent-canvas-item.c:690
 msgid "corba UI container"
-msgstr ""
+msgstr "corba كۆرۈنمەيۈز قاچىسى"
 
 #: ../matecomponent/matecomponent-canvas-item.c:691
 msgid "The User interface container"
-msgstr ""
+msgstr "كۆرۈنمەيۈز قاچىسى"
 
 #: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
-msgstr ""
+msgstr "قورال بالداقنى سىڭدۈرۈش"
 
 #: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
-msgstr ""
+msgstr "قورال بالداقنى چىقىرىۋېتىش"
 
 #: ../matecomponent/matecomponent-dock-item.c:225 ../matecomponent/matecomponent-dock-item.c:226
 #: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
-msgstr ""
+msgstr "شولا تىپى"
 
 #: ../matecomponent/matecomponent-dock-item.c:236 ../matecomponent/matecomponent-dock-item.c:237
 #: ../matecomponent/matecomponent-ui-toolbar.c:1107 ../matecomponent/matecomponent-ui-toolbar.c:1108
@@ -63,23 +64,23 @@ msgstr "ئادەتتىكى ئېگىزلىكى"
 
 #: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
-msgstr ""
+msgstr "ئاچىدىغان ھۆججەتنى تاللاش"
 
 #: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
-msgstr ""
+msgstr "ئاچىدىغان ھۆججەتلەرنى تاللاش"
 
 #: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
-msgstr ""
+msgstr "ساقلايدىغان ھۆججەتنى تاللاش"
 
 #: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
-msgstr ""
+msgstr "ھادىسە يوللاش"
 
 #: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
-msgstr ""
+msgstr "X ھادىسىسىنى يوللامدۇ-يوق"
 
 #: ../matecomponent/matecomponent-selector-widget.c:300 ../matecomponent/matecomponent-window.c:347
 #: ../tools/browser/component-details.c:108
@@ -94,7 +95,7 @@ msgstr "چۈشەندۈرۈش"
 
 #: ../matecomponent/matecomponent-selector.c:343
 msgid "Interfaces required"
-msgstr ""
+msgstr "زۆرۈر ئارايۈزلەر"
 
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
@@ -102,10 +103,13 @@ msgid ""
 "to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
 "no interfaces are listed"
 msgstr ""
+"مۇلازىمېتىر قوللىمىسا بولمايدىغان ئارايۈزلەر تىزىقى(تېكىست NULL بىلەن "
+"ئاخىرلىشىدۇ) تاللىغۇچتا كۆرسىتىلىدۇ. ئەگەر بىرمۇ ئارايۈز بولمىسا، \\\"IDL:"
+"MateComponent/Embeddable:1.0\\\" كۆڭۈلدىكى قىممەت قىلىپ ئىشلىتىلىدۇ."
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
-msgstr ""
+msgstr "زۆرۈر ئارايۈز entry"
 
 #: ../matecomponent/matecomponent-selector.c:347
 msgid "One of the interfaces that's required"
@@ -125,7 +129,7 @@ msgstr "يوشۇر(_H)"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
-msgstr ""
+msgstr "كۆرسەتمە كۆر(_V)"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
@@ -133,21 +137,21 @@ msgstr "قورال بالداق"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
-msgstr ""
+msgstr "قورال بالداق"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:313
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
-msgstr ""
+msgstr "كۆرۈنۈش"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:322
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
-msgstr ""
+msgstr "سىنبەلگە(_I)"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
-msgstr ""
+msgstr "تېكىست ۋە سىنبەلگە(_T)"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
@@ -155,7 +159,7 @@ msgstr "تېكىستلا"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
-msgstr ""
+msgstr "تېكىستنى بىرىنچى ئورۇنغا قوي(_P)"
 
 #: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
@@ -163,7 +167,7 @@ msgstr "سازلا"
 
 #: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
-msgstr ""
+msgstr "XML نى تۆكمە قىل(_D)"
 
 #: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
@@ -171,7 +175,7 @@ msgstr "پۈتۈن UI(كۆرۈنمەيۈز) نىڭ XML چۈشەندۈرۈشىن�
 
 #: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
-msgstr ""
+msgstr "UI(كۆرۈنمەيۈز)نى تەڭشەش"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:131
 msgid "Gdk debugging flags to set"
@@ -208,7 +212,7 @@ msgstr "X نى قەدەمداش قىلىپ ئىشلەت"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:152
 msgid "Don't use X shared memory extension"
-msgstr ""
+msgstr "Xنىڭ ھەمبەھىر ئەسلەك كېڭەيتىلمىسىنى ئىشلەتمە"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "Program name as used by the window manager"
@@ -240,11 +244,11 @@ msgstr "ھەممە ئاگاھلاندۇرۇشنى ئېغىر خاتالىققا 
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "Load an additional Gtk module"
-msgstr ""
+msgstr "قوشۇمچە GTK بۆلىكىنى يۈكلە"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "MODULE"
-msgstr ""
+msgstr "MODULE"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:187
 msgid "GTK+"
@@ -252,7 +256,7 @@ msgstr "GTK+"
 
 #: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
-msgstr ""
+msgstr "MateComponent GUI قوللىشى"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
@@ -260,7 +264,7 @@ msgstr "ئىككىلىسى(_O)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
-msgstr ""
+msgstr "تېكىست(_E)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
@@ -268,11 +272,11 @@ msgstr "ھۈنەرلەرنى يوشۇر(_I)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
-msgstr ""
+msgstr "ھۈنەرلەرنى كۆرسەت(_I)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
-msgstr ""
+msgstr "قورال بالداقنى يوشۇر(_H)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
@@ -280,19 +284,19 @@ msgstr "ئۆزلەشتۈر(_Z)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
-msgstr "ئۆزلەشتۈرۈلگەن قورال بالداق"
+msgstr "قورال بالداقنى ئۆزلەشتۈرىدۇ"
 
 #: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
-msgstr ""
+msgstr "لەيلىتىۋاتىدۇ"
 
 #: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
-msgstr ""
+msgstr "قورال بالداقنى لەيلىتىۋاتامدۇ-يوق"
 
 #: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
-msgstr ""
+msgstr "قورال بالداقنىڭ چۆرىسىدىكى يانتۇلۇقنىڭ ئۇسلۇبى"
 
 #: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
@@ -308,55 +312,55 @@ msgstr "بۇ پروگراممىنىڭ ياردىمىنى كۆرسەت"
 
 #: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
-msgstr ""
+msgstr "كۆزنەك ئاتى - تەڭشەكنى serialization قىلىشتا ئىشلىتىلىدۇ."
 
 #: ../matecomponent/matecomponent-zoomable.c:326
 msgid "Zoom level"
-msgstr "كېڭەيت تارايت دەرىجىسى"
+msgstr "چوڭايتىش دەرىجىسى"
 
 #: ../matecomponent/matecomponent-zoomable.c:327
 msgid "The degree of enlargment"
-msgstr ""
+msgstr "قانچىلىك چوڭايتىدۇ"
 
 #: ../matecomponent/matecomponent-zoomable.c:335
 msgid "Minimum Zoom level"
-msgstr ""
+msgstr "ئەڭ كىچىك چوڭايتىش دەرىجىسى"
 
 #: ../matecomponent/matecomponent-zoomable.c:336
 msgid "The minimum degree of enlargment"
-msgstr ""
+msgstr "ئەڭ كىچىك بولغاندا قانچىلىك كىچىكلىتىدۇ"
 
 #: ../matecomponent/matecomponent-zoomable.c:344
 msgid "Maximum Zoom level"
-msgstr ""
+msgstr "ئەڭ چوڭ چوڭايتىش دەرىجىسى"
 
 #: ../matecomponent/matecomponent-zoomable.c:345
 msgid "The maximum degree of enlargment"
-msgstr ""
+msgstr "ئەڭ چوڭ بولغان قانچىلىك چوڭايتىدۇ"
 
 #: ../matecomponent/matecomponent-zoomable.c:353
 msgid "Has a minimum Zoom level"
-msgstr ""
+msgstr "ئەڭ كىچىك چوڭايتىش دەرىجىسى بار"
 
 #: ../matecomponent/matecomponent-zoomable.c:354
 msgid "Whether we have a valid minimum zoom level"
-msgstr ""
+msgstr "ئەڭ كىچىك ئىناۋەتلىك چوڭايتىش دەرىجىسى بارمۇ-يوق"
 
 #: ../matecomponent/matecomponent-zoomable.c:361
 msgid "Has a maximum Zoom level"
-msgstr ""
+msgstr "ئەڭ چوڭ چوڭايتىش دەرىجىسى بار"
 
 #: ../matecomponent/matecomponent-zoomable.c:362
 msgid "Whether we have a valid maximum zoom level"
-msgstr ""
+msgstr "ئەڭ چوڭ ئىناۋەتلىك چوڭايتىش دەرىجىسى بارمۇ-يوق"
 
 #: ../matecomponent/matecomponent-zoomable.c:369
 msgid "Is continuous"
-msgstr ""
+msgstr "ئۈزلۈكسىز"
 
 #: ../matecomponent/matecomponent-zoomable.c:370
 msgid "Whether we zoom continuously (as opposed to jumps)"
-msgstr ""
+msgstr "ئۈزلۈكسىز(پەلەمپەيسىمان ئەمەس) چوڭايتقىلى بولامدۇ-يوق"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:1
 msgid "About this application"
@@ -364,11 +368,11 @@ msgstr "بۇ پروگرامما ھەققىدە"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:2
 msgid "Select"
-msgstr "تاللا"
+msgstr "تاللاش"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:3
 msgid "_About..."
-msgstr ""
+msgstr "ھەققىدە(_A)…"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:4
 msgid "_Edit"
@@ -385,15 +389,15 @@ msgstr "تاللا(_S)"
 
 #: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
-msgstr ""
+msgstr "بۇ ھېچ ئىش قىلمايدۇ. پەقەتلا ئۈلگە كۆرسىتىدۇ."
 
 #: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
-msgstr ""
+msgstr "MateComponentUI-Hello."
 
 #: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
-msgstr ""
+msgstr "Mate Hello"
 
 #. Create Label and put it in the Button:
 #: ../samples/matecomponentui/hello.c:274
@@ -402,7 +406,7 @@ msgstr "سالام دۇنيا!"
 
 #: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
-msgstr ""
+msgstr "libmatecomponentui نىڭ كودىنى دەسلەپلەشتۈرگىلى بولمىدى"
 
 #: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
@@ -410,11 +414,11 @@ msgstr "MateComponent UI(كۆرۈنمەيۈز)نى دەسلەپلەشتۈرەل�
 
 #: ../tools/browser/matecomponent-browser.desktop.in.h:1
 msgid "MateComponent Component Browser"
-msgstr ""
+msgstr "MateComponent بۆلەك كۆرگۈ"
 
 #: ../tools/browser/matecomponent-browser.desktop.in.h:2
 msgid "Shows available MateComponent components"
-msgstr ""
+msgstr "MateComponent دا ئىشلەتكىلى بولىدىغان بۆلەكلەرنى كۆرسىتىدۇ"
 
 #: ../tools/browser/matecomponent-browser.xml.h:1
 msgid "About this program..."
@@ -465,7 +469,7 @@ msgstr "تىپى"
 
 #: ../tools/browser/window.c:162
 msgid "Component Details"
-msgstr ""
+msgstr "بۆلەك تەپسىلاتى"
 
 #: ../tools/browser/window.c:208
 msgid "MateComponent Browser"
@@ -473,21 +477,22 @@ msgstr "MateComponent كۆرگۈ"
 
 #: ../tools/browser/window.c:210
 msgid "Copyright 2001, The MATE Foundation"
-msgstr ""
+msgstr "Copyright 2001, The MATE Foundation"
 
 #: ../tools/browser/window.c:211
 msgid "MateComponent component browser"
-msgstr ""
+msgstr "MateComponent بۆلەك كۆرگۈ"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr "Gheyret Kenji <gheyret@gmail.com>\n"
+msgstr ""
+"Gheyret Kenji <gheyret@gmail.com>\n"
 "Sahran<sahran@live.com>"
 
 #. create the window
 #: ../tools/browser/window.c:240
 msgid "Component Browser"
-msgstr ""
+msgstr "بۆلەك كۆرگۈ"
 
 #. Fill out the tool bar
 #: ../tools/browser/window.c:280
