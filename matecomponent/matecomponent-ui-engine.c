@@ -2064,6 +2064,7 @@ matecomponent_ui_engine_construct (MateComponentUIEngine *engine,
 	if (GTK_IS_WINDOW (view))
 	{
 		opt_parent = GTK_WINDOW(view);
+    }
 	else
 	{
 		opt_parent = NULL;
