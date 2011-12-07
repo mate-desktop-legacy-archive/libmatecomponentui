@@ -2,7 +2,7 @@
 
 # fill it
 pkgname=libmatecomponentui
-pkgver=2011.12.01
+pkgver=2011.12.07
 pkgrel=1
 pkgdesc="User Interface library for MateComponent"
 depends=('libmatecanvas' 'libmate')
