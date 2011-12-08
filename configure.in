@@ -1,9 +1,9 @@
-m4_define([matecomponent_major_version], [2011])
-m4_define([matecomponent_minor_version], [12])
-m4_define([matecomponent_micro_version], [07])
+m4_define([matecomponent_major_version], [1])
+m4_define([matecomponent_minor_version], [1])
+m4_define([matecomponent_micro_version], [0])
 m4_define([matecomponent_version],[matecomponent_major_version.matecomponent_minor_version.matecomponent_micro_version])
 
-AC_INIT([libmatecomponentui],[matecomponent_version],[https://github.com/perberos/mate-desktop-environment])
+AC_INIT([libmatecomponentui],[matecomponent_version],[http://www.mate-desktop.org])
 
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([1.9 foreign no-dist-gzip dist-bzip2])
@@ -104,12 +104,12 @@ AC_CHECK_HEADER(popt.h,,AC_MSG_ERROR([Failed to find popt.h - you may have to ad
 dnl
 dnl Start of pkg-config checks
 dnl
-MATECOMPONENTUI_MODULES="libmatecanvas-2.0 >= 1.116.0 \
-		  libmatecomponent-2.0 >= 2.13.0 \
-		  libmate-2.0 >= 2.13.7 \
-		  matecomponent-activation-2.0 >= 2.13.0 \
+MATECOMPONENTUI_MODULES="libmatecanvas-2.0 \
+		  libmatecomponent-2.0 \
+		  libmate-2.0 \
+		  matecomponent-activation-2.0 \
 		  libxml-2.0 >= 2.4.20 \
-		  mateconf-2.0 >= 1.1.9 \
+		  mateconf-2.0 \
 		  gtk+-2.0 >= 2.6.0 \
 		  gobject-2.0 >= 2.6.0"
 PKG_CHECK_MODULES(MATECOMPONENTUI, $MATECOMPONENTUI_MODULES)
