@@ -287,13 +287,13 @@ libmatecomponent_ui_module_info_get (void)
 	if (module_info.requirements == NULL) {
 		static MateModuleRequirement req[6];
 
-		req[0].required_version = "1.3.7";
+		req[0].required_version = "1.1.0";
 		req[0].module_info = matecomponent_ui_gtk_module_info_get ();
 
-		req[1].required_version = "1.102.0";
+		req[1].required_version = "1.1.0";
 		req[1].module_info = LIBMATE_MODULE;
 
-		req[2].required_version = "1.101.2";
+		req[2].required_version = "1.1.0";
 		req[2].module_info = MATE_MATECOMPONENT_MODULE;
 
 		req[5].required_version = NULL;
