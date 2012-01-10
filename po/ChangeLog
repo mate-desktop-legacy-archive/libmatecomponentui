@@ -14,7 +14,7 @@
 
 	 * gl.po: Updated Galician translation
 
-2009-03-07  Mișu Moldovan <dumol@mate.ro>
+2009-03-07  Mișu Moldovan <dumol@gnome.ro>
 
 	* ro.po: Updated Romanian translation.
 
@@ -60,10 +60,10 @@
 
 	* bn_IN.po: Minor typ correction in the Bengali India Translation
 
-2008-09-19  Mugurel Tudor  <mugurelu@mate.ro>
+2008-09-19  Mugurel Tudor  <mugurelu@gnome.ro>
 
 	* ro.po: Updated Romanian translation by
-	Mişu Moldovan <dumol@mate.ro>
+	Mişu Moldovan <dumol@gnome.ro>
 
 2008-09-19  I. Felix <ifelix@redhat.com>
 
@@ -164,10 +164,10 @@
 
 	* ru.po: Updated Russian translation.
 
-2008-03-07  Mugurel Tudor  <mugurelu@mate.ro>
+2008-03-07  Mugurel Tudor  <mugurelu@gnome.ro>
 
 	*ro.po: Updated Romanian translation
-	by Mişu Moldovan <dumol@mate.ro>
+	by Mişu Moldovan <dumol@gnome.ro>
 
 2008-03-06  Marcel Telka  <marcel@telka.sk>
 
@@ -193,7 +193,7 @@
 
 	* gu.po: Updated Gujarati Translation.
 
-2008-02-26  Gabor Kelemen  <kelemeng@mate.hu>
+2008-02-26  Gabor Kelemen  <kelemeng@gnome.hu>
 
 	* hu.po: Translation updated
 
@@ -525,10 +525,10 @@
 
 	* el.po: Updated  Greek translation.
 
-2006-09-04  Mugurel Tudor  <mugurelu@mate.ro>
+2006-09-04  Mugurel Tudor  <mugurelu@gnome.ro>
 
 	* ro.po: Updated Romanian translation by
-	Mişu Moldovan <dumol@mate.ro>
+	Mişu Moldovan <dumol@gnome.ro>
 
 2006-09-04  Rajesh Ranjan <rajeshkajha@yahoo.com>
 
@@ -566,7 +566,7 @@
 
 	* vi.po: Updated Vietnamese translation.
 
-2006-08-26  Gabor Kelemen  <kelemeng@mate.hu>
+2006-08-26  Gabor Kelemen  <kelemeng@gnome.hu>
 
 	* hu.po: Translation updated.
 
@@ -619,7 +619,7 @@
 
 	* es.po: Updated Spanish translation.
 
-2006-08-16  Satoru SATOH <ss@mate.gr.jp>
+2006-08-16  Satoru SATOH <ss@gnome.gr.jp>
 
 	* ja.po: Updated Japanese translation.
 
@@ -823,10 +823,10 @@
 
         * or.po: Updated Oriya translation.
 
-2006-03-13  Mugurel Tudor  <mugurelu@mate.ro>
+2006-03-13  Mugurel Tudor  <mugurelu@gnome.ro>
 
 	* ro.po: Updated Romanian translation
-	by Mişu Moldovan <dumol@mate.ro>
+	by Mişu Moldovan <dumol@gnome.ro>
 
 2006-03-10  Subhransu Behera <sbehera@redhat.com>
 
@@ -932,7 +932,7 @@
 
 	* cy.po: Updated Welsh translation.
 
-2005-08-18  Takeshi AIHANA <aihana@mate.gr.jp>
+2005-08-18  Takeshi AIHANA <aihana@gnome.gr.jp>
 
 	* ja.po: Updated Japanese translation.
 
@@ -944,10 +944,10 @@
 
 	* uk.po: Updated Ukrainian translation
 
-2005-08-15  Mugurel Tudor  <mugurelu@mate.ro>
+2005-08-15  Mugurel Tudor  <mugurelu@gnome.ro>
 
 	* ro.po: Updated Romanian translation
-	by Mişu Moldovan <dumol@mate.ro>
+	by Mişu Moldovan <dumol@gnome.ro>
 
 2005-08-15  Christian Rose  <menthos@menthos.com>
 
@@ -990,7 +990,7 @@
 
 	* sq.po: Updated Albanian translation.
 
-2005-07-12  Gabor Kelemen  <kelemeng@mate.hu>
+2005-07-12  Gabor Kelemen  <kelemeng@gnome.hu>
 
 	* hu.po: Hungarian translation updated.
 
@@ -1077,7 +1077,7 @@
 
 	* id.po: Updated Indonesian Translation.
 
-2005-03-05  Dan Damian  <dand@mate.ro>
+2005-03-05  Dan Damian  <dand@gnome.ro>
 
 	* ro.po: Updated Romanian translation by
 	Mişu Moldovan <dumol@go.ro>.
@@ -1128,7 +1128,7 @@
 	* xh.po: Added Xhosa translation by
 	Adi Attar <adi@canonical.com>.
 
-2005-02-06  Laszlo Dvornik  <dvornik@mate.hu>
+2005-02-06  Laszlo Dvornik  <dvornik@gnome.hu>
 
 	* hu.po: Hungarian translation updated.
 
@@ -1140,7 +1140,7 @@
 
 	 * fi.po: Updated Finnish translation.
 
-2005-02-05  Takeshi AIHANA <aihana@mate.gr.jp>
+2005-02-05  Takeshi AIHANA <aihana@gnome.gr.jp>
 
 	* ja.po: Updated Japanese translation.
 
@@ -1285,7 +1285,7 @@
 
 	* da.po: Updated Danish translation.
 
-2004-11-05  Laszlo Dvornik  <dvornik@mate.hu>
+2004-11-05  Laszlo Dvornik  <dvornik@gnome.hu>
 
 	* hu.po: Hungarian translation updated.
 
@@ -1333,7 +1333,7 @@
 
 	* en_CA.po: Updated Canadian English translation.
 
-2004-09-12  Laszlo Dvornik  <dvornik@mate.hu>
+2004-09-12  Laszlo Dvornik  <dvornik@gnome.hu>
 
 	* hu.po: Updated Hungarian translation by Gabor Kelemen.
 
@@ -1349,7 +1349,7 @@
 
 	* ne.po: Updated Nepali Translation
 
-2004-08-26  Laszlo Dvornik  <dvornik@mate.hu>
+2004-08-26  Laszlo Dvornik  <dvornik@gnome.hu>
 
 	* hu.po: Updated Hungarian translation.
 
@@ -1476,7 +1476,7 @@
 
 	* sq.po: Fixed Albanian translation.
 
-2004-02-18  Andras Timar  <timar@mate.hu>
+2004-02-18  Andras Timar  <timar@gnome.hu>
 
 	* hu.po: Updated Hungarian translation.
 
@@ -1608,7 +1608,7 @@
 
 	* cy.po: Updated Welsh translation.
 
-2003-08-25  Takeshi AIHANA <aihana@mate.gr.jp>
+2003-08-25  Takeshi AIHANA <aihana@gnome.gr.jp>
 
 	* ja.po: Updated Japanese translation.
 
@@ -1664,7 +1664,7 @@
         * es.po: Updated Spanish translation by
                  Francisco Javier F. Serrador <serrador@arrakis.es>.
 
-2003-07-09  Andras Timar  <timar@mate.hu>
+2003-07-09  Andras Timar  <timar@gnome.hu>
 
 	* hu.po: Updated Hungarian translation.
 
@@ -1712,7 +1712,7 @@
 2003-06-18  Dmitry G. Mastrukov  <dmitry@taurussoft.org>
 
 	* ru.po: Updated Russian translation
-	from Russian team <mate-cyr@gnome.org>.
+	from Russian team <gnome-cyr@gnome.org>.
 
 2003-06-17  Pauli Virtanen  <pauli.virtanen@hut.fi>
 
@@ -1815,7 +1815,7 @@
 
 	* de.po: Updated German translation.
 
-2003-05-05  KAMAGASAKO Masatoshi  <emerald@mate.gr.jp>
+2003-05-05  KAMAGASAKO Masatoshi  <emerald@gnome.gr.jp>
 
 	* ja.po: Updated Japanese Translation.
 
@@ -1942,7 +1942,7 @@
 2003-01-10  Dmitry G. Mastrukov  <dmitry@taurussoft.org>
 
 	* ru.po: updated Russian translation
-	from Russian team <mate-cyr@gnome.org>.
+	from Russian team <gnome-cyr@gnome.org>.
 
 2003-01-07  Daniel Yacob <locales@geez.org>
 
@@ -1952,10 +1952,10 @@
 
 	* el.po: Updated Greek translation
 
-2003-01-02  Zbigniew Chyla  <cyba@mate.pl>
+2003-01-02  Zbigniew Chyla  <cyba@gnome.pl>
 
 	* pl.po: Updated Polish translation by
-	MATE PL Team <translators@mate.pl>.
+	MATE PL Team <translators@gnome.pl>.
 
 2003-01-01  Hasbullah Bin Pit <sebol@ikhlas.com>
 
@@ -1985,7 +1985,7 @@
 
 	* cs.po: Updaetd Czech translation.
 
-2002-12-04  Andras Timar  <timar@mate.hu>
+2002-12-04  Andras Timar  <timar@gnome.hu>
 
 	* hu.po: Updated Hungarian translation.
 
@@ -2056,7 +2056,7 @@
 2002-09-04  He Qiangqiang  <carton@linux.net.cn>
 
         * zh_CN.po: Updated Simplified Chinese translation by
-	  Sun G11n <mate_int_l10n@ireland.sun.com>.
+	  Sun G11n <gnome_int_l10n@ireland.sun.com>.
 
 2002-09-03  Peteris Krisjanis <peteris.krisjanis@os.lv>
 
@@ -2070,7 +2070,7 @@
 
 	* el.po: Added initial Greek translation.
 
-2002-08-13  Andras Timar  <timar@mate.hu>
+2002-08-13  Andras Timar  <timar@gnome.hu>
 
         * hu.po: Updated Hungarian translation.
 
@@ -2090,7 +2090,7 @@
 2002-07-28  Christophe Merlet  <christophe@merlet.net>
 
 	* fr.po: Updated French translation from contribution of
-	Sun G11n <mate_int_l10n@ireland.sun.com>.
+	Sun G11n <gnome_int_l10n@ireland.sun.com>.
 
 2002-07-26  Gustavo Noronha Silva  <kov@beterraba>
 
@@ -2126,7 +2126,7 @@
 
         * fi.po: Updated Finnish translation.
 
-2002-06-01  Carlos Perell?³ Mar?­n <carlos@mate-db.org>
+2002-06-01  Carlos Perell?³ Mar?­n <carlos@gnome-db.org>
 
 	* es.po: Recoded as UTF8
 
@@ -2162,10 +2162,10 @@
 
 	* da.po: Updated Danish translation.
 
-2002-05-25  Zbigniew Chyla  <cyba@mate.pl>
+2002-05-25  Zbigniew Chyla  <cyba@gnome.pl>
 
 	* pl.po: Updated Polish translation by
-	MATE PL Team <translators@mate.pl>.
+	MATE PL Team <translators@gnome.pl>.
 
 2002-05-25  Christian Rose  <menthos@menthos.com>
 
@@ -2195,10 +2195,10 @@
 
 	* no.po: Updated Norwegian (bokm?¥l) translation.
 
-2002-05-19  Zbigniew Chyla  <cyba@mate.pl>
+2002-05-19  Zbigniew Chyla  <cyba@gnome.pl>
 
 	* pl.po: Updated Polish translation by
-	MATE PL Team <translators@mate.pl>.
+	MATE PL Team <translators@gnome.pl>.
 
 2002-05-19  Vlad Harchev  <hvv@hippo.ru>
 
@@ -2219,19 +2219,19 @@
 
 	* no.po: Updated Norwegian (bokm?¥l) translation.
 
-2002-05-16  Zbigniew Chyla  <cyba@mate.pl>
+2002-05-16  Zbigniew Chyla  <cyba@gnome.pl>
 
 	* pl.po: Updated Polish translation by
-	MATE PL Team <translators@mate.pl>.
+	MATE PL Team <translators@gnome.pl>.
 
 2002-05-14  Pauli Virtanen <pauli.virtanen@hut.fi>
 
 	* fi.po: Updated Finnish translation.
 
-2002-05-13  Zbigniew Chyla  <cyba@mate.pl>
+2002-05-13  Zbigniew Chyla  <cyba@gnome.pl>
 
 	* pl.po: Updated Polish translation by
-	MATE PL Team <translators@mate.pl>.
+	MATE PL Team <translators@gnome.pl>.
 
 2002-05-13  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
 
@@ -2295,10 +2295,10 @@
 
 	* no.po: Updated Norwegian (bokm?¥l) translation.
 
-2002-03-28  Zbigniew Chyla  <cyba@mate.pl>
+2002-03-28  Zbigniew Chyla  <cyba@gnome.pl>
 
 	* pl.po: Updated Polish translation by
-	MATE PL Team <translators@mate.pl>.
+	MATE PL Team <translators@gnome.pl>.
 
 2002-03-28  Changwoo Ryu  <cwryu@debian.org>
 
@@ -2316,10 +2316,10 @@
 
 	* sk.po: Updated Slovak translation by Marcel Telka <marcel@telka.sk>.
 
-2002-03-20  Zbigniew Chyla  <cyba@mate.pl>
+2002-03-20  Zbigniew Chyla  <cyba@gnome.pl>
 
 	* pl.po: Updated Polish translation by
-	MATE PL Team <translators@mate.pl>.
+	MATE PL Team <translators@gnome.pl>.
 
 2002-03-20  Pauli Virtanen  <pauli.virtanen@hut.fi>
 
@@ -2349,10 +2349,10 @@
 
 	* bg.po: Updated Bulgarian translation
 
-2002-03-13  Zbigniew Chyla  <cyba@mate.pl>
+2002-03-13  Zbigniew Chyla  <cyba@gnome.pl>
 
 	* pl.po: Updated Polish translation by
-	MATE PL Team <translators@mate.pl>.
+	MATE PL Team <translators@gnome.pl>.
 
 2002-03-13  Christian Rose  <menthos@menthos.com>
 
@@ -2406,10 +2406,10 @@
 
 	* de.po: Added German translation.
 
-2002-02-28  Zbigniew Chyla  <cyba@mate.pl>
+2002-02-28  Zbigniew Chyla  <cyba@gnome.pl>
 
 	* pl.po: Updated Polish translation by
-	MATE PL Team <translators@mate.pl>.
+	MATE PL Team <translators@gnome.pl>.
 
 2002-02-25  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
 
@@ -2423,10 +2423,10 @@
 
 	* zh_CN.po: Updated Simplified Chinese translation.
 
-2002-02-17  Zbigniew Chyla  <cyba@mate.pl>
+2002-02-17  Zbigniew Chyla  <cyba@gnome.pl>
 
 	* pl.po: Added Polish translation by
-	MATE PL Team <translators@mate.pl>.
+	MATE PL Team <translators@gnome.pl>.
 
 2002-02-17  Wang Jian  <lark@linux.net.cn>
 
