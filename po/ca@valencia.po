@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libmatecomponentui 2.11.92\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-07 18:49+0200\n"
-"PO-Revision-Date: 2008-01-27 11:05+0100\n"
+"POT-Creation-Date: 2010-10-29 21:24+0100\n"
+"PO-Revision-Date: 2009-09-22 17:00+0200\n"
 "Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
 "Language-Team: Catalan <tradmate@softcatala.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -122,7 +123,7 @@ msgstr "Mo_stra"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
-msgstr "_Amaga"
+msgstr "_Oculta"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
@@ -266,7 +267,7 @@ msgstr "T_ext"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
-msgstr "Amaga els c_onsells"
+msgstr "Oculta els c_onsells"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
@@ -274,7 +275,7 @@ msgstr "Mostra els c_onsells"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
-msgstr "_Amaga la barra d'eines"
+msgstr "_Oculta la barra d'eines"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"

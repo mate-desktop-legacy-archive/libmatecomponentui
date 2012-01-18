@@ -1,251 +1,254 @@
-# Chinese (Hong Kong) translation of libmatecomponentui.
-# Copyright (C) 2001, 02, 03, 06 Free Software Foundation, Inc.
-# Joe Man <trmetal@yahoo.com.hk>, 2001.
-# Abel Cheung <abel@oaka.org>, 2002-03, 06.
-# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2009.
-# Wei-Lun Chao <chaoweilun@gmail.com>, 2010.
-#
+# Uyghur translation for libmatecomponentui.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Gheyret Kenji<gheyret@yahoo.com>,2010.
+# Sahran <sahran.ug@gmail.com>, 2010.
+# Zeper <zeper@msn.com>, 2010.
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui 2.24.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-09 20:18+0800\n"
-"PO-Revision-Date: 2010-12-09 20:19+0800\n"
-"Last-Translator: Wei-Lun Chao <chaoweilun@gmail.com>\n"
-"Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
-"Language: \n"
+"Project-Id-Version: libmatecomponentui\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=matecomponent&component=libmatecomponentui\n"
+"POT-Creation-Date: 2011-01-02 20:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Gheyret Kenji<gheyret@yahoo.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
-msgstr "corba 工廠"
+msgstr "corba زاۋۇتى"
 
 #: ../matecomponent/matecomponent-canvas-item.c:681
 msgid "The factory pointer"
-msgstr "表示工廠的 pointer"
+msgstr "زاۋۇت كۆرسەتكۈچى"
 
 #: ../matecomponent/matecomponent-canvas-item.c:690
 msgid "corba UI container"
-msgstr "corba 界面容器元件"
+msgstr "corba كۆرۈنمەيۈز قاچىسى"
 
 #: ../matecomponent/matecomponent-canvas-item.c:691
 msgid "The User interface container"
-msgstr "用戶界面容器元件"
+msgstr "كۆرۈنمەيۈز قاچىسى"
 
 #: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
-msgstr "嵌入工具列"
+msgstr "قورال بالداقنى سىڭدۈرۈش"
 
 #: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
-msgstr "卸離工具列"
+msgstr "قورال بالداقنى چىقىرىۋېتىش"
 
 #: ../matecomponent/matecomponent-dock-item.c:225 ../matecomponent/matecomponent-dock-item.c:226
 #: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
-msgstr "陰影類型"
+msgstr "شولا تىپى"
 
 #: ../matecomponent/matecomponent-dock-item.c:236 ../matecomponent/matecomponent-dock-item.c:237
 #: ../matecomponent/matecomponent-ui-toolbar.c:1107 ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
-msgstr "方向"
+msgstr "يۆنىلىش"
 
 #: ../matecomponent/matecomponent-dock-item.c:247 ../matecomponent/matecomponent-dock-item.c:248
 #: ../matecomponent/matecomponent-ui-toolbar.c:1126 ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
-msgstr "偏好的闊度"
+msgstr "ئادەتتىكى كەڭلىكى"
 
 #: ../matecomponent/matecomponent-dock-item.c:256 ../matecomponent/matecomponent-dock-item.c:257
 #: ../matecomponent/matecomponent-ui-toolbar.c:1135 ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
-msgstr "偏好的高度"
+msgstr "ئادەتتىكى ئېگىزلىكى"
 
 #: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
-msgstr "選取準備開啟的檔案"
+msgstr "ئاچىدىغان ھۆججەتنى تاللاش"
 
 #: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
-msgstr "選取多個要開啟的檔案"
+msgstr "ئاچىدىغان ھۆججەتلەرنى تاللاش"
 
 #: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
-msgstr "選取準備儲存的檔案"
+msgstr "ساقلايدىغان ھۆججەتنى تاللاش"
 
 #: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
-msgstr "傳遞動作"
+msgstr "ھادىسە يوللاش"
 
 #: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
-msgstr "輸入裝置發出的動作應否直接傳遞至 X"
+msgstr "X ھادىسىسىنى يوللامدۇ-يوق"
 
 #: ../matecomponent/matecomponent-selector-widget.c:300 ../matecomponent/matecomponent-window.c:347
 #: ../tools/browser/component-details.c:108
 #: ../tools/browser/component-list.c:369
 msgid "Name"
-msgstr "名稱"
+msgstr "ئاتى"
 
 #: ../matecomponent/matecomponent-selector-widget.c:322
 #: ../tools/browser/component-details.c:109
 msgid "Description"
-msgstr "描述"
+msgstr "چۈشەندۈرۈش"
 
 #: ../matecomponent/matecomponent-selector.c:343
 msgid "Interfaces required"
-msgstr "需要的 interface"
+msgstr "زۆرۈر ئارايۈزلەر"
 
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
 "to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
 "no interfaces are listed"
-msgstr "一個以 NULL 作為最後一個元素的 CORBA interface 陣列，如果 server 想在 selector 中出現，就必須支援這些 interface。如果沒有列出任何 interface，預設值為 \"IDL:MateComponent/Embeddable:1.0\"。"
+msgstr ""
+"مۇلازىمېتىر قوللىمىسا بولمايدىغان ئارايۈزلەر تىزىقى(تېكىست NULL بىلەن "
+"ئاخىرلىشىدۇ) تاللىغۇچتا كۆرسىتىلىدۇ. ئەگەر بىرمۇ ئارايۈز بولمىسا، \\\"IDL:"
+"MateComponent/Embeddable:1.0\\\" كۆڭۈلدىكى قىممەت قىلىپ ئىشلىتىلىدۇ."
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
-msgstr "必須存在的 interface 項目"
+msgstr "زۆرۈر ئارايۈز entry"
 
 #: ../matecomponent/matecomponent-selector.c:347
 msgid "One of the interfaces that's required"
-msgstr "其中一個必須存在的 interface"
+msgstr "تەلەپ قىلىنغان بىز ئارايۈز"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
-msgstr "可見的"
+msgstr "كۆرۈنۈشچان"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
-msgstr "顯示(_S)"
+msgstr "كۆرسەت(_S)"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
-msgstr "隱藏(_H)"
+msgstr "يوشۇر(_H)"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
-msgstr "顯示工具列提示(_V)"
+msgstr "كۆرسەتمە كۆر(_V)"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
-msgstr "工具列"
+msgstr "قورال بالداق"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
-msgstr "工具列"
+msgstr "قورال بالداق"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:313
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
-msgstr "外觀"
+msgstr "كۆرۈنۈش"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:322
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
-msgstr "圖示(_I)"
+msgstr "سىنبەلگە(_I)"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
-msgstr "圖示及文字(_T)"
+msgstr "تېكىست ۋە سىنبەلگە(_T)"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
-msgstr "只有文字"
+msgstr "تېكىستلا"
 
 #: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
-msgstr "部份圖示旁邊顯示文字(_P)"
+msgstr "تېكىستنى بىرىنچى ئورۇنغا قوي(_P)"
 
 #: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
-msgstr "偵錯"
+msgstr "سازلا"
 
 #: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
-msgstr "傾印 _XML"
+msgstr "XML نى تۆكمە قىل(_D)"
 
 #: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
-msgstr "傾印整個用戶界面的 XML 描述資料"
+msgstr "پۈتۈن UI(كۆرۈنمەيۈز) نىڭ XML چۈشەندۈرۈشىنى ئېكراندا كۆرسىتىدۇ"
 
 #: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
-msgstr "設定用戶界面"
+msgstr "UI(كۆرۈنمەيۈز)نى تەڭشەش"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:131
 msgid "Gdk debugging flags to set"
-msgstr "準備設定的 Gdk 偵錯旗標"
+msgstr "Gdk سازلاش تەڭشەك بەلگىسى"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
 #: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
-msgstr "旗標"
+msgstr "بەلگە"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:134
 msgid "Gdk debugging flags to unset"
-msgstr "準備去除的 Gdk 偵錯旗標"
+msgstr "قالدۇرماقچى بولغان Gdk سازلاش بەلگىسى"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "X display to use"
-msgstr "使用的 X 畫面"
+msgstr "X كۆرسىتىش ئېغىزى ئىشلەت"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "DISPLAY"
-msgstr "畫面"
+msgstr "كۆرسەت"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "X screen to use"
-msgstr "使用的 X 螢幕"
+msgstr "ئىشلەتكەن X ئېكران"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "SCREEN"
-msgstr "螢幕"
+msgstr "ئېكران"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:146
 msgid "Make X calls synchronous"
-msgstr "使用同步方式調用 X 函數"
+msgstr "X نى قەدەمداش قىلىپ ئىشلەت"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:152
 msgid "Don't use X shared memory extension"
-msgstr "不使用 X 分享記憶體延伸功能"
+msgstr "Xنىڭ ھەمبەھىر ئەسلەك كېڭەيتىلمىسىنى ئىشلەتمە"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "Program name as used by the window manager"
-msgstr "視窗總管中使用的程式名稱"
+msgstr "كۆزنەك باشقۇرغۇچ ئىشلەتكەن پروگرامما ئىسمى"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "NAME"
-msgstr "名稱"
+msgstr "ئاتى"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "Program class as used by the window manager"
-msgstr "視窗總管所需的程式類別名稱"
+msgstr "كۆزنەك باشقۇرغۇچ ئىشلەتكەن پروگرامما تۈرى"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "CLASS"
-msgstr "類別"
+msgstr "تۈر"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:162
 msgid "Gtk+ debugging flags to set"
-msgstr "準備設定的 Gtk+ 偵錯旗標"
+msgstr "بەلگىلەيدىغان Gtk+ تەڭشەك بەلگىسى"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "Gtk+ debugging flags to unset"
-msgstr "準備去除的 Gtk+ 偵錯旗標"
+msgstr "بەلگىلىمەيدىغان Gtk+ تەڭشەك بەلگىسى"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:168
 msgid "Make all warnings fatal"
-msgstr "把所有的警告訊息都當成嚴重錯誤"
+msgstr "ھەممە ئاگاھلاندۇرۇشنى ئېغىر خاتالىققا ئۆزگەرت"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "Load an additional Gtk module"
-msgstr "載入額外的 Gtk 模組"
+msgstr "قوشۇمچە GTK بۆلىكىنى يۈكلە"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "MODULE"
-msgstr "模組"
+msgstr "MODULE"
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:187
 msgid "GTK+"
@@ -253,140 +256,140 @@ msgstr "GTK+"
 
 #: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
-msgstr "MateComponent 圖形界面支援"
+msgstr "MateComponent GUI قوللىشى"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
-msgstr "圖文(_O)"
+msgstr "ئىككىلىسى(_O)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
-msgstr "文字(_E)"
+msgstr "تېكىست(_E)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
-msgstr "隱藏提示(_I)"
+msgstr "ھۈنەرلەرنى يوشۇر(_I)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
-msgstr "顯示提示(_I)"
+msgstr "ھۈنەرلەرنى كۆرسەت(_I)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
-msgstr "隱藏工具列(_H)"
+msgstr "قورال بالداقنى يوشۇر(_H)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
-msgstr "自選(_Z)"
+msgstr "ئۆزلەشتۈر(_Z)"
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
-msgstr "自選工具列"
+msgstr "قورال بالداقنى ئۆزلەشتۈرىدۇ"
 
 #: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
-msgstr "是浮動"
+msgstr "لەيلىتىۋاتىدۇ"
 
 #: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
-msgstr "工具列是否浮動"
+msgstr "قورال بالداقنى لەيلىتىۋاتامدۇ-يوق"
 
 #: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
-msgstr "工具列邊緣的斜邊樣式"
+msgstr "قورال بالداقنىڭ چۆرىسىدىكى يانتۇلۇقنىڭ ئۇسلۇبى"
 
 #: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
-msgstr "無法顯示有關本程式的說明文件"
+msgstr "بۇ پروگراممىنىڭ ياردەم ئۇچۇرىنى كۆرسىتەلمىدى."
 
 #: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
-msgstr "內容(_C)"
+msgstr "مەزمۇنلار(_C)"
 
 #: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
-msgstr "顯示有關本程式的說明文件"
+msgstr "بۇ پروگراممىنىڭ ياردىمىنى كۆرسەت"
 
 #: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
-msgstr "視窗名稱"
+msgstr "كۆزنەك ئاتى - تەڭشەكنى serialization قىلىشتا ئىشلىتىلىدۇ."
 
 #: ../matecomponent/matecomponent-zoomable.c:326
 msgid "Zoom level"
-msgstr "縮放倍率"
+msgstr "چوڭايتىش دەرىجىسى"
 
 #: ../matecomponent/matecomponent-zoomable.c:327
 msgid "The degree of enlargment"
-msgstr "放大縮小的程度"
+msgstr "قانچىلىك چوڭايتىدۇ"
 
 #: ../matecomponent/matecomponent-zoomable.c:335
 msgid "Minimum Zoom level"
-msgstr "縮放倍率下限"
+msgstr "ئەڭ كىچىك چوڭايتىش دەرىجىسى"
 
 #: ../matecomponent/matecomponent-zoomable.c:336
 msgid "The minimum degree of enlargment"
-msgstr "最低的縮放倍率"
+msgstr "ئەڭ كىچىك بولغاندا قانچىلىك كىچىكلىتىدۇ"
 
 #: ../matecomponent/matecomponent-zoomable.c:344
 msgid "Maximum Zoom level"
-msgstr "縮放倍率上限"
+msgstr "ئەڭ چوڭ چوڭايتىش دەرىجىسى"
 
 #: ../matecomponent/matecomponent-zoomable.c:345
 msgid "The maximum degree of enlargment"
-msgstr "最高的縮放倍率"
+msgstr "ئەڭ چوڭ بولغان قانچىلىك چوڭايتىدۇ"
 
 #: ../matecomponent/matecomponent-zoomable.c:353
 msgid "Has a minimum Zoom level"
-msgstr "有縮放倍率下限"
+msgstr "ئەڭ كىچىك چوڭايتىش دەرىجىسى بار"
 
 #: ../matecomponent/matecomponent-zoomable.c:354
 msgid "Whether we have a valid minimum zoom level"
-msgstr "是否有有效的縮放倍率下限"
+msgstr "ئەڭ كىچىك ئىناۋەتلىك چوڭايتىش دەرىجىسى بارمۇ-يوق"
 
 #: ../matecomponent/matecomponent-zoomable.c:361
 msgid "Has a maximum Zoom level"
-msgstr "有縮放倍率上限"
+msgstr "ئەڭ چوڭ چوڭايتىش دەرىجىسى بار"
 
 #: ../matecomponent/matecomponent-zoomable.c:362
 msgid "Whether we have a valid maximum zoom level"
-msgstr "是否有有效的縮放倍率上限"
+msgstr "ئەڭ چوڭ ئىناۋەتلىك چوڭايتىش دەرىجىسى بارمۇ-يوق"
 
 #: ../matecomponent/matecomponent-zoomable.c:369
 msgid "Is continuous"
-msgstr "是連續"
+msgstr "ئۈزلۈكسىز"
 
 #: ../matecomponent/matecomponent-zoomable.c:370
 msgid "Whether we zoom continuously (as opposed to jumps)"
-msgstr "可否連續放大或縮小 (不同於只有個別的縮放倍率)"
+msgstr "ئۈزلۈكسىز(پەلەمپەيسىمان ئەمەس) چوڭايتقىلى بولامدۇ-يوق"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:1
 msgid "About this application"
-msgstr "關於此程式"
+msgstr "بۇ پروگرامما ھەققىدە"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:2
 msgid "Select"
-msgstr "選擇"
+msgstr "تاللاش"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:3
 msgid "_About..."
-msgstr "關於(_A)…"
+msgstr "ھەققىدە(_A)…"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:4
 msgid "_Edit"
-msgstr "編輯(_E)"
+msgstr "تەھرىر(_E)"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:5
 #: ../tools/browser/matecomponent-browser.xml.h:4
 msgid "_File"
-msgstr "檔案(_F)"
+msgstr "ھۆججەت(_F)"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:6
 msgid "_Select"
-msgstr "選擇(_S)"
+msgstr "تاللا(_S)"
 
 #: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
-msgstr "這個只是示範程式。"
+msgstr "بۇ ھېچ ئىش قىلمايدۇ. پەقەتلا ئۈلگە كۆرسىتىدۇ."
 
 #: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
@@ -394,49 +397,49 @@ msgstr "MateComponentUI-Hello."
 
 #: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
-msgstr "MATE 示範"
+msgstr "Mate Hello"
 
 #. Create Label and put it in the Button:
 #: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
-msgstr "你好！"
+msgstr "سالام دۇنيا!"
 
 #: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
-msgstr "無法初始化 libmatecomponentui 的源代碼"
+msgstr "libmatecomponentui نىڭ كودىنى دەسلەپلەشتۈرگىلى بولمىدى"
 
 #: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
-msgstr "無法初始化 MateComponent 圖形界面"
+msgstr "MateComponent UI(كۆرۈنمەيۈز)نى دەسلەپلەشتۈرەلمىدى"
 
 #: ../tools/browser/matecomponent-browser.desktop.in.h:1
 msgid "MateComponent Component Browser"
-msgstr "MateComponent 元件瀏覽器"
+msgstr "MateComponent بۆلەك كۆرگۈ"
 
 #: ../tools/browser/matecomponent-browser.desktop.in.h:2
 msgid "Shows available MateComponent components"
-msgstr "顯示現有的 MateComponent 元件"
+msgstr "MateComponent دا ئىشلەتكىلى بولىدىغان بۆلەكلەرنى كۆرسىتىدۇ"
 
 #: ../tools/browser/matecomponent-browser.xml.h:1
 msgid "About this program..."
-msgstr "關於本程式…"
+msgstr "بۇ پروگرامما ھەققىدە..."
 
 #: ../tools/browser/matecomponent-browser.xml.h:2
 msgid "Close the current window"
-msgstr "關閉目前的視窗"
+msgstr "نۆۋەتتىكى كۆزنەكنى ياپىدۇ"
 
 #: ../tools/browser/matecomponent-browser.xml.h:3
 msgid "Open a new window"
-msgstr "開啟新視窗"
+msgstr "يېڭى كۆزنەكتىن بىرنى ئاچىدۇ"
 
 #: ../tools/browser/matecomponent-browser.xml.h:5
 msgid "_Help"
-msgstr "求助(_H)"
+msgstr "ياردەم(_H)"
 
 #. Build the general tab
 #: ../tools/browser/component-details.c:103
 msgid "General"
-msgstr "一般"
+msgstr "ئادەتتىكى"
 
 #: ../tools/browser/component-details.c:110
 #: ../tools/browser/component-list.c:389
@@ -445,61 +448,57 @@ msgstr "IID"
 
 #: ../tools/browser/component-details.c:111
 msgid "Location"
-msgstr "位置"
+msgstr "ئورنى"
 
 #. Build the details tab
 #: ../tools/browser/component-details.c:161
 msgid "Details"
-msgstr "詳細資料"
+msgstr "تەپسىلاتى"
 
 #: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
-msgstr "詳細資料"
+msgstr "تەپسىلىي ئۇچۇر"
 
 #: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
-msgstr "使用中"
+msgstr "ئاكتىپ"
 
 #: ../tools/browser/component-list.c:379
 msgid "Type"
-msgstr "類型"
+msgstr "تىپى"
 
 #: ../tools/browser/window.c:162
 msgid "Component Details"
-msgstr "元件的詳細資料"
+msgstr "بۆلەك تەپسىلاتى"
 
 #: ../tools/browser/window.c:208
 msgid "MateComponent Browser"
-msgstr "MateComponent 瀏覽器"
+msgstr "MateComponent كۆرگۈ"
 
 #: ../tools/browser/window.c:210
 msgid "Copyright 2001, The MATE Foundation"
-msgstr "版權所有 2001, The MATE Foundation"
+msgstr "Copyright 2001, The MATE Foundation"
 
 #: ../tools/browser/window.c:211
 msgid "MateComponent component browser"
-msgstr "MateComponent 元件瀏覽器"
+msgstr "MateComponent بۆلەك كۆرگۈ"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
 msgstr ""
-"如對翻譯有任何意見，請送一封電子郵件給\n"
-"以下地址，MATE 翻譯隊伍會儘快回覆你：\n"
-"zh-l10n@lists.linux.org.tw\n"
-"\n"
-"Abel Cheung <abel@oaka.org>, 2002-03, 06\n"
-"Joe Man <trmetal@yahoo.com.hk>, 2001"
+"Gheyret Kenji <gheyret@gmail.com>\n"
+"Sahran<sahran@live.com>"
 
 #. create the window
 #: ../tools/browser/window.c:240
 msgid "Component Browser"
-msgstr "元件瀏覽器"
+msgstr "بۆلەك كۆرگۈ"
 
 #. Fill out the tool bar
 #: ../tools/browser/window.c:280
 msgid "All"
-msgstr "全部"
+msgstr "ھەممىسى"
 
 #: ../tools/browser/window.c:286
 msgid "Inactive"
-msgstr "不使用"
+msgstr "ئاكتىپسىز"
