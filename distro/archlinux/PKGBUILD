@@ -8,12 +8,12 @@ depends=('libmatecanvas' 'libmate')
 makedepends=('intltool' 'pkgconfig')
 groups=('mate')
 options=('!emptydirs' '!libtool')
-url="http://matsusoft.com.ar/projects"
-source=(http://sourceforge.net/projects/matede/files/${pkgver}/${pkgname}.tar.gz/download)
-sha256sums=('e8950d357ce597213d0859141fa6752ed8e22c6254711ee36cba4f4fd8c386d3')
+url="http://matsusoft.com.ar/projects/mate/"
+source=()
+sha256sums=()
 
 build() {
-    cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
     ./autogen.sh \
         --prefix=/usr \
         --sysconfdir=/etc \
@@ -23,7 +23,7 @@ build() {
 }
 
 package() {
-    cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
 
     make DESTDIR="${pkgdir}" install
     rm -f "${pkgdir}/usr/share/applications/matecomponent-browser.desktop"
