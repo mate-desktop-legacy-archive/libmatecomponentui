@@ -1,6 +1,6 @@
 m4_define([matecomponent_major_version], [1])
-m4_define([matecomponent_minor_version], [1])
-m4_define([matecomponent_micro_version], [1])
+m4_define([matecomponent_minor_version], [2])
+m4_define([matecomponent_micro_version], [0])
 m4_define([matecomponent_version],[matecomponent_major_version.matecomponent_minor_version.matecomponent_micro_version])
 
 AC_INIT([libmatecomponentui],[matecomponent_version],[http://www.mate-desktop.org])
@@ -49,7 +49,7 @@ MATE_COMPILE_WARNINGS([maximum])
 
 IT_PROG_INTLTOOL([0.40.0])
 
-GETTEXT_PACKAGE=libmatecomponentui-2.0
+GETTEXT_PACKAGE=libmatecomponentui
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE],["$GETTEXT_PACKAGE"],[Gettext domain])
 
