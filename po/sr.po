@@ -1,24 +1,22 @@
-# Serbian translation of libmatecomponentui
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Courtesy of Prevod.org team (http://www.prevod.org/) -- 2003, 2004, 2005.
-#
-# This file is distributed under the same license as the libmatecomponentui package.
-#
-# Maintainer: Вељко М. Станојевић <veljko@vms.homelinux.net>
-# Reviewed on 2004-02-03 by: Данило Шеган <dsegan@gmx.net>
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-14 18:01+0200\n"
-"PO-Revision-Date: 2005-07-09 11:21+0200\n"
-"Last-Translator: Veljko M. Stanojevic <veljko@vms.homelinux.net>\n"
-"Language-Team: Serbian (sr) <serbianmate-lista@nongnu.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:08+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -36,62 +34,70 @@ msgstr "садржалац corba корисничког сучеља"
 msgid "The User interface container"
 msgstr "Садржалац корисничког сучеља"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:255
+#: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
 msgstr "Прикачи траку са алатима"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:256
+#: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
 msgstr "Откачи траку са алатима"
 
-#: ../matecomponent/matecomponent-dock-item.c:228 ../matecomponent/matecomponent-dock-item.c:229
-#: ../matecomponent/matecomponent-ui-toolbar.c:1161
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Врста сенке"
 
-#: ../matecomponent/matecomponent-dock-item.c:239 ../matecomponent/matecomponent-dock-item.c:240
-#: ../matecomponent/matecomponent-ui-toolbar.c:1105 ../matecomponent/matecomponent-ui-toolbar.c:1106
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Усмерење"
 
-#: ../matecomponent/matecomponent-dock-item.c:250 ../matecomponent/matecomponent-dock-item.c:251
-#: ../matecomponent/matecomponent-ui-toolbar.c:1124 ../matecomponent/matecomponent-ui-toolbar.c:1125
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Жељена ширина"
 
-#: ../matecomponent/matecomponent-dock-item.c:259 ../matecomponent/matecomponent-dock-item.c:260
-#: ../matecomponent/matecomponent-ui-toolbar.c:1133 ../matecomponent/matecomponent-ui-toolbar.c:1134
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Жељена висина"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:355
+#: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
 msgstr "Одаберите датотеку за отварање"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:383
+#: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
 msgstr "Одаберите датотеке за отварање"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:412
+#: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
 msgstr "Одаберите име датотеке за снимање"
 
-#: ../matecomponent/matecomponent-plug.c:423
+#: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
 msgstr "Прослеђивање догађаја"
 
-#: ../matecomponent/matecomponent-plug.c:424
+#: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
 msgstr "Да ли треба проследити Икс догађаје"
 
-#: ../matecomponent/matecomponent-selector-widget.c:297 ../matecomponent/matecomponent-window.c:344
-#: ../tools/browser/component-details.c:114
-#: ../tools/browser/component-list.c:378
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
+#: ../tools/browser/component-details.c:108
+#: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "Име"
 
-#: ../matecomponent/matecomponent-selector-widget.c:319
-#: ../tools/browser/component-details.c:115
+#: ../matecomponent/matecomponent-selector-widget.c:322
+#: ../tools/browser/component-details.c:109
 msgid "Description"
 msgstr "Опис"
 
@@ -102,12 +108,9 @@ msgstr "Неопходне спреге"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Празном ниском (NULL) завршени низ спрега које сервер мора подржавати да би "
-"био наведен у избирачу. Подразумевана вредност је „IDL:MateComponent/"
-"Embeddable:1.0“ уколико ниједна спрега није наведена"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Празном ниском (NULL) завршени низ спрега које сервер мора подржавати да би био наведен у избирачу. Подразумевана вредност је „IDL:MateComponent/Embeddable:1.0“ уколико ниједна спрега није наведена"
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -117,66 +120,65 @@ msgstr "Упис неопходне спреге"
 msgid "One of the interfaces that's required"
 msgstr "Једна од неопходних спрега"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:265
+#: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
 msgstr "Видљиво"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:272
+#: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
 msgstr "_Прикажи"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:279
+#: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
 msgstr "_Сакриј"
 
-# tooltip -> облачић
-#: ../matecomponent/matecomponent-ui-config-widget.c:285
+#: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
 msgstr "По_гледај савете"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:290
+#: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "Траке са алатима"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:300
+#: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
 msgstr "траке са алатима"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:311
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:313
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
 msgstr "Изглед"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:320
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:322
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
 msgstr "_Икона"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:326
+#: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
 msgstr "_Текст и икона"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:332
+#: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "Само текст"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:338
+#: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
 msgstr "Само _важан текст"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "Отклањање грешака"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
 msgstr "Из_баци XML"
 
-#: ../matecomponent/matecomponent-ui-engine.c:92
+#: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
 msgstr "Избаци сав опис корисничког сучеља као XML на конзолу"
 
-#: ../matecomponent/matecomponent-ui-engine-config.c:522
+#: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
 msgstr "Подешавање корисничког сучеља"
 
@@ -184,8 +186,10 @@ msgstr "Подешавање корисничког сучеља"
 msgid "Gdk debugging flags to set"
 msgstr "Које Гдк заставице за отклањање грешки поставити"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "АРГУМЕНТИ"
 
@@ -257,63 +261,63 @@ msgstr "МОДУЛ"
 msgid "GTK+"
 msgstr "ГТК+"
 
-#: ../matecomponent/matecomponent-ui-main.c:278
+#: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
 msgstr "Бонобо подршка за графичко корисничко сучеље"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
 msgstr "_Оба"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
 msgstr "Т_екст"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
 msgstr "Сакриј с_авете"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
 msgstr "Прикажи са_вете"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
 msgstr "_Сакриј траку са алатима"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
 msgstr "Прила_годи"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
 msgstr "Прилагоди траку са алатима"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1115
+#: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
 msgstr "је плутајућа"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1116
+#: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
 msgstr "да ли је трака са алатима плутајућа"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1162
+#: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
 msgstr "Изглед косе ивице око траке са алатима"
 
-#: ../matecomponent/matecomponent-ui-util.c:601
+#: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
 msgstr "Не могу да прикажем помоћ за овај програм"
 
-#: ../matecomponent/matecomponent-ui-util.c:643
+#: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
 msgstr "_Садржај"
 
-#: ../matecomponent/matecomponent-ui-util.c:644
+#: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "Погледај помоћ за овај програм"
 
-#: ../matecomponent/matecomponent-window.c:345
+#: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
 msgstr "Назив прозора — користи се за серијализацију подешавања."
 
@@ -390,29 +394,28 @@ msgstr "_Датотека"
 msgid "_Select"
 msgstr "Ода_бери"
 
-# Свиђа ми се „пука“, свака част Вељко ;) — Данило
-#: ../samples/matecomponentui/hello.c:63
+#: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
 msgstr "Ово не ради ништа, пука демонстрација."
 
-#: ../samples/matecomponentui/hello.c:145
+#: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr "MateComponentUI поздрав"
 
-#: ../samples/matecomponentui/hello.c:217
+#: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "Поздрав Гнома"
 
 #. Create Label and put it in the Button:
-#: ../samples/matecomponentui/hello.c:272
+#: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
 msgstr "Здраво свете!"
 
-#: ../samples/matecomponentui/hello.c:312
+#: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
 msgstr "Не могу да покренем код libmatecomponentui-а"
 
-#: ../samples/controls/matecomponent-sample-controls.c:131
+#: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
 msgstr "Неуспело покретање Бонобо графичког сучеља"
 
@@ -441,33 +444,33 @@ msgid "_Help"
 msgstr "_Помоћ"
 
 #. Build the general tab
-#: ../tools/browser/component-details.c:109
+#: ../tools/browser/component-details.c:103
 msgid "General"
 msgstr "Опште"
 
-#: ../tools/browser/component-details.c:116
-#: ../tools/browser/component-list.c:398
+#: ../tools/browser/component-details.c:110
+#: ../tools/browser/component-list.c:389
 msgid "IID"
 msgstr "ИИД"
 
-#: ../tools/browser/component-details.c:117
+#: ../tools/browser/component-details.c:111
 msgid "Location"
 msgstr "Путања"
 
 #. Build the details tab
-#: ../tools/browser/component-details.c:167
+#: ../tools/browser/component-details.c:161
 msgid "Details"
 msgstr "Детаљи"
 
-#: ../tools/browser/component-details.c:168
+#: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
 msgstr "Детаљни подаци"
 
-#: ../tools/browser/component-list.c:367 ../tools/browser/window.c:283
+#: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
 msgstr "Активна"
 
-#: ../tools/browser/component-list.c:388
+#: ../tools/browser/component-list.c:379
 msgid "Type"
 msgstr "Врста"
 
@@ -489,10 +492,7 @@ msgstr "Разгледач Бонобо компоненти"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr ""
-"Вељко М. Станојевић <veljko@vms.homelinux.net>\n"
-"\n"
-"http://prevod.org — превод на српски језик."
+msgstr "Вељко М. Станојевић <veljko@vms.homelinux.net>\n\nhttp://prevod.org — превод на српски језик."
 
 #. create the window
 #: ../tools/browser/window.c:240

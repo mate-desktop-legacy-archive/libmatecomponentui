@@ -1,648 +1,515 @@
-# translation of libmatecomponentui to Kinyarwanda.
-# Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libmatecomponentui package.
-# Steve Murphy <murf@e-tools.com>, 2005
-# Steve performed initial rough translation from compendium built from translations provided by the following translators:
-# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
-# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
-# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
 # Carole Karema <karemacarole@hotmail.com>, 2005.
 # JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
-# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
-# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
-#
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Steve Murphy <murf@e-tools.com>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui 2.12\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-09-10 18:44+0200\n"
-"PO-Revision-Date: 2005-03-28 19:35-0700\n"
-"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
-"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:07+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: rw\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../matecomponent/matecomponent-canvas-item.c:683
+#: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
 msgstr ""
 
-#: ../matecomponent/matecomponent-canvas-item.c:684
-#, fuzzy
+#: ../matecomponent/matecomponent-canvas-item.c:681
 msgid "The factory pointer"
-msgstr "Mweretsi"
+msgstr ""
 
-#: ../matecomponent/matecomponent-canvas-item.c:693
+#: ../matecomponent/matecomponent-canvas-item.c:690
 msgid "corba UI container"
 msgstr ""
 
-#: ../matecomponent/matecomponent-canvas-item.c:694
+#: ../matecomponent/matecomponent-canvas-item.c:691
 msgid "The User interface container"
 msgstr ""
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:257
-#, fuzzy
+#: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
-msgstr "Umwanyabikoresho"
+msgstr ""
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:258
-#, fuzzy
+#: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
-msgstr "Umwanyabikoresho"
+msgstr ""
 
-#: ../matecomponent/matecomponent-dock-item.c:235 ../matecomponent/matecomponent-dock-item.c:236
-#: ../matecomponent/matecomponent-ui-toolbar.c:1175
-#, fuzzy
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
-msgstr "Ubwoko"
+msgstr ""
 
-#: ../matecomponent/matecomponent-dock-item.c:246 ../matecomponent/matecomponent-dock-item.c:247
-#: ../matecomponent/matecomponent-ui-toolbar.c:1119 ../matecomponent/matecomponent-ui-toolbar.c:1120
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Icyerekezo"
 
-#: ../matecomponent/matecomponent-dock-item.c:257 ../matecomponent/matecomponent-dock-item.c:258
-#: ../matecomponent/matecomponent-ui-toolbar.c:1138 ../matecomponent/matecomponent-ui-toolbar.c:1139
-#, fuzzy
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
-msgstr "Ubugari"
+msgstr ""
 
-#: ../matecomponent/matecomponent-dock-item.c:266 ../matecomponent/matecomponent-dock-item.c:267
-#: ../matecomponent/matecomponent-ui-toolbar.c:1147 ../matecomponent/matecomponent-ui-toolbar.c:1148
-#, fuzzy
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
-msgstr "Ubuhagarike"
+msgstr ""
 
-#: ../matecomponent/matecomponent-file-selector-util.c:357
-#, fuzzy
+#: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
-msgstr "a IDOSIYE Kuri Gufungura"
+msgstr ""
 
-#: ../matecomponent/matecomponent-file-selector-util.c:385
-#, fuzzy
+#: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
-msgstr "Idosiye Kuri Gufungura"
+msgstr ""
 
-#: ../matecomponent/matecomponent-file-selector-util.c:414
-#, fuzzy
+#: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
-msgstr "a Izina ry'idosiye: Kuri Kubika"
+msgstr ""
 
 #: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
 msgstr ""
 
 #: ../matecomponent/matecomponent-plug.c:426
-#, fuzzy
 msgid "Whether X events should be forwarded"
-msgstr "Ibyabaye"
+msgstr ""
 
-#: ../matecomponent/matecomponent-selector-widget.c:302 ../matecomponent/matecomponent-window.c:346
-#: ../tools/browser/component-details.c:114
-#: ../tools/browser/component-list.c:381
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
+#: ../tools/browser/component-details.c:108
+#: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "Izina"
 
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\moptions.src:RID_MACROOPTIONS.RID_FT_DESCR.text
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\moptions.src:RID_MACROOPTIONS.text
-#: ../matecomponent/matecomponent-selector-widget.c:324
-#: ../tools/browser/component-details.c:115
+#: ../matecomponent/matecomponent-selector-widget.c:322
+#: ../tools/browser/component-details.c:109
 msgid "Description"
 msgstr "Isobanuramiterere"
 
-#: ../matecomponent/matecomponent-selector.c:345
-#, fuzzy
+#: ../matecomponent/matecomponent-selector.c:343
 msgid "Interfaces required"
-msgstr "Bya ngombwa"
+msgstr ""
 
-#: ../matecomponent/matecomponent-selector.c:346
-#, fuzzy
+#: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
 msgstr ""
-"A Imbonerahamwe Bya a Seriveri Gushigikira in Itondekanya Kuri in Kuri 1. 0 "
-"NIBA Oya"
 
-#: ../matecomponent/matecomponent-selector.c:348
-#, fuzzy
+#: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
-msgstr "Bya ngombwa Icyinjijwe"
+msgstr ""
 
-#: ../matecomponent/matecomponent-selector.c:349
-#, fuzzy
+#: ../matecomponent/matecomponent-selector.c:347
 msgid "One of the interfaces that's required"
-msgstr "Bya Bya ngombwa"
+msgstr ""
 
-# 6488
-#: ../matecomponent/matecomponent-ui-config-widget.c:268
+#: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
 msgstr "kigaragara"
 
-# basctl/source\basicide\objdlg.src:RID_BASICIDE_OBJCAT.RID_TB_TOOLBOX.TBITEM_SHOW.text
-#: ../matecomponent/matecomponent-ui-config-widget.c:275
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
-msgstr "Garagaza"
+msgstr ""
 
-# basctl/source\basicide\basidesh.src:RID_POPUP_TABBAR.SID_BASICIDE_HIDECURPAGE.text
-#: ../matecomponent/matecomponent-ui-config-widget.c:282
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
-msgstr "Gushisha"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:288
+#: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
 msgstr ""
 
-# sfx2/source\dialog\cfg.src:DLG_CONFIG.1.TP_CONFIG_OBJECTBAR.text
-#: ../matecomponent/matecomponent-ui-config-widget.c:293
+#: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "Imyanyabikoresho"
 
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_BASICMENU.MN_VIEW.S~ymbolleisten.text
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_BASICPLUGINMENU.MN_PLVIEW.S~ymbolleisten.text
-#: ../matecomponent/matecomponent-ui-config-widget.c:303
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
-msgstr "Imyanya y'ibikoresho"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:314
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:313
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
 msgstr ""
 
-# sfx2/source\toolbox\tbxopdlg.src:TP_CONFIG_OBJECTBAR.STR_SYMBOL.text
-#: ../matecomponent/matecomponent-ui-config-widget.c:323
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-config-widget.c:322
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
-msgstr "Agashushondanga"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:329
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
-msgstr "Na"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:335
+#: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "Umwandiko gusa"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:341
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
-msgstr "Umwandiko"
+msgstr ""
 
-# Debug menu items
-#: ../matecomponent/matecomponent-ui-engine.c:90
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "Kosora amakosa"
 
-#: ../matecomponent/matecomponent-ui-engine.c:90
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
 msgstr ""
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
-msgstr "Isobanuramiterere Kuri"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-engine-config.c:522
+#: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
 msgstr ""
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:113
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
 msgid "Gdk debugging flags to set"
-msgstr "Amabendera Kuri Gushyiraho"
+msgstr ""
 
-# svx/source\gallery2\galtheme.src:RID_GALLERYSTR_THEME_FLAGS.text
-#: ../matecomponent/matecomponent-ui-init-gtk.c:113 ../matecomponent/matecomponent-ui-init-gtk.c:116
-#: ../matecomponent/matecomponent-ui-init-gtk.c:144 ../matecomponent/matecomponent-ui-init-gtk.c:147
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
-msgstr "Amabendera"
-
-#: ../matecomponent/matecomponent-ui-init-gtk.c:116
-#, fuzzy
-msgid "Gdk debugging flags to unset"
-msgstr "Amabendera Kuri"
-
-#: ../matecomponent/matecomponent-ui-init-gtk.c:120
-#, fuzzy
-msgid "X display to use"
-msgstr "Kugaragaza Kuri Gukoresha"
-
-# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_VIEW.GB_APPEARANCE.text
-#: ../matecomponent/matecomponent-ui-init-gtk.c:120
-#, fuzzy
-msgid "DISPLAY"
-msgstr "Kugaragaza"
-
-#: ../matecomponent/matecomponent-ui-init-gtk.c:124
-#, fuzzy
-msgid "X screen to use"
-msgstr "Mugaragaza Kuri Gukoresha"
-
-# offmgr/source\offapp\dialog\fontsubs.src:RID_SVX_FONT_SUBSTITUTION.STR_HEADER2.text
-#: ../matecomponent/matecomponent-ui-init-gtk.c:124
-#, fuzzy
-msgid "SCREEN"
-msgstr "Mugaragaza"
-
-#: ../matecomponent/matecomponent-ui-init-gtk.c:128
-#, fuzzy
-msgid "Make X calls synchronous"
-msgstr "Amahamagara:"
+msgstr ""
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:134
-#, fuzzy
+msgid "Gdk debugging flags to unset"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:138
+msgid "X display to use"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:138
+msgid "DISPLAY"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:142
+msgid "X screen to use"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:142
+msgid "SCREEN"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:146
+msgid "Make X calls synchronous"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:152
 msgid "Don't use X shared memory extension"
-msgstr "Gukoresha Ububiko Umugereka"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:138
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "Program name as used by the window manager"
-msgstr "Izina: Nka ku Idirishya Muyobozi"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:138
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "NAME"
-msgstr "Izina"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:141
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "Program class as used by the window manager"
-msgstr "ishuri Nka ku Idirishya Muyobozi"
+msgstr ""
 
-# so3/src\svuidlg.src:MD_INSERT_OBJECT_APPLET.FT_CLASSFILE.text
-#: ../matecomponent/matecomponent-ui-init-gtk.c:141
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "CLASS"
-msgstr "Igice"
-
-#: ../matecomponent/matecomponent-ui-init-gtk.c:144
-#, fuzzy
-msgid "Gtk+ debugging flags to set"
-msgstr "Amabendera Kuri Gushyiraho"
-
-#: ../matecomponent/matecomponent-ui-init-gtk.c:147
-#, fuzzy
-msgid "Gtk+ debugging flags to unset"
-msgstr "Amabendera Kuri"
-
-#: ../matecomponent/matecomponent-ui-init-gtk.c:150
-#, fuzzy
-msgid "Make all warnings fatal"
-msgstr "Byose Iburira"
-
-#: ../matecomponent/matecomponent-ui-init-gtk.c:153
-#, fuzzy
-msgid "Load an additional Gtk module"
-msgstr "Modire"
-
-# basctl/source\basicide\basidesh.src:RID_STR_STDMODULENAME.text
-#: ../matecomponent/matecomponent-ui-init-gtk.c:153
-#, fuzzy
-msgid "MODULE"
-msgstr "Modire"
+msgstr ""
 
 #: ../matecomponent/matecomponent-ui-init-gtk.c:162
+msgid "Gtk+ debugging flags to set"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
+msgid "Gtk+ debugging flags to unset"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:168
+msgid "Make all warnings fatal"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:171
+msgid "Load an additional Gtk module"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:171
+msgid "MODULE"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-init-gtk.c:187
 msgid "GTK+"
 msgstr ""
 
-#: ../matecomponent/matecomponent-ui-main.c:278
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
-msgstr "Gushigikira"
+msgstr ""
 
-# sc/source\ui\src\autofmt.src:RID_SCDLG_AUTOFORMAT.STR_NORTH.text
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
-msgstr "Byombi"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
-msgstr "Umwandiko"
-
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
-#, fuzzy
-msgid "Hide t_ips"
-msgstr "Inyobora"
-
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
-#, fuzzy
-msgid "Show t_ips"
-msgstr "Inyobora"
-
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
-#, fuzzy
-msgid "_Hide toolbar"
-msgstr "Hisha UmwanyaBikoresho"
-
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
-#, fuzzy
-msgid "Customi_ze"
-msgstr "Kunoza"
+msgstr ""
 
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
-#, fuzzy
+msgid "Hide t_ips"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
+msgid "Show t_ips"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
+msgid "_Hide toolbar"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
+msgid "Customi_ze"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
-msgstr "Umwanyabikoresho"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1129
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
-msgstr "ni Bihindagurika"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1130
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
-msgstr "Umwanyabikoresho ni Bihindagurika"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1176
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
-msgstr "Bya Umwanyabikoresho"
+msgstr ""
 
-# #-#-#-#-#  sc.pot (Mate 2.12)  #-#-#-#-#
-# sc/source\ui\dbgui\validate.src:TP_VALIDATION_INPUTHELP.FL_CONTENT.text
-# #-#-#-#-#  sc.pot (Mate 2.12)  #-#-#-#-#
-# sc/source\ui\dbgui\validate.src:TP_VALIDATION_ERROR.FL_CONTENT.text
-# #-#-#-#-#  sc.pot (Mate 2.12)  #-#-#-#-#
-# sc/source\ui\navipi\navipi.src:RID_SCDLG_NAVIGATOR.TBX_CMD.IID_ZOOMOUT.text
-# #-#-#-#-#  sc.pot (Mate 2.12)  #-#-#-#-#
-# sc/source\ui\navipi\navipi.src:SCSTR_CONTENT_ROOT.text
-#: ../matecomponent/matecomponent-ui-util.c:630
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-util.c:602
+msgid "Could not display help for this application"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
-msgstr "Ibigize"
+msgstr ""
 
-#: ../matecomponent/matecomponent-ui-util.c:631
-#, fuzzy
+#: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
-msgstr "Ifashayobora kugirango iyi Porogaramu"
+msgstr ""
 
-#: ../matecomponent/matecomponent-window.c:347
-#, fuzzy
+#: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
-msgstr "Bya Idirishya kugirango Iboneza"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:326
-#, fuzzy
 msgid "Zoom level"
-msgstr "urwego"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:327
-#, fuzzy
 msgid "The degree of enlargment"
-msgstr "Dogere Bya"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:335
-#, fuzzy
 msgid "Minimum Zoom level"
-msgstr "urwego"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:336
-#, fuzzy
 msgid "The minimum degree of enlargment"
-msgstr "Gito Dogere Bya"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:344
-#, fuzzy
 msgid "Maximum Zoom level"
-msgstr "urwego"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:345
-#, fuzzy
 msgid "The maximum degree of enlargment"
-msgstr "Kinini Dogere Bya"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:353
-#, fuzzy
 msgid "Has a minimum Zoom level"
-msgstr "a Gito urwego"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:354
-#, fuzzy
 msgid "Whether we have a valid minimum zoom level"
-msgstr "Twebwe a Byemewe Gito Ihindurangano urwego"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:361
-#, fuzzy
 msgid "Has a maximum Zoom level"
-msgstr "a Kinini urwego"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:362
-#, fuzzy
 msgid "Whether we have a valid maximum zoom level"
-msgstr "Twebwe a Byemewe Kinini Ihindurangano urwego"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:369
-#, fuzzy
 msgid "Is continuous"
-msgstr "Gikomeza"
+msgstr ""
 
 #: ../matecomponent/matecomponent-zoomable.c:370
-#, fuzzy
 msgid "Whether we zoom continuously (as opposed to jumps)"
-msgstr "Twebwe Ihindurangano Nka Kuri"
+msgstr ""
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:1
-#, fuzzy
 msgid "About this application"
-msgstr "iyi Porogaramu"
+msgstr ""
 
-# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_INSERT_SELECT.text
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:2
 msgid "Select"
 msgstr "Guhitamo"
 
-# offmgr/source\offapp\intro\intro.hrc:TEXT_DEFAULTABOUT.text
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:3
-#, fuzzy
 msgid "_About..."
-msgstr "Ibyerekeye"
+msgstr ""
 
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_BASICMENU.MN_EDIT.text
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_BASICPLUGINMENU.MN_PLEDIT.text
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\macrodlg.src:RID_MACROCHOOSER.RID_PB_EDIT.text
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\moduldlg.src:RID_TP_MODULS.RID_PB_EDIT.text
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_EDIT.text
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:4
-#, fuzzy
 msgid "_Edit"
-msgstr "Guhindura"
+msgstr ""
 
-# sc/source\ui\src\globstr.src:RID_GLOBSTR.STR_HFCMD_FILE.text
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:5
 #: ../tools/browser/matecomponent-browser.xml.h:4
-#, fuzzy
 msgid "_File"
-msgstr "IDOSIYE"
+msgstr ""
 
-# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_INSERT_SELECT.text
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:6
-#, fuzzy
 msgid "_Select"
-msgstr "Guhitamo"
+msgstr ""
 
-#: ../samples/matecomponentui/hello.c:63
-#, fuzzy
+#: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
-msgstr "ni a Iyerekana"
+msgstr ""
 
-#: ../samples/matecomponentui/hello.c:145
+#: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr ""
 
-#: ../samples/matecomponentui/hello.c:217
+#: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr ""
 
 #. Create Label and put it in the Button:
-#: ../samples/matecomponentui/hello.c:272
-#, fuzzy
+#: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
-msgstr "Wiriwe Isi!"
+msgstr ""
 
-#: ../samples/matecomponentui/hello.c:312
-#, fuzzy
+#: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
-msgstr "ITEGEKONGENGA"
+msgstr ""
 
-#: ../samples/controls/matecomponent-sample-controls.c:131
-#, fuzzy
+#: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
-msgstr "OYA gutangiza"
+msgstr ""
 
 #: ../tools/browser/matecomponent-browser.desktop.in.h:1
 msgid "MateComponent Component Browser"
 msgstr ""
 
 #: ../tools/browser/matecomponent-browser.desktop.in.h:2
-#, fuzzy
 msgid "Shows available MateComponent components"
-msgstr "Bihari"
+msgstr ""
 
 #: ../tools/browser/matecomponent-browser.xml.h:1
-#, fuzzy
 msgid "About this program..."
-msgstr "iyi Porogaramu"
+msgstr ""
 
 #: ../tools/browser/matecomponent-browser.xml.h:2
-#, fuzzy
 msgid "Close the current window"
-msgstr "Funga KIGEZWEHO Idirishya"
+msgstr ""
 
 #: ../tools/browser/matecomponent-browser.xml.h:3
-#, fuzzy
 msgid "Open a new window"
-msgstr "a Gishya Idirishya"
+msgstr ""
 
 #: ../tools/browser/matecomponent-browser.xml.h:5
-#, fuzzy
 msgid "_Help"
-msgstr "Ifashayobora"
+msgstr ""
 
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
 #. Build the general tab
-#: ../tools/browser/component-details.c:109
+#: ../tools/browser/component-details.c:103
 msgid "General"
 msgstr "Rusange"
 
-#: ../tools/browser/component-details.c:116
-#: ../tools/browser/component-list.c:401
+#: ../tools/browser/component-details.c:110
+#: ../tools/browser/component-list.c:389
 msgid "IID"
 msgstr ""
 
-# #-#-#-#-#  officecfg.pot (Mate 2.12)  #-#-#-#-#
-# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Agenda.Elements.Location.text
-# #-#-#-#-#  officecfg.pot (Mate 2.12)  #-#-#-#-#
-# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Fax.Save.AutoPath.text
-# #-#-#-#-#  officecfg.pot (Mate 2.12)  #-#-#-#-#
-# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Wizard.Memo.Save.AutoDocName.text
-#: ../tools/browser/component-details.c:117
+#: ../tools/browser/component-details.c:111
 msgid "Location"
 msgstr "Ahantu"
 
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
-# #-#-#-#-#  dbaccess.pot (Mate 2.12)  #-#-#-#-#
 #. Build the details tab
-#: ../tools/browser/component-details.c:167
+#: ../tools/browser/component-details.c:161
 msgid "Details"
 msgstr "Birambuye"
 
-#: ../tools/browser/component-details.c:168
-#, fuzzy
+#: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
-msgstr "Ibisobanuro birambuye"
+msgstr ""
 
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_POPUP_BRKPROPS.RID_ACTIV.text
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_CHKB_ACTIVE.text
-#: ../tools/browser/component-list.c:370 ../tools/browser/window.c:290
+#: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
 msgstr "Gikora"
 
-# filter/source\xsltdialog\xmlfilterdialogstrings.src:STR_COLUMN_HEADER_TYPE.text
-#: ../tools/browser/component-list.c:391
+#: ../tools/browser/component-list.c:379
 msgid "Type"
 msgstr "Ubwoko"
 
-#: ../tools/browser/window.c:170
+#: ../tools/browser/window.c:162
 msgid "Component Details"
 msgstr ""
 
-#: ../tools/browser/window.c:215
+#: ../tools/browser/window.c:208
 msgid "MateComponent Browser"
 msgstr ""
 
-#: ../tools/browser/window.c:216
+#: ../tools/browser/window.c:210
 msgid "Copyright 2001, The MATE Foundation"
 msgstr ""
 
-#: ../tools/browser/window.c:217
-#, fuzzy
+#: ../tools/browser/window.c:211
 msgid "MateComponent component browser"
-msgstr "Mucukumbuzi"
+msgstr ""
+
+#: ../tools/browser/window.c:214
+msgid "translator-credits"
+msgstr ""
 
 #. create the window
-#: ../tools/browser/window.c:247
+#: ../tools/browser/window.c:240
 msgid "Component Browser"
 msgstr ""
 
 #. Fill out the tool bar
-#: ../tools/browser/window.c:287
+#: ../tools/browser/window.c:280
 msgid "All"
 msgstr ""
 
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\basidesh.src:RID_POPUP_BRKPROPS.RID_ACTIV.text
-# #-#-#-#-#  basctl.pot (Mate 2.12)  #-#-#-#-#
-# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_CHKB_ACTIVE.text
-#: ../tools/browser/window.c:293
-#, fuzzy
+#: ../tools/browser/window.c:286
 msgid "Inactive"
-msgstr "Gikora"
+msgstr ""

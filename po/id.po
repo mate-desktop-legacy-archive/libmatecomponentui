@@ -1,19 +1,23 @@
-# Indonesia translation of libmatecomponentui.
-# Copyright (C) 2005 THE libmatecomponentui's COPYRIGHT HOLDER
-# This file is distributed under the same license as the libmatecomponentui package.
-# Mohammad DAMT <mdamt@bisnisweb.com>, 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Andika Triwidada <andika@gmail.com>, 2009.
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-16 11:21+0300\n"
-"PO-Revision-Date: 2009-08-29 17:14+0700\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
-"Language-Team: Indonesian <id@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:07+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Indonesian (http://www.transifex.com/projects/p/MATE/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -39,23 +43,30 @@ msgstr "Tempelkan toolbar"
 msgid "Undock the toolbar"
 msgstr "Cabut toolbar"
 
-#: ../matecomponent/matecomponent-dock-item.c:225 ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
 #: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Tipe shadow"
 
-#: ../matecomponent/matecomponent-dock-item.c:236 ../matecomponent/matecomponent-dock-item.c:237
-#: ../matecomponent/matecomponent-ui-toolbar.c:1107 ../matecomponent/matecomponent-ui-toolbar.c:1108
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Arah"
 
-#: ../matecomponent/matecomponent-dock-item.c:247 ../matecomponent/matecomponent-dock-item.c:248
-#: ../matecomponent/matecomponent-ui-toolbar.c:1126 ../matecomponent/matecomponent-ui-toolbar.c:1127
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Lebar yang diinginkan"
 
-#: ../matecomponent/matecomponent-dock-item.c:256 ../matecomponent/matecomponent-dock-item.c:257
-#: ../matecomponent/matecomponent-ui-toolbar.c:1135 ../matecomponent/matecomponent-ui-toolbar.c:1136
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Tinggi yang diinginkan"
 
@@ -79,7 +90,8 @@ msgstr "Event Forwarding"
 msgid "Whether X events should be forwarded"
 msgstr "Menentukan apakah event-event X harus diforward atau tidak"
 
-#: ../matecomponent/matecomponent-selector-widget.c:300 ../matecomponent/matecomponent-window.c:347
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
 #: ../tools/browser/component-details.c:108
 #: ../tools/browser/component-list.c:369
 msgid "Name"
@@ -97,12 +109,9 @@ msgstr "Nama interface yang harus ada"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Array (NULL-terminated) berisi interface yang hendak digunakan oleh server "
-"agar bisa didaftar pada selektor. Jika belum ada isinya, maka defaultnya "
-"bernilai \"IDL:MateComponent/Embeddable:1.0\""
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Array (NULL-terminated) berisi interface yang hendak digunakan oleh server agar bisa didaftar pada selektor. Jika belum ada isinya, maka defaultnya bernilai \"IDL:MateComponent/Embeddable:1.0\""
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -178,8 +187,10 @@ msgstr "Konfigurasikan UI"
 msgid "Gdk debugging flags to set"
 msgstr "Flag debug Gdk yang hendak diset"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "FLAG"
 
@@ -482,9 +493,7 @@ msgstr "Pencari komponen MateComponent"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr ""
-"Mohammad DAMT <mdamt@bisnisweb.com>, 2005.\n"
-"Andika Triwidada <andika@gmail.com>, 2009."
+msgstr "Mohammad DAMT <mdamt@bisnisweb.com>, 2005.\nAndika Triwidada <andika@gmail.com>, 2009."
 
 #. create the window
 #: ../tools/browser/window.c:240

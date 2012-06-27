@@ -1,21 +1,25 @@
-# German libmatecomponentui translation.
-# Copyright (C) 2002-2003 Free Software Foundation, Inc.
-# Jörgen Scheibengruber <mfcn@gmx.de>, 2002.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Andre Klapper <ak-47@gmx.net>, 2008.
 # Christian Neumair <chris@mate.de.org>, 2002, 2003.
 # Hendrik Richter <hendrikr@gnome.org>, 2004, 2005, 2006.
-# Andre Klapper <ak-47@gmx.net>, 2008.
-#
+# Jörgen Scheibengruber <mfcn@gmx.de>, 2002.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-01-13 02:59+0100\n"
-"PO-Revision-Date: 2008-01-13 03:00+0100\n"
-"Last-Translator: Andre Klapper <ak-47@gmx.net>\n"
-"Language-Team: German <mate-de@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:08+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -33,62 +37,70 @@ msgstr "CORBA-UI-Container"
 msgid "The User interface container"
 msgstr "Der Benutzeroberflächen-Container"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:255
+#: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
 msgstr "Die Werkzeugleiste andocken"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:256
+#: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
 msgstr "Die Werkzeugleiste abdocken"
 
-#: ../matecomponent/matecomponent-dock-item.c:228 ../matecomponent/matecomponent-dock-item.c:229
-#: ../matecomponent/matecomponent-ui-toolbar.c:1161
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Schattentyp"
 
-#: ../matecomponent/matecomponent-dock-item.c:239 ../matecomponent/matecomponent-dock-item.c:240
-#: ../matecomponent/matecomponent-ui-toolbar.c:1105 ../matecomponent/matecomponent-ui-toolbar.c:1106
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Ausrichtung"
 
-#: ../matecomponent/matecomponent-dock-item.c:250 ../matecomponent/matecomponent-dock-item.c:251
-#: ../matecomponent/matecomponent-ui-toolbar.c:1124 ../matecomponent/matecomponent-ui-toolbar.c:1125
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Bevorzugte Breite"
 
-#: ../matecomponent/matecomponent-dock-item.c:259 ../matecomponent/matecomponent-dock-item.c:260
-#: ../matecomponent/matecomponent-ui-toolbar.c:1133 ../matecomponent/matecomponent-ui-toolbar.c:1134
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Bevorzugte Höhe"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:357
+#: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
 msgstr "Wählen Sie die zu öffnende Datei"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:385
+#: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
 msgstr "Wählen Sie die zu öffnenden Dateien"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:414
+#: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
 msgstr "Wählen Sie einen Namen für die zu speichernde Datei"
 
-#: ../matecomponent/matecomponent-plug.c:423
+#: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
 msgstr "Ereignis-Weiterleitung"
 
-#: ../matecomponent/matecomponent-plug.c:424
+#: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
 msgstr "Sollen X-Ereignisse weitergeleitet werden?"
 
-#: ../matecomponent/matecomponent-selector-widget.c:297 ../matecomponent/matecomponent-window.c:344
-#: ../tools/browser/component-details.c:114
-#: ../tools/browser/component-list.c:378
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
+#: ../tools/browser/component-details.c:108
+#: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "Name"
 
-#: ../matecomponent/matecomponent-selector-widget.c:319
-#: ../tools/browser/component-details.c:115
+#: ../matecomponent/matecomponent-selector-widget.c:322
+#: ../tools/browser/component-details.c:109
 msgid "Description"
 msgstr "Beschreibung"
 
@@ -99,13 +111,9 @@ msgstr "Schnittstellen erforderlich"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Ein NULL-terminiertes Datenfeld von Schnittstellen, die ein Server "
-"unterstützen muss, um in der Auswahlliste zu erscheinen. Falls es keine "
-"Schnittstellen enthält, wird die Vorgabe »IDL:MateComponent/Embeddable:1.0« "
-"verwendet."
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Ein NULL-terminiertes Datenfeld von Schnittstellen, die ein Server unterstützen muss, um in der Auswahlliste zu erscheinen. Falls es keine Schnittstellen enthält, wird die Vorgabe »IDL:MateComponent/Embeddable:1.0« verwendet."
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -115,203 +123,204 @@ msgstr "Von der Schnittstelle benötigter Eintrag"
 msgid "One of the interfaces that's required"
 msgstr "Eine der benötigten Schnittstellen"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:265
+#: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
 msgstr "Sichtbar"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:272
+#: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
 msgstr "An_zeigen"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:279
+#: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
 msgstr "_Verbergen"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:285
+#: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
 msgstr "_Minihilfen anzeigen"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:290
+#: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "Werkzeugleisten"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:300
+#: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
 msgstr "Werkzeugleisten"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:311
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:313
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
 msgstr "Aussehen"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:320
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:322
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
 msgstr "_Symbol"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:326
+#: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
 msgstr "_Text und Symbol"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:332
+#: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "Nur Text"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:338
+#: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
 msgstr "Nur _vorrangiger Text"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "Fehlerdiagnose"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
 msgstr "XML _ausgeben"
 
-#: ../matecomponent/matecomponent-ui-engine.c:92
+#: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
-msgstr ""
-"Die XML-Beschreibung der gesamten Benutzeroberfläche im Terminal ausgeben"
+msgstr "Die XML-Beschreibung der gesamten Benutzeroberfläche im Terminal ausgeben"
 
-#: ../matecomponent/matecomponent-ui-engine-config.c:522
+#: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
 msgstr "Benutzeroberfläche konfigurieren"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:130
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
 msgid "Gdk debugging flags to set"
 msgstr "Zu setzende GDK-Fehlerdiagnoseoptionen"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:130 ../matecomponent/matecomponent-ui-init-gtk.c:133
-#: ../matecomponent/matecomponent-ui-init-gtk.c:161 ../matecomponent/matecomponent-ui-init-gtk.c:164
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "OPTIONEN"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:133
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
 msgid "Gdk debugging flags to unset"
 msgstr "Zu deaktivierende GDK-Fehlerdiagnoseoptionen"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:137
+#: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "X display to use"
 msgstr "Zu verwendende X-Anzeige"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:137
+#: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "DISPLAY"
 msgstr "ANZEIGE"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:141
+#: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "X screen to use"
 msgstr "Zu verwendender X-Bildschirm"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:141
+#: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "SCREEN"
 msgstr "BILDSCHIRM"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:145
+#: ../matecomponent/matecomponent-ui-init-gtk.c:146
 msgid "Make X calls synchronous"
 msgstr "X-Aufrufe synchron durchführen"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:151
+#: ../matecomponent/matecomponent-ui-init-gtk.c:152
 msgid "Don't use X shared memory extension"
 msgstr "Die X-Erweiterung für gemeinsamen Speicher nicht nutzen"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:155
+#: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "Program name as used by the window manager"
 msgstr "Anwendungsname wie vom Fenstermanager verwendet"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:155
+#: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "NAME"
 msgstr "NAME"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:158
+#: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "Program class as used by the window manager"
 msgstr "Anwendungsklasse wie vom Fenstermanager verwendet"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:158
+#: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "CLASS"
 msgstr "KLASSE"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:161
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
 msgid "Gtk+ debugging flags to set"
 msgstr "Zu setzende GTK+-Fehlerdiagnoseoptionen"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:164
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "Gtk+ debugging flags to unset"
 msgstr "Zu deaktivierende GTK+-Fehlerdiagnoseoptionen"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:167
+#: ../matecomponent/matecomponent-ui-init-gtk.c:168
 msgid "Make all warnings fatal"
 msgstr "Alle Warnungen wie schwerwiegende Fehler behandeln"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:170
+#: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "Load an additional Gtk module"
 msgstr "Ein zusätzliches GTK-Modul laden"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:170
+#: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "MODULE"
 msgstr "MODUL"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:186
+#: ../matecomponent/matecomponent-ui-init-gtk.c:187
 msgid "GTK+"
 msgstr "GTK+"
 
-#: ../matecomponent/matecomponent-ui-main.c:278
+#: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
 msgstr "Unterstützung für grafische MateComponent-Benutzeroberfläche"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
 msgstr "_Beide"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
 msgstr "T_ext"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
 msgstr "T_ipps verbergen"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
 msgstr "Ti_pps anzeigen"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
 msgstr "Werkzeugleiste _verbergen"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
 msgstr "_Anpassen"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
 msgstr "Die Werkzeugleiste anpassen"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1115
+#: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
 msgstr "schwebt"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1116
+#: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
 msgstr "Ob die Werkzeugleiste schweben soll"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1162
+#: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
 msgstr "Stil des Rands um die Werkzeugleiste"
 
-#: ../matecomponent/matecomponent-ui-util.c:601
+#: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
 msgstr "Die Hilfe zu dieser Anwendung konnte nicht angezeigt werden"
 
-#: ../matecomponent/matecomponent-ui-util.c:643
+#: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
 msgstr "I_nhalt"
 
-#: ../matecomponent/matecomponent-ui-util.c:644
+#: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "Die zu dieser Anwendung verfügbare Hilfe anzeigen"
 
-#: ../matecomponent/matecomponent-window.c:345
+#: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
 msgstr "Name des Fensters - verwendet für die Serialisierung der Konfiguration"
 
@@ -327,7 +336,6 @@ msgstr "Der Grad der Vergrößerung"
 msgid "Minimum Zoom level"
 msgstr "Minimale Vergrößerungsstufe"
 
-# CHECK vielleicht nicht ganz perfekt
 #: ../matecomponent/matecomponent-zoomable.c:336
 msgid "The minimum degree of enlargment"
 msgstr "Der minimale Grad der Vergrößerung"
@@ -389,28 +397,28 @@ msgstr "_Datei"
 msgid "_Select"
 msgstr "_Auswählen"
 
-#: ../samples/matecomponentui/hello.c:63
+#: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
 msgstr "Dies tut nichts; es ist nur eine Demonstration."
 
-#: ../samples/matecomponentui/hello.c:145
+#: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr "MateComponentUI-Hallo."
 
-#: ../samples/matecomponentui/hello.c:217
+#: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "MATE-Hallo"
 
 #. Create Label and put it in the Button:
-#: ../samples/matecomponentui/hello.c:272
+#: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
 msgstr "Hallo, Welt!"
 
-#: ../samples/matecomponentui/hello.c:312
+#: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
 msgstr "Der libmatecomponentui-Code konnte nicht initialisiert werden"
 
-#: ../samples/controls/matecomponent-sample-controls.c:131
+#: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
 msgstr "MateComponent-UI konnte nicht initialisiert werden"
 
@@ -439,33 +447,33 @@ msgid "_Help"
 msgstr "_Hilfe"
 
 #. Build the general tab
-#: ../tools/browser/component-details.c:109
+#: ../tools/browser/component-details.c:103
 msgid "General"
 msgstr "Allgemein"
 
-#: ../tools/browser/component-details.c:116
-#: ../tools/browser/component-list.c:398
+#: ../tools/browser/component-details.c:110
+#: ../tools/browser/component-list.c:389
 msgid "IID"
 msgstr "IID"
 
-#: ../tools/browser/component-details.c:117
+#: ../tools/browser/component-details.c:111
 msgid "Location"
 msgstr "Ort"
 
 #. Build the details tab
-#: ../tools/browser/component-details.c:167
+#: ../tools/browser/component-details.c:161
 msgid "Details"
 msgstr "Details"
 
-#: ../tools/browser/component-details.c:168
+#: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
 msgstr "Erweiterte Informationen"
 
-#: ../tools/browser/component-list.c:367 ../tools/browser/window.c:283
+#: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
 msgstr "Aktiv"
 
-#: ../tools/browser/component-list.c:388
+#: ../tools/browser/component-list.c:379
 msgid "Type"
 msgstr "Typ"
 
@@ -487,10 +495,7 @@ msgstr "MateComponent-Komponenten-Browser"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr ""
-"Jörgen Scheibengruber <mfcn@gmx.de>\n"
-"Christian Neumair <chris@mate.de.org>\n"
-"Hendrik Richter <hendrikr@gnome.org>"
+msgstr "Jörgen Scheibengruber <mfcn@gmx.de>\nChristian Neumair <chris@mate.de.org>\nHendrik Richter <hendrikr@gnome.org>"
 
 #. create the window
 #: ../tools/browser/window.c:240

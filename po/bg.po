@@ -1,24 +1,25 @@
-# Bulgarian translation of libmatecomponentui po-file.
-# Copyright (C) 2002, 2004, 2005, 2006, 2008 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Alexander Shopov <ash@contact.bg>, 2002, 2005, 2006, 2008.
-# Yanko Kaneti <yaneti@declera.com>, 2002.
-# Vladimir Petkov <kaladan@i-space.org>, 2004.
 # Rostislav Raykov <zbrox@i-space.org>, 2004.
-#
-#
-#
+# Vladimir Petkov <kaladan@i-space.org>, 2004.
+# Yanko Kaneti <yaneti@declera.com>, 2002.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui trunk\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-29 23:16+0300\n"
-"PO-Revision-Date: 2008-09-29 23:14+0300\n"
-"Last-Translator: Alexander Shopov <ash@contact.bg>\n"
-"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:07+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/projects/p/MATE/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -36,62 +37,70 @@ msgstr "контейнер на corba на потр. интерфейс"
 msgid "The User interface container"
 msgstr "Контейнер на потребителския интерфейс"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:255
+#: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
 msgstr "Залепване на лентата с инструменти"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:256
+#: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
 msgstr "Отлепване на лентата с инструменти"
 
-#: ../matecomponent/matecomponent-dock-item.c:228 ../matecomponent/matecomponent-dock-item.c:229
-#: ../matecomponent/matecomponent-ui-toolbar.c:1161
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Тип сянка"
 
-#: ../matecomponent/matecomponent-dock-item.c:239 ../matecomponent/matecomponent-dock-item.c:240
-#: ../matecomponent/matecomponent-ui-toolbar.c:1105 ../matecomponent/matecomponent-ui-toolbar.c:1106
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Ориентация"
 
-#: ../matecomponent/matecomponent-dock-item.c:250 ../matecomponent/matecomponent-dock-item.c:251
-#: ../matecomponent/matecomponent-ui-toolbar.c:1124 ../matecomponent/matecomponent-ui-toolbar.c:1125
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Предпочитана ширина"
 
-#: ../matecomponent/matecomponent-dock-item.c:259 ../matecomponent/matecomponent-dock-item.c:260
-#: ../matecomponent/matecomponent-ui-toolbar.c:1133 ../matecomponent/matecomponent-ui-toolbar.c:1134
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Предпочитана височина"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:355
+#: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
 msgstr "Избор на файл за отваряне"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:383
+#: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
 msgstr "Избор на файлове за отваряне"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:412
+#: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
 msgstr "Избор на име на файл за запис"
 
-#: ../matecomponent/matecomponent-plug.c:423
+#: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
 msgstr "Препредаване на събития"
 
-#: ../matecomponent/matecomponent-plug.c:424
+#: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
 msgstr "Дали X събитията да се препредават"
 
-#: ../matecomponent/matecomponent-selector-widget.c:297 ../matecomponent/matecomponent-window.c:344
-#: ../tools/browser/component-details.c:114
-#: ../tools/browser/component-list.c:378
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
+#: ../tools/browser/component-details.c:108
+#: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "Име"
 
-#: ../matecomponent/matecomponent-selector-widget.c:319
-#: ../tools/browser/component-details.c:115
+#: ../matecomponent/matecomponent-selector-widget.c:322
+#: ../tools/browser/component-details.c:109
 msgid "Description"
 msgstr "Описание"
 
@@ -102,12 +111,9 @@ msgstr "Необходими интерфейси"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Списък от интерфейси завършван с NULL, които един сървър трябва да поддържа, "
-"за да бъде включен в списъка. По подразбиране при празен списък е „IDL:"
-"MateComponent/Embeddable:1.0“"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Списък от интерфейси завършван с NULL, които един сървър трябва да поддържа, за да бъде включен в списъка. По подразбиране при празен списък е „IDL:MateComponent/Embeddable:1.0“"
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -117,66 +123,65 @@ msgstr "Поле за необходим интерфейс"
 msgid "One of the interfaces that's required"
 msgstr "Един от интерфейсите, които са необходими"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:265
+#: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
 msgstr "Видим"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:272
+#: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
 msgstr "_Показване"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:279
+#: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
 msgstr "_Скриване"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:285
+#: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
 msgstr "П_реглед на подсказките"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:290
+#: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "Ленти с инструменти"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:300
+#: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
 msgstr "ленти с инструменти"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:311
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:313
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
 msgstr "Изглед"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:320
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:322
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
 msgstr "_Икона"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:326
+#: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
 msgstr "_Текст и икони"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:332
+#: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "Те_кст"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:338
+#: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
 msgstr "Само важ_ния текст"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "Изчистване на грешки"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
 msgstr "_Показване на XML"
 
-#: ../matecomponent/matecomponent-ui-engine.c:92
+#: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
-msgstr ""
-"Показване на цялото описание на потребителския интерфейс в XML на конзолата"
+msgstr "Показване на цялото описание на потребителския интерфейс в XML на конзолата"
 
-#: ../matecomponent/matecomponent-ui-engine-config.c:522
+#: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
 msgstr "Настройки на потребителски интерфейс"
 
@@ -184,8 +189,10 @@ msgstr "Настройки на потребителски интерфейс"
 msgid "Gdk debugging flags to set"
 msgstr "Флагове за изчистване на грешки на gdk, който да се включат"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "ФЛАГОВЕ"
 
@@ -257,63 +264,63 @@ msgstr "МОДУЛ"
 msgid "GTK+"
 msgstr "GTK+"
 
-#: ../matecomponent/matecomponent-ui-main.c:278
+#: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
 msgstr "Поддръжка на потребителски интерфейс за MateComponent"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
 msgstr "_Двете"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
 msgstr "Т_екст"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
 msgstr "_Скриване на подсказки"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
 msgstr "Показване на по_дсказки"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
 msgstr "С_криване на лентата с инструменти"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
 msgstr "Настро_йки"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
 msgstr "Настройки на лентата с инструменти"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1115
+#: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
 msgstr "е свободна"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1116
+#: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
 msgstr "дали лентата с инструменти е свободна"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1162
+#: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
 msgstr "Стилът на повдигането около лентата с инструменти"
 
-#: ../matecomponent/matecomponent-ui-util.c:601
+#: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
 msgstr "Помощта за това приложение не може да бъде показана"
 
-#: ../matecomponent/matecomponent-ui-util.c:643
+#: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
 msgstr "_Ръководство"
 
-#: ../matecomponent/matecomponent-ui-util.c:644
+#: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "Показване на помощ за това приложение"
 
-#: ../matecomponent/matecomponent-window.c:345
+#: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
 msgstr "Име на прозореца - използва се за сериализация на конфигурацията."
 
@@ -390,28 +397,28 @@ msgstr "_Файл"
 msgid "_Select"
 msgstr "_Избор"
 
-#: ../samples/matecomponentui/hello.c:63
+#: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
 msgstr "Не прави нищо, това е само демонстрация."
 
-#: ../samples/matecomponentui/hello.c:145
+#: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr "MateComponentUI-Здравей"
 
-#: ../samples/matecomponentui/hello.c:217
+#: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "Здравей на Mate"
 
 #. Create Label and put it in the Button:
-#: ../samples/matecomponentui/hello.c:272
+#: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
 msgstr "Здравей, Свят!"
 
-#: ../samples/matecomponentui/hello.c:312
+#: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
 msgstr "Не може да се инициализира кода на libmatecomponentui"
 
-#: ../samples/controls/matecomponent-sample-controls.c:131
+#: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
 msgstr "Грешка при инициализацията на MateComponent UI"
 
@@ -440,33 +447,33 @@ msgid "_Help"
 msgstr "Помо_щ"
 
 #. Build the general tab
-#: ../tools/browser/component-details.c:109
+#: ../tools/browser/component-details.c:103
 msgid "General"
 msgstr "Основен"
 
-#: ../tools/browser/component-details.c:116
-#: ../tools/browser/component-list.c:398
+#: ../tools/browser/component-details.c:110
+#: ../tools/browser/component-list.c:389
 msgid "IID"
 msgstr "IID"
 
-#: ../tools/browser/component-details.c:117
+#: ../tools/browser/component-details.c:111
 msgid "Location"
 msgstr "Местоположение"
 
 #. Build the details tab
-#: ../tools/browser/component-details.c:167
+#: ../tools/browser/component-details.c:161
 msgid "Details"
 msgstr "Подробности"
 
-#: ../tools/browser/component-details.c:168
+#: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
 msgstr "Подробна информация"
 
-#: ../tools/browser/component-list.c:367 ../tools/browser/window.c:283
+#: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
 msgstr "Активен"
 
-#: ../tools/browser/component-list.c:388
+#: ../tools/browser/component-list.c:379
 msgid "Type"
 msgstr "Тип"
 
@@ -488,15 +495,7 @@ msgstr "Компонент за браузър на MateComponent"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr ""
-"Александър Шопов <ash@contact.bg>\n"
-"Янко Канети <yaneti@declera.com>\n"
-"Владимир Петков <kaladan@i-space.org>\n"
-"Ростислав Райков <zbrox@i-space.org>\n"
-"\n"
-"Проектът за превод на MATE има нужда от подкрепа.\n"
-"Научете повече за нас на http://mate.cult.bg\n"
-"Докладвайте за грешки на http://mate.cult.bg/bugs"
+msgstr "Александър Шопов <ash@contact.bg>\nЯнко Канети <yaneti@declera.com>\nВладимир Петков <kaladan@i-space.org>\nРостислав Райков <zbrox@i-space.org>\n\nПроектът за превод на MATE има нужда от подкрепа.\nНаучете повече за нас на http://mate.cult.bg\nДокладвайте за грешки на http://mate.cult.bg/bugs"
 
 #. create the window
 #: ../tools/browser/window.c:240

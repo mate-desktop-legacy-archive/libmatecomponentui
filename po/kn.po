@@ -1,21 +1,22 @@
-# translation of libmatecomponentui.HEAD.kn.po to Kannada
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Shankar Prasad <svenkate@redhat.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui.HEAD.kn\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-11-07 14:28+0100\n"
-"PO-Revision-Date: 2009-03-24 23:05+0530\n"
-"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
-"Language-Team: Kannada <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:06+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -41,23 +42,30 @@ msgstr "ಉಪಕರಣಪಟ್ಟಿಯನ್ನು ಅಂಟಿಸು"
 msgid "Undock the toolbar"
 msgstr "ಉಪಕರಣ ಪಟ್ಟಿಯನ್ನು ಅಂಟಿಸದಿರು"
 
-#: ../matecomponent/matecomponent-dock-item.c:225 ../matecomponent/matecomponent-dock-item.c:226
-#: ../matecomponent/matecomponent-ui-toolbar.c:1161
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "ನೆರಳಿನ ಬಗೆ"
 
-#: ../matecomponent/matecomponent-dock-item.c:236 ../matecomponent/matecomponent-dock-item.c:237
-#: ../matecomponent/matecomponent-ui-toolbar.c:1105 ../matecomponent/matecomponent-ui-toolbar.c:1106
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "ಸ್ಥಾನ"
 
-#: ../matecomponent/matecomponent-dock-item.c:247 ../matecomponent/matecomponent-dock-item.c:248
-#: ../matecomponent/matecomponent-ui-toolbar.c:1124 ../matecomponent/matecomponent-ui-toolbar.c:1125
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "ಇಚ್ಛೆಯ ಅಗಲ"
 
-#: ../matecomponent/matecomponent-dock-item.c:256 ../matecomponent/matecomponent-dock-item.c:257
-#: ../matecomponent/matecomponent-ui-toolbar.c:1133 ../matecomponent/matecomponent-ui-toolbar.c:1134
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "ಇಚ್ಛೆಯ ಎತ್ತರ"
 
@@ -73,22 +81,23 @@ msgstr "ತೆರೆಯಲು ಕಡತಗಳನ್ನು ಆಯ್ಕೆ ಮಾ
 msgid "Select a filename to save"
 msgstr "ಉಳಿಸಲು ಒಂದು ಕಡತದ ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
 
-#: ../matecomponent/matecomponent-plug.c:423
+#: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
 msgstr "ಕಾರ್ಯಕ್ರಮದ ಫಾರ್ವಾರ್ಡಿಂಗ್"
 
-#: ../matecomponent/matecomponent-plug.c:424
+#: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
 msgstr "X ಕಾರ್ಯಕ್ರಮಗಳನ್ನು ಫಾರ್ವಾರ್ಡ್ ಮಾಡಬೇಕೆ"
 
-#: ../matecomponent/matecomponent-selector-widget.c:297 ../matecomponent/matecomponent-window.c:344
-#: ../tools/browser/component-details.c:114
-#: ../tools/browser/component-list.c:378
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
+#: ../tools/browser/component-details.c:108
+#: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "ಹೆಸರು"
 
-#: ../matecomponent/matecomponent-selector-widget.c:319
-#: ../tools/browser/component-details.c:115
+#: ../matecomponent/matecomponent-selector-widget.c:322
+#: ../tools/browser/component-details.c:109
 msgid "Description"
 msgstr "ವರ್ಣನೆ"
 
@@ -99,8 +108,8 @@ msgstr "ಸಂಪರ್ಕಸಾಧನಗಳ ಅಗತ್ಯವಿದೆ"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
 msgstr "ಆಯ್ಕೆಗಾರದಲ್ಲಿ ಪಟ್ಟಿ ಮಾಡಲ್ಪಡಬೇಕೆಂದರೆ ಒಂದು ಶೂನ್ಯ-ಅಂತ್ಯಗೊಳಿಸಲಾದ ಸಂಪರ್ಕಸಾಧನಗಳ ವ್ಯೂಹವನ್ನು ಹೊಂದಿರುವ ಇದನ್ನು ಪರಿಚಾರಕವು ಬೆಂಬಲಿಸಬೇಕು. ಯಾವುದೆ ಸಂಪರ್ಕಸಾಧನಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡದೆ ಇದ್ದಲ್ಲಿ \"IDL:MateComponent/Embeddable:1.0\" ಗೆ ಪೂರ್ವನಿಯೋಜಿತಗೊಳ್ಳುತ್ತದೆ"
 
 #: ../matecomponent/matecomponent-selector.c:346
@@ -111,65 +120,65 @@ msgstr "ಸಂಪರ್ಕಸಾಧನಕ್ಕಾಗಿ ನಮೂದಿನ ಅ�
 msgid "One of the interfaces that's required"
 msgstr "ಅಗತ್ಯವಿರುವ ಸಂಪರ್ಕಸಾಧನಗಳಲ್ಲಿ ಒಂದು"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:265
+#: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
 msgstr "ಕಾಣಿಸುವ"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:272
+#: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
 msgstr "ತೋರಿಸು"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:279
+#: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
 msgstr "ಮುಚ್ಚಿಡು"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:285
+#: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
 msgstr "ಉಪಕರಣ ಸಲಹೆಗಳನ್ನು ನೋಡು(_V)"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:290
+#: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "ಉಪಕರಣ ಪಟ್ಟಿಗಳು"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:300
+#: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
 msgstr "ಉಪಕರಣ ಪಟ್ಟಿಗಳು"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:311
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:313
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
 msgstr "ನೋಡು"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:320
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:322
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
 msgstr "ಪ್ರತಿಮೆ"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:326
+#: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
 msgstr "ಪ್ರತಿಮೆ ಮತ್ತು ಪಠ್ಯ"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:332
+#: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "ಪಠ್ಯ ಮಾತ್ರ"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:338
+#: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
 msgstr "ಆಧ್ಯತೆಯಿರುವ ಪಠ್ಯ ಮಾತ್ರ ತೋರಿಸು"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "ದೋಷದ ಹುಡುಕಾಟ"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
 msgstr "XML ಅನ್ನು ಕಳುಹಿಸು(_D)"
 
-#: ../matecomponent/matecomponent-ui-engine.c:92
+#: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
 msgstr "ಸಂಪೂರ್ಣ UI ನ XML ವಿವರಣೆಯನ್ನು ಕನ್ಸೋಲಿಗೆ ಕಳುಹಿಸಿ"
 
-#: ../matecomponent/matecomponent-ui-engine-config.c:522
+#: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
 msgstr "UI ಅನ್ನು ಸಂರಚಿಸಿ"
 
@@ -177,8 +186,10 @@ msgstr "UI ಅನ್ನು ಸಂರಚಿಸಿ"
 msgid "Gdk debugging flags to set"
 msgstr "ಹೊಂದಿಸಲು Gdk ದೋಷ ನಿವಾರಣ ಗುರುತು ಚೀಟಿಗಳು"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "FLAGS"
 
@@ -250,63 +261,63 @@ msgstr "MODULE"
 msgid "GTK+"
 msgstr "ಜಿಟಿಕೆ+"
 
-#: ../matecomponent/matecomponent-ui-main.c:278
+#: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
 msgstr "MateComponent GUI ಬೆಂಬಲ"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
 msgstr "ಎರಡು"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
 msgstr "ಪಠ್ಯ "
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
 msgstr "ಸಲಹೆಗಳನ್ನು ಅಡಗಿಸು(_i)"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
 msgstr "ಸಲಹೆಗಳನ್ನು ತೋರಿಸು(_i)"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
 msgstr "ಉಪಕರಣ ಪಟ್ಟಿ ಬೊಚ್ಚಿಡು"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
 msgstr "ಗ್ರಾಹಕೀಯಗೊಳಿಸು"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
 msgstr "ಉಪಕರಣ ಪಟ್ಟಿಯನ್ನು ಗ್ರಾಹಕೀಯಗೊಳಿಸು"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1115
+#: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
 msgstr "ತೆಳುತ್ತಿದೆ"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1116
+#: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
 msgstr "ಉಪಕರಣಪಟ್ಟಿಯು ತೇಲುತ್ತಿದೆಯೆ"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1162
+#: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
 msgstr "ಉಪಕರಣಪಟ್ಟಿಯ ಸುತ್ತಲಿನ ಇಳಿಜಾರಿನ ಶೈಲಿ"
 
-#: ../matecomponent/matecomponent-ui-util.c:599
+#: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
 msgstr "ಈ ಅನ್ವಯದ ಬಗೆಗಿನ ನೆರವನ್ನು ತೋರಿಸಲಾಗಲಿಲ್ಲ"
 
-#: ../matecomponent/matecomponent-ui-util.c:641
+#: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
 msgstr "ವಿಷಯಗಳು(_C)"
 
-#: ../matecomponent/matecomponent-ui-util.c:642
+#: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "ಈ ಅನ್ವಯದ ನೆರವನ್ನು ನೋಡಿ"
 
-#: ../matecomponent/matecomponent-window.c:345
+#: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
 msgstr "ವಿಂಡೊದ ಹೆಸರು - ಸಂರಚನೆಯನ್ನು ಅನುಕ್ರಮಗೊಳಿಸಲು ಬಳಸಲಾಗುವುದು."
 
@@ -383,28 +394,28 @@ msgstr "ಕಡತ"
 msgid "_Select"
 msgstr "ಆಯ್ಕೆಮಾಡು"
 
-#: ../samples/matecomponentui/hello.c:63
+#: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
 msgstr "ಇದು ಏನನ್ನೂ ಮಾಡುವುದಿಲ್ಲ; ಇದು ಕೇವಲ ಪ್ರದರ್ಶನಕ್ಕಾಗಿ ಮಾತ್ರ."
 
-#: ../samples/matecomponentui/hello.c:145
+#: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr "MateComponentUI-Hello."
 
-#: ../samples/matecomponentui/hello.c:217
+#: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "Mate Hello"
 
 #. Create Label and put it in the Button:
-#: ../samples/matecomponentui/hello.c:272
+#: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
 msgstr "ಹೆಲೊ ವರ್ಲ್ಡ್!"
 
-#: ../samples/matecomponentui/hello.c:312
+#: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
 msgstr "libmatecomponentui ಕೋಡ್ ಅನ್ನು ಆರಂಭಿಸಲು ಆಗಲಿಲ್ಲ"
 
-#: ../samples/controls/matecomponent-sample-controls.c:131
+#: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
 msgstr "MateComponent UI ಅನ್ನು ಆರಂಭಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
@@ -433,33 +444,33 @@ msgid "_Help"
 msgstr "ಸಹಾಯ(_H)"
 
 #. Build the general tab
-#: ../tools/browser/component-details.c:109
+#: ../tools/browser/component-details.c:103
 msgid "General"
 msgstr "ಸಾಮಾನ್ಯ"
 
-#: ../tools/browser/component-details.c:116
-#: ../tools/browser/component-list.c:398
+#: ../tools/browser/component-details.c:110
+#: ../tools/browser/component-list.c:389
 msgid "IID"
 msgstr "IID"
 
-#: ../tools/browser/component-details.c:117
+#: ../tools/browser/component-details.c:111
 msgid "Location"
 msgstr "ಸ್ಥಳ"
 
 #. Build the details tab
-#: ../tools/browser/component-details.c:167
+#: ../tools/browser/component-details.c:161
 msgid "Details"
 msgstr "ವಿವರಗಳು"
 
-#: ../tools/browser/component-details.c:168
+#: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
 msgstr "ವಿವರವಾದ ಮಾಹಿತಿ"
 
-#: ../tools/browser/component-list.c:367 ../tools/browser/window.c:283
+#: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
 msgstr "ಸಕ್ರಿಯ"
 
-#: ../tools/browser/component-list.c:388
+#: ../tools/browser/component-list.c:379
 msgid "Type"
 msgstr "ಬಗೆ"
 
@@ -496,4 +507,3 @@ msgstr "ಎಲ್ಲಾ"
 #: ../tools/browser/window.c:286
 msgid "Inactive"
 msgstr "ನಿಷ್ಕ್ರಿಯ"
-

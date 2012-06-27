@@ -1,18 +1,22 @@
-# Korean messages for libmatecomponentui
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Changwoo Ryu <cwryu@debian.org>, 2002-2006, 2008.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-15 10:25+0900\n"
-"PO-Revision-Date: 2008-02-15 10:29+0900\n"
-"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
-"Language-Team: MATE Korea <mate-kr-hackers@lists.kldp.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:08+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -30,62 +34,70 @@ msgstr "코바 UI 컨테이너"
 msgid "The User interface container"
 msgstr "사용자 인터페이스 컨테이너"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:255
+#: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
 msgstr "도구 모음 고정"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:256
+#: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
 msgstr "도구 모음 고정 해제"
 
-#: ../matecomponent/matecomponent-dock-item.c:228 ../matecomponent/matecomponent-dock-item.c:229
-#: ../matecomponent/matecomponent-ui-toolbar.c:1161
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "그림자 종류"
 
-#: ../matecomponent/matecomponent-dock-item.c:239 ../matecomponent/matecomponent-dock-item.c:240
-#: ../matecomponent/matecomponent-ui-toolbar.c:1105 ../matecomponent/matecomponent-ui-toolbar.c:1106
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "방향"
 
-#: ../matecomponent/matecomponent-dock-item.c:250 ../matecomponent/matecomponent-dock-item.c:251
-#: ../matecomponent/matecomponent-ui-toolbar.c:1124 ../matecomponent/matecomponent-ui-toolbar.c:1125
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "너비 선택"
 
-#: ../matecomponent/matecomponent-dock-item.c:259 ../matecomponent/matecomponent-dock-item.c:260
-#: ../matecomponent/matecomponent-ui-toolbar.c:1133 ../matecomponent/matecomponent-ui-toolbar.c:1134
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "높이 선택"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:357
+#: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
 msgstr "열 파일을 선택하십시오"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:385
+#: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
 msgstr "열 파일을 선택하십시오"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:414
+#: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
 msgstr "저장할 파일이름을 선택하십시오"
 
-#: ../matecomponent/matecomponent-plug.c:423
+#: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
 msgstr "이벤트 전달하기"
 
-#: ../matecomponent/matecomponent-plug.c:424
+#: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
 msgstr "X 이벤트를 전달할 지 여부"
 
-#: ../matecomponent/matecomponent-selector-widget.c:297 ../matecomponent/matecomponent-window.c:344
-#: ../tools/browser/component-details.c:114
-#: ../tools/browser/component-list.c:378
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
+#: ../tools/browser/component-details.c:108
+#: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "이름"
 
-#: ../matecomponent/matecomponent-selector-widget.c:319
-#: ../tools/browser/component-details.c:115
+#: ../matecomponent/matecomponent-selector-widget.c:322
+#: ../tools/browser/component-details.c:109
 msgid "Description"
 msgstr "설명"
 
@@ -96,8 +108,8 @@ msgstr "필요한 인터페이스"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
 msgstr "셀렉터에 열거되려면 서버가 지원해야 할 인터페이스의 NULL로 끝나는 배열. 열거한 인터페이스가 없을 때 기본값은 \"IDL:MateComponent/Embeddable:1.0\""
 
 #: ../matecomponent/matecomponent-selector.c:346
@@ -108,65 +120,65 @@ msgstr "필요한 인터페이스 엔트리"
 msgid "One of the interfaces that's required"
 msgstr "필요한 인터페이스 중 하나"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:265
+#: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
 msgstr "표시"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:272
+#: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
 msgstr "보이기(_S)"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:279
+#: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
 msgstr "숨기기(_H)"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:285
+#: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
 msgstr "도구 설명 보기(_V)"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:290
+#: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "도구 모음"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:300
+#: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
 msgstr "도구 모음"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:311
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:313
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
 msgstr "보기"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:320
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:322
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
 msgstr "아이콘(_I)"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:326
+#: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
 msgstr "텍스트와 아이콘(_T)"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:332
+#: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "텍스트만"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:338
+#: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
 msgstr "우선 순위 글자만(_P)"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "디버그"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
 msgstr "XML 덤프(_D)"
 
-#: ../matecomponent/matecomponent-ui-engine.c:92
+#: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
 msgstr "전체 UI의 XML 표현을 콘솔로 덤프합니다"
 
-#: ../matecomponent/matecomponent-ui-engine-config.c:522
+#: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
 msgstr "UI 설정"
 
@@ -174,8 +186,10 @@ msgstr "UI 설정"
 msgid "Gdk debugging flags to set"
 msgstr "GDK 디버깅 사용 플래그"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "<플래그>"
 
@@ -247,63 +261,63 @@ msgstr "<모듈>"
 msgid "GTK+"
 msgstr "GTK+"
 
-#: ../matecomponent/matecomponent-ui-main.c:278
+#: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
 msgstr "보노보 GUI 지원 기능"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
 msgstr "둘 다(_O)"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
 msgstr "텍스트(_E)"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
 msgstr "설명 숨기기(_I)"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
 msgstr "설명 보이기(_I)"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
 msgstr "도구 모음 숨기기(_H)"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
 msgstr "사용자 설정(_Z)"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
 msgstr "도구 모음 사용자 설정"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1115
+#: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
 msgstr "움직이기"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1116
+#: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
 msgstr "도구 모음을 움직일 수 있는지"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1162
+#: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
 msgstr "도구 모음의 3D 효과 스타일"
 
-#: ../matecomponent/matecomponent-ui-util.c:601
+#: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
 msgstr "이 프로그램에 대한 도움말을 표시할 수 없습니다"
 
-#: ../matecomponent/matecomponent-ui-util.c:643
+#: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
 msgstr "차례(_C)"
 
-#: ../matecomponent/matecomponent-ui-util.c:644
+#: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "이 프로그램에 대한 도움말을 봅니다"
 
-#: ../matecomponent/matecomponent-window.c:345
+#: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
 msgstr "창의 이름 - 설정 직렬화에 사용됩니다."
 
@@ -380,28 +394,28 @@ msgstr "파일(_F)"
 msgid "_Select"
 msgstr "선택(_S)"
 
-#: ../samples/matecomponentui/hello.c:63
+#: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
 msgstr "아무 것도 아닙니다; 이 프로그램은 데모입니다."
 
-#: ../samples/matecomponentui/hello.c:145
+#: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr "보노보UI-헬로우."
 
-#: ../samples/matecomponentui/hello.c:217
+#: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "그놈 헬로우"
 
 #. Create Label and put it in the Button:
-#: ../samples/matecomponentui/hello.c:272
+#: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
 msgstr "안녕하세요, 여러분!"
 
-#: ../samples/matecomponentui/hello.c:312
+#: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
 msgstr "libmatecomponentui 코드를 초기화할 수 없습니다"
 
-#: ../samples/controls/matecomponent-sample-controls.c:131
+#: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
 msgstr "보노보 UI를 초기화할 수 없습니다"
 
@@ -430,33 +444,33 @@ msgid "_Help"
 msgstr "도움말(_H)"
 
 #. Build the general tab
-#: ../tools/browser/component-details.c:109
+#: ../tools/browser/component-details.c:103
 msgid "General"
 msgstr "일반"
 
-#: ../tools/browser/component-details.c:116
-#: ../tools/browser/component-list.c:398
+#: ../tools/browser/component-details.c:110
+#: ../tools/browser/component-list.c:389
 msgid "IID"
 msgstr "IID"
 
-#: ../tools/browser/component-details.c:117
+#: ../tools/browser/component-details.c:111
 msgid "Location"
 msgstr "위치"
 
 #. Build the details tab
-#: ../tools/browser/component-details.c:167
+#: ../tools/browser/component-details.c:161
 msgid "Details"
 msgstr "상세 정보"
 
-#: ../tools/browser/component-details.c:168
+#: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
 msgstr "상세 정보"
 
-#: ../tools/browser/component-list.c:367 ../tools/browser/window.c:283
+#: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
 msgstr "활성화"
 
-#: ../tools/browser/component-list.c:388
+#: ../tools/browser/component-list.c:379
 msgid "Type"
 msgstr "종류"
 

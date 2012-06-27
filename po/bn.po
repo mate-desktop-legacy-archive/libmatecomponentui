@@ -1,38 +1,36 @@
-# Bengali Translation of libmatecomponentui.
-# Copyright (C) 1991-2003 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libmatecomponentui package.
-# Khandakar Mujahidul Islam <suzan229@yahoo.com>, 2003-2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Maruf Ovee <maruf@ankur.org.bd>, 2009.
 # Sadia Afroz <sadia@ankur.org.bd>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: bn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=libmatecomponentui&component=general\n"
-"POT-Creation-Date: 2009-08-04 17:13+0000\n"
-"PO-Revision-Date: 2010-03-07 18:52+0600\n"
-"Last-Translator: Sadia Afroz <sadia@ankur.org.bd>\n"
-"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:07+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
 msgstr "কোরবা ফ্যাক্টরি"
 
-# msgstr "করবা ফ্যাক্টরি"
 #: ../matecomponent/matecomponent-canvas-item.c:681
 msgid "The factory pointer"
 msgstr "ফ্যাক্টরি নির্দেশক"
 
-# msgstr "কারখানা নির্দেশক"
 #: ../matecomponent/matecomponent-canvas-item.c:690
 msgid "corba UI container"
 msgstr "কোরবা UI ধারক"
 
-# msgstr "করবা ইউ.আই. (UI) ধারক"
 #: ../matecomponent/matecomponent-canvas-item.c:691
 msgid "The User interface container"
 msgstr "ব্যবহারকারী ইন্টারফেস ধারক"
@@ -45,24 +43,30 @@ msgstr "টুলবারটি ডক করুন"
 msgid "Undock the toolbar"
 msgstr "টুলবারটি আনডক করুন"
 
-#: ../matecomponent/matecomponent-dock-item.c:225 ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
 #: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "ছায়ার ধরন"
 
-#: ../matecomponent/matecomponent-dock-item.c:236 ../matecomponent/matecomponent-dock-item.c:237
-#: ../matecomponent/matecomponent-ui-toolbar.c:1107 ../matecomponent/matecomponent-ui-toolbar.c:1108
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "স্থিতিবিন্যাস"
 
-# msgstr "সজ্জা"
-#: ../matecomponent/matecomponent-dock-item.c:247 ../matecomponent/matecomponent-dock-item.c:248
-#: ../matecomponent/matecomponent-ui-toolbar.c:1126 ../matecomponent/matecomponent-ui-toolbar.c:1127
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "পছন্দনীয় প্রস্থ"
 
-#: ../matecomponent/matecomponent-dock-item.c:256 ../matecomponent/matecomponent-dock-item.c:257
-#: ../matecomponent/matecomponent-ui-toolbar.c:1135 ../matecomponent/matecomponent-ui-toolbar.c:1136
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "পছন্দনীয় উচ্চতা"
 
@@ -74,7 +78,6 @@ msgstr "খোলার জন্য একটি ফাইল নির্ব�
 msgid "Select files to open"
 msgstr "খোলার জন্য ফাইলসমূহ নির্বাচন করুন"
 
-# msgstr "কয়েকটি ফাইল বাছাই করো"
 #: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
 msgstr "সংরক্ষণ করার জন্য একটি ফাইলের নাম নির্বাচন করুন"
@@ -83,14 +86,12 @@ msgstr "সংরক্ষণ করার জন্য একটি ফাই�
 msgid "Event Forwarding"
 msgstr "ইভেন্ট পুনঃপ্রেরণ"
 
-# msgstr "ইভেন্ট পাঠিয়ে দেয়া"
 #: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
 msgstr "X ইভেন্ট পুনঃপ্রেরণ করা উচিত কিনা"
 
-# msgstr "যে কোনো ক্ষেত্রে এক্স ইভেন্ট পাঠিয়ে দেয়া উচিত"
-# msgstr "যে কোনো ক্ষেত্রে এক্স ইভেন্ট ফরওয়ার্ড করে দেয়া উচিত"
-#: ../matecomponent/matecomponent-selector-widget.c:300 ../matecomponent/matecomponent-window.c:347
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
 #: ../tools/browser/component-details.c:108
 #: ../tools/browser/component-list.c:369
 msgid "Name"
@@ -101,7 +102,6 @@ msgstr "নাম"
 msgid "Description"
 msgstr "বিবরণ"
 
-# msgstr "বর্ণনা"
 #: ../matecomponent/matecomponent-selector.c:343
 msgid "Interfaces required"
 msgstr "আবশ্যকীয় ইন্টারফেসসমূহ"
@@ -109,14 +109,10 @@ msgstr "আবশ্যকীয় ইন্টারফেসসমূহ"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"একটি NULL -terminated ইন্টারফেস তালিকা, যা নির্বাচকে অন্তর্ভুক্ত হওয়ার জন্য "
-"একটি সার্ভারকে অবশ্যই সমর্থন করতে হবে। যদি কোন ইন্টারফেস তালিকাভুক্ত না থাকে "
-"তবে পূর্বনির্ধারিত হিসেবে \"IDL:MateComponent/Embeddable:1.0\" ব্যবহৃত হবে"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "একটি NULL -terminated ইন্টারফেস তালিকা, যা নির্বাচকে অন্তর্ভুক্ত হওয়ার জন্য একটি সার্ভারকে অবশ্যই সমর্থন করতে হবে। যদি কোন ইন্টারফেস তালিকাভুক্ত না থাকে তবে পূর্বনির্ধারিত হিসেবে \"IDL:MateComponent/Embeddable:1.0\" ব্যবহৃত হবে"
 
-# সার্ভার চালুরাখতেসাহায্যকরা ধারা
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
 msgstr "ইন্টারফেসের প্রয়োজনীয় এন্ট্রি"
@@ -154,18 +150,15 @@ msgstr "টুলবার"
 msgid "Look"
 msgstr "চেহারা"
 
-# msgstr "দেখো"
 #: ../matecomponent/matecomponent-ui-config-widget.c:322
 #: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
 msgstr "আইকন (_I)"
 
-# msgstr "প্রতীক (_প)"
 #: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
 msgstr "টেক্সট ও আইকন (_T)"
 
-# msgstr "টেক্সট এবং প্রতীক (_ট)"
 #: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "শুধুমাত্র টেক্সট"
@@ -174,7 +167,6 @@ msgstr "শুধুমাত্র টেক্সট"
 msgid "_Priority text only"
 msgstr "শুধুমাত্র অগ্রাধিকারপ্রাপ্ত টেক্সট (_P)"
 
-# msgstr "শুধুমাত্র টেক্সটের _অগ্রাধিকার"
 #: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "ডিবাগ"
@@ -183,8 +175,6 @@ msgstr "ডিবাগ"
 msgid "_Dump XML"
 msgstr "XML ডাম্প করুন (_D)"
 
-# msgstr "XML'র অস্থায়ী ভান্ডার"
-# msgstr "ডাম্প এক্স.এম.এল. (_ড)"
 #: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
 msgstr "সম্পূর্ণ UI-এর XML বিবরণ কনসোলে ডাম্প করুন"
@@ -197,14 +187,13 @@ msgstr "UI কনফিগার"
 msgid "Gdk debugging flags to set"
 msgstr "যেসকল Gdk ডিবাগিং ফ্ল্যাগ সক্রিয় করা হবে"
 
-# msgstr "জিডিকে ডিবাগিং করার ফ্ল্যাগস নির্ধারণ করা হয়েছে"
-# msgstr "জিডিকে ডিবাগিং করার ফ্ল্যাগস নির্দিষ্ট করা হয়েছে"
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "FLAGS"
 
-# msgstr "পতাকাগুলো"
 #: ../matecomponent/matecomponent-ui-init-gtk.c:134
 msgid "Gdk debugging flags to unset"
 msgstr "যেসকল Gdk ডিবাগিং ফ্ল্যাগ নিষ্ক্রিয় করা হবে"
@@ -213,19 +202,14 @@ msgstr "যেসকল Gdk ডিবাগিং ফ্ল্যাগ নি�
 msgid "X display to use"
 msgstr "ব্যবহার করার জন্য X প্রদর্শন"
 
-# msgstr "ব্যবহার করার জন্য X ডিসপ্লে"
-# msgstr "ব্যবহৃত এক্স ডিসপ্লে"
 #: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "DISPLAY"
 msgstr "DISPLAY"
 
-# msgstr "ডিসপ্লে"
 #: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "X screen to use"
 msgstr "ব্যবহার করার জন্য X পর্দা"
 
-# msgstr "ব্যবহার করার জন্য এক্স পর্দা"
-# msgstr "ব্যবহৃত এক্স পর্দা"
 #: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "SCREEN"
 msgstr "SCREEN"
@@ -238,7 +222,6 @@ msgstr "X কলকে যুগপৎ করা হবে"
 msgid "Don't use X shared memory extension"
 msgstr "X-এর শেয়ারকৃত মেমরি এক্সটেনশন ব্যবহার করা হবে না"
 
-# msgstr "প্রসারিত এক্স অধিকৃত মেমরি কখনো ব্যবহার করবে না"
 #: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "Program name as used by the window manager"
 msgstr "উইন্ডো ম্যানেজার কর্তৃক ব্যবহৃত প্রোগ্রামের নাম"
@@ -251,25 +234,18 @@ msgstr "NAME"
 msgid "Program class as used by the window manager"
 msgstr "উইন্ডো ব্যবস্থাপক কর্তৃক ব্যবহৃত প্রোগ্রামের শ্রেণী"
 
-# msgstr "উইন্ডো ম্যানেজার কর্তৃক ব্যবহৃত প্রোগ্রামের ক্লাস"
 #: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "CLASS"
 msgstr "CLASS"
 
-# msgstr "স্টাইল"
 #: ../matecomponent/matecomponent-ui-init-gtk.c:162
 msgid "Gtk+ debugging flags to set"
 msgstr "যেসকল Gtk+ ডিবাগিং ফ্ল্যাগ সক্রিয় করা হবে"
 
-# msgstr "জিটিকে+ ডিবাগিং করার ফ্ল্যাগ্‌স নির্ধারণ করা হয়েছে"
-# msgstr "জিটিকে+ ডিবাগিং ফ্ল্যাগস নির্ধারণ করা হয়েছে"
-# msgstr "জিটিকে+ ডিবাগিং ফ্ল্যাগস নির্দিষ্ট করা হয়েছে"
 #: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "Gtk+ debugging flags to unset"
 msgstr "যেসকল Gtk+ ডিবাগিং ফ্ল্যাগ নিষ্ক্রিয় করা হবে"
 
-# msgstr "জিটিকে+ ডিবাগিং ফ্ল্যাগস নির্ধারণ করা হয় নি"
-# msgstr "জিটিকে+ ডিবাগিং ফ্ল্যাগস নির্দিষ্ট করা হয় নি"
 #: ../matecomponent/matecomponent-ui-init-gtk.c:168
 msgid "Make all warnings fatal"
 msgstr "সকল সতর্কীকরণকে মারাত্মক হিসেবে নির্ধারণ করা হবে"
@@ -278,7 +254,6 @@ msgstr "সকল সতর্কীকরণকে মারাত্মক হ
 msgid "Load an additional Gtk module"
 msgstr "একটি অতিরিক্ত Gtk মডিউল লোড করা হবে"
 
-# msgstr "একটি সংযোজিত জিটিকে মডিউল লোড করো"
 #: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "MODULE"
 msgstr "MODULE"
@@ -323,8 +298,6 @@ msgstr "টুলবার স্বনির্ধারণ করুন"
 msgid "is floating"
 msgstr "পরিবর্তন হচ্ছে"
 
-# msgstr "ভাসছে"
-# msgstr "উদ্দেশ্যহীনভাবে ভাসছে"
 #: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
 msgstr "টুলবারে পরিবর্তন হচ্ছে কিনা"
@@ -333,8 +306,6 @@ msgstr "টুলবারে পরিবর্তন হচ্ছে কিন
 msgid "Style of bevel around the toolbar"
 msgstr "টুলবারের চারপাশের ঢালের ধরন"
 
-# msgstr "উপাদান"
-# msgstr "পরিমান"
 #: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
 msgstr "এই অ্যাপ্লিকেশনের জন্য সহায়তা প্রদর্শন করা যায়নি"
@@ -343,8 +314,6 @@ msgstr "এই অ্যাপ্লিকেশনের জন্য সহা
 msgid "_Contents"
 msgstr "বিষয়বস্তু (_C)"
 
-# msgstr "উপাদান"
-# msgstr "পরিমান"
 #: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "এই অ্যাপ্লিকেশনের জন্য সহায়ক তথ্য দেখুন"
@@ -357,62 +326,46 @@ msgstr "উইন্ডোর নাম -  কনফিগারেশন সি
 msgid "Zoom level"
 msgstr "বড় করে দেখার মাত্রা"
 
-# msgstr "বড় করে দেখার স্তর"
-# msgstr "বড় করে দেখার ধাপ"
 #: ../matecomponent/matecomponent-zoomable.c:327
 msgid "The degree of enlargment"
 msgstr "প্রসারিত করার স্তর"
 
-# msgstr "বৃদ্ধি করার মাত্রা"
 #: ../matecomponent/matecomponent-zoomable.c:335
 msgid "Minimum Zoom level"
 msgstr "সর্বনিম্ন বড় করে দেখার মাত্রা"
 
-# msgstr "সর্বনিম্ন বড় করে দেখার ধাপ"
 #: ../matecomponent/matecomponent-zoomable.c:336
 msgid "The minimum degree of enlargment"
 msgstr "প্রসারিত করার সর্বনিম্ন স্তর"
 
-# msgstr "সর্বনিম্ন বৃদ্ধি করার মাত্রা"
 #: ../matecomponent/matecomponent-zoomable.c:344
 msgid "Maximum Zoom level"
 msgstr "প্রসারিত করার সর্বোচ্চ মাত্রা"
 
-# msgstr "সর্বোচ্চ বড় করে দেখার ধাপ"
 #: ../matecomponent/matecomponent-zoomable.c:345
 msgid "The maximum degree of enlargment"
 msgstr "প্রসারিত করার সর্বোচ্চ স্তর"
 
-# msgstr "সর্বোচ্চ বৃদ্ধি করার মাত্রা"
 #: ../matecomponent/matecomponent-zoomable.c:353
 msgid "Has a minimum Zoom level"
 msgstr "সর্বনিম্ন বড় করে দেখার মাত্রা রয়েছে"
 
-# msgstr "সর্বনিম্ন বড় করে দেখার স্তর আছে কিনা"
-# msgstr "সর্বনিম্ন বড় করে দেখার ধাপ আছে কিনা"
 #: ../matecomponent/matecomponent-zoomable.c:354
 msgid "Whether we have a valid minimum zoom level"
 msgstr "আমাদের কার্যকর সর্বনিম্ন বড় করে দেখার মাত্রা রয়েছে কিনা"
 
-# msgstr "যে কোনো ক্ষেত্র আমাদের ত্রুটিহীন সর্বনিম্ন বড় করে দেখার স্তর রয়েছে কিনা"
-# msgstr "যে কোনো ক্ষেত্র আমাদের সঠিক সর্বনিম্ন বড় করে দেখার ধাপ আছে কিনা"
 #: ../matecomponent/matecomponent-zoomable.c:361
 msgid "Has a maximum Zoom level"
 msgstr "সর্বোচ্চ বড় করে দেখার মাত্রা রয়েছে"
 
-# msgstr "সর্বোচ্চ বড় করে দেখার স্তর রয়েছে কিনা"
-# msgstr "সর্বোচ্চ বড় করে দেখার ধাপ আছে কিনা"
 #: ../matecomponent/matecomponent-zoomable.c:362
 msgid "Whether we have a valid maximum zoom level"
 msgstr "আমাদের কার্যকর সর্বোচ্চ বড় করে দেখার মাত্রা রয়েছে কিনা"
 
-# msgstr "যে কোনো ক্ষেত্র আমাদের ত্রুটিহীন সর্বোচ্চ বড় করে দেখার স্তর রয়েছে কিনা"
-# msgstr "যে কোনো ক্ষেত্র আমাদের সঠিক সর্বোচ্চ বড় করে দেখার ধাপ আছে কিনা"
 #: ../matecomponent/matecomponent-zoomable.c:369
 msgid "Is continuous"
 msgstr "ক্রমাগত চলছে"
 
-# msgstr "লাগাতার চলছে নাকি?"
 #: ../matecomponent/matecomponent-zoomable.c:370
 msgid "Whether we zoom continuously (as opposed to jumps)"
 msgstr "আমরা ক্রমাগত বড় করে দেখবো কিনা (ধাপে ধাপে বড় করার পরিবর্তে)"
@@ -421,22 +374,18 @@ msgstr "আমরা ক্রমাগত বড় করে দেখবো ক�
 msgid "About this application"
 msgstr "অ্যাপ্লিকেশন পরিচিতি"
 
-# msgstr "এই অ্যাপ্লিকেশন সম্বন্ধে"
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:2
 msgid "Select"
 msgstr "নির্বাচন"
 
-# msgstr "নির্বাচন করা"
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:3
 msgid "_About..."
 msgstr "পরিচিতি... (_A)"
 
-# msgstr "_সম্বন্ধে..."
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:4
 msgid "_Edit"
 msgstr "সম্পাদনা (_E)"
 
-# msgstr "এডিট (_এ)"
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:5
 #: ../tools/browser/matecomponent-browser.xml.h:4
 msgid "_File"
@@ -446,22 +395,18 @@ msgstr "ফাইল (_F)"
 msgid "_Select"
 msgstr "নির্বাচন (_S)"
 
-# msgstr "বাছাই করা ()"
 #: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
 msgstr "এটা কিছুই করে না; এটি শুধুই একটি নমুনা প্রদর্শনী।"
 
-# msgstr "এটা আসলে কিছুই না; শুধুমাত্র একটি নির্দেশনা ছাড়া।"
 #: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr "MateComponentUI-হ্যালো।"
 
-# msgstr "বনোবো ইউ.আই.(UI)-শুভেচ্ছা"
 #: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "জিনোম হ্যালো"
 
-# msgstr "গুহ্‌নোম শুভেচ্ছা"
 #. Create Label and put it in the Button:
 #: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
@@ -548,9 +493,7 @@ msgstr "বনোবো কম্পোনেন্ট ব্রাউজার"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr ""
-"অঙ্কুর গ্রুপের পক্ষ থেকে খন্দকার মুজাহিদুল ইসলাম সুজন "
-"<suzan@bengalinux.org>\nসাদিয়া আফরোজ <sadia@ankur.org.bd>"
+msgstr "অঙ্কুর গ্রুপের পক্ষ থেকে খন্দকার মুজাহিদুল ইসলাম সুজন <suzan@bengalinux.org>\nসাদিয়া আফরোজ <sadia@ankur.org.bd>"
 
 #. create the window
 #: ../tools/browser/window.c:240

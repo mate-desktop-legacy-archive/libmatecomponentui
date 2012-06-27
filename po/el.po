@@ -1,30 +1,25 @@
-# translation of el.po to Greek
-# Greek translation of libmatecomponentui.
-# Copyright (C) 2003 Simos Xenitellis.
-#
-# kostas : 05Jan2003 updated translation for Mate 2.1x
-#
-# simos: 71 messages, 16Aug2002, initial translation.
-# simos: 92 messages, 05Nov2002, completed translation..
-# kostas : 03Sep2003, 96 messages,updated translation for Mate 2.4.
-# Simos Xenitellis <simos74@gmx.net>, 2002,2003.
-# Kostas Papadimas <pkst@gmx.net>, 2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
+# Kostas Papadimas <pkst@gmx.net>, 2003.
+# Simos Xenitellis <simos74@gmx.net>, 2002, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: el\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-14 18:22+0200\n"
-"PO-Revision-Date: 2009-03-01 15:33+0100\n"
-"Last-Translator: Jennie Petoumenou <epetoumenou@gmail.com>\n"
-"Language-Team: Greek <team@mate.gr>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:06+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.2\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
 msgstr "εργοστάσιο CORBA"
@@ -49,23 +44,30 @@ msgstr "Αγκύρωση της εργαλειοθήκης"
 msgid "Undock the toolbar"
 msgstr "Απαγκύρωση εργαλειοθήκης"
 
-#: ../matecomponent/matecomponent-dock-item.c:225 ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
 #: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Τύπος σκιάς"
 
-#: ../matecomponent/matecomponent-dock-item.c:236 ../matecomponent/matecomponent-dock-item.c:237
-#: ../matecomponent/matecomponent-ui-toolbar.c:1107 ../matecomponent/matecomponent-ui-toolbar.c:1108
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Προσανατολισμός"
 
-#: ../matecomponent/matecomponent-dock-item.c:247 ../matecomponent/matecomponent-dock-item.c:248
-#: ../matecomponent/matecomponent-ui-toolbar.c:1126 ../matecomponent/matecomponent-ui-toolbar.c:1127
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Επιθυμητό πλάτος"
 
-#: ../matecomponent/matecomponent-dock-item.c:256 ../matecomponent/matecomponent-dock-item.c:257
-#: ../matecomponent/matecomponent-ui-toolbar.c:1135 ../matecomponent/matecomponent-ui-toolbar.c:1136
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Επιθυμητό ύψος"
 
@@ -89,25 +91,13 @@ msgstr "Προώθηση Γεγονότων"
 msgid "Whether X events should be forwarded"
 msgstr "Πότε τα γεγονότα Χ πρέπει να προωθούνται"
 
-# #-#-#-#-#  matecomponent.HEAD.el.po (matecomponent 0.34)  #-#-#-#-#
-#
-# #-#-#-#-#  bug-buddy.bug-buddy-2-0.el.po (bug-buddy 2.0.6)  #-#-#-#-#
-#
-# #-#-#-#-#  mate-libs.mate-libs-1-0.el.po (mate-libs 1.2.12)  #-#-#-#-#
-#
-# #-#-#-#-#  nautilus.nautilus-mate-1.el.po (nautilus 0.8.3)  #-#-#-#-#
-#
-#: ../matecomponent/matecomponent-selector-widget.c:300 ../matecomponent/matecomponent-window.c:347
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
 #: ../tools/browser/component-details.c:108
 #: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "Όνομα"
 
-# #-#-#-#-#  mate-1.4-core-compendium.po (matecomponent 0.34)  #-#-#-#-#
-# #-#-#-#-#  matecomponent.HEAD.el.po (matecomponent 0.34)  #-#-#-#-#
-#
-# #-#-#-#-#  bug-buddy.bug-buddy-2-0.el.po (bug-buddy 2.0.6)  #-#-#-#-#
-#
 #: ../matecomponent/matecomponent-selector-widget.c:322
 #: ../tools/browser/component-details.c:109
 msgid "Description"
@@ -120,13 +110,9 @@ msgstr "Διασυνδέσεις που απαιτούνται"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Ένας πίνακας διασυνδέσεων διαχωριζόμενος με χαρακτήρες NULL που ο "
-"εξυπηρετητής πρέπει να υποστηρίζει για να εμφανίζεται στον επιλογέα. Εξ "
-"ορισμού το \"IDL:MateComponent/Embeddable:1.0\" αν δεν εμφανίζονται άλλες "
-"διασυνδέσεις"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Ένας πίνακας διασυνδέσεων διαχωριζόμενος με χαρακτήρες NULL που ο εξυπηρετητής πρέπει να υποστηρίζει για να εμφανίζεται στον επιλογέα. Εξ ορισμού το \"IDL:MateComponent/Embeddable:1.0\" αν δεν εμφανίζονται άλλες διασυνδέσεις"
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -140,7 +126,6 @@ msgstr "Μία από τις διασυνδέσεις που απαιτούντ�
 msgid "Visible"
 msgstr "Ορατό"
 
-#
 #: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
 msgstr "_Εμφάνιση"
@@ -153,12 +138,10 @@ msgstr "_Απόκρυψη"
 msgid "_View tooltips"
 msgstr "_Εμφάνιση υποδείξεων"
 
-#
 #: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "Εργαλειοθήκες"
 
-#
 #: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
 msgstr "εργαλειοθήκες"
@@ -201,33 +184,29 @@ msgstr "Απόρριψη ολόκληρης της περιγραφής UI's XML
 msgid "Configure UI"
 msgstr "Ρύθμιση Διασύνδεσης Χρήστη"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:131
 msgid "Gdk debugging flags to set"
 msgstr "Διακόπτες αποσφαλμάτωσης του Gdk για ενεργοποίηση"
 
-#
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "FLAGS"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:134
 msgid "Gdk debugging flags to unset"
 msgstr "Διακόπτες αποσφαλμάτωσης του Gdk για απενεργοποίηση"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "X display to use"
 msgstr "Επιλογή οθόνης X προς χρήση"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "DISPLAY"
 msgstr "ΟΘΌΝΗ"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "X screen to use"
 msgstr "Οθόνη X προς χρήση"
@@ -236,17 +215,14 @@ msgstr "Οθόνη X προς χρήση"
 msgid "SCREEN"
 msgstr "ΟΘΌΝΗ"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:146
 msgid "Make X calls synchronous"
 msgstr "Χρήση σύγχρονων κλήσεων X"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:152
 msgid "Don't use X shared memory extension"
 msgstr "Απενεργοποίηση επεκτασης χρήσης κοινής μνήμης στα X"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "Program name as used by the window manager"
 msgstr "Όνομα προγράμματος όπως δηλώνεται από το διαχειριστή παραθύρων"
@@ -255,37 +231,30 @@ msgstr "Όνομα προγράμματος όπως δηλώνεται από �
 msgid "NAME"
 msgstr "ΌΝΟΜΑ"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "Program class as used by the window manager"
 msgstr "Τάξη προγράμματος όπως δηλώνεται από το διαχειριστή παραθύρων"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "CLASS"
 msgstr "ΤΑΞΗ"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:162
 msgid "Gtk+ debugging flags to set"
 msgstr "Διακόπτες αποσφαλμάτωσης του Gtk+ για ενεργοποίηση"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "Gtk+ debugging flags to unset"
 msgstr "Διακόπτες αποσφαλμάτωσης του Gtk+ για απενεργοποίηση"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:168
 msgid "Make all warnings fatal"
 msgstr "Όλες οι προειδοποιήσεις ολέθριες"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "Load an additional Gtk module"
 msgstr "Φόρτωση επιπρόσθετου συστατικού Gtk"
 
-#
 #: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "MODULE"
 msgstr "ΣΥΣΤΑΤΙΚΌ"
@@ -294,7 +263,6 @@ msgstr "ΣΥΣΤΑΤΙΚΌ"
 msgid "GTK+"
 msgstr "GTK+"
 
-#
 #: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
 msgstr "Υποστήριξη Γραφικού Περιβάλλοντος Διασύνδεσης (ΓΠΔ) MateComponent"
@@ -339,7 +307,6 @@ msgstr "αν η εργαλειοθήκη αιωρήται"
 msgid "Style of bevel around the toolbar"
 msgstr "Στυλ γωνίας γύρω από την εργαλειοθήκη"
 
-# #-#-#-#-#  mate-libs.mate-libs-1-0.el.po (mate-libs 1.2.12)  #-#-#-#-#: ../matecomponent/matecomponent-ui-util.c:599
 #: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
 msgstr "Δεν είναι δυνατή η εμφάνιση βοήθειας για την εφαρμογή"
@@ -348,17 +315,13 @@ msgstr "Δεν είναι δυνατή η εμφάνιση βοήθειας γι
 msgid "_Contents"
 msgstr "Περιε_χόμενα"
 
-# #-#-#-#-#  mate-libs.mate-libs-1-0.el.po (mate-libs 1.2.12)  #-#-#-#-#
-#
 #: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "Εμφάνιση βοήθειας για την εφαρμογή"
 
 #: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
-msgstr ""
-"Το όνομα του παραθύρου - για χρήση στη μετατροπή κατ' αλληλουχία των "
-"ρυθμίσεων."
+msgstr "Το όνομα του παραθύρου - για χρήση στη μετατροπή κατ' αλληλουχία των ρυθμίσεων."
 
 #: ../matecomponent/matecomponent-zoomable.c:326
 msgid "Zoom level"
@@ -408,47 +371,27 @@ msgstr "Είναι συνεχές"
 msgid "Whether we zoom continuously (as opposed to jumps)"
 msgstr "Αν η εστίαση γίνεται συνεχώς (σε αντίθεση τμηματικά)"
 
-# #-#-#-#-#  mate-libs.mate-libs-1-0.el.po (mate-libs 1.2.12)  #-#-#-#-#
-#
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:1
 msgid "About this application"
 msgstr "Περί της εφαρμογής"
 
-# #-#-#-#-#  mate-1.4-core-compendium.po (matecomponent 0.34)  #-#-#-#-#
-# #-#-#-#-#  mate-libs.mate-libs-1-0.el.po (mate-libs 1.2.12)  #-#-#-#-#
-#
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:2
 msgid "Select"
 msgstr "Επιλογή"
 
-# #-#-#-#-#  mate-libs.mate-libs-1-0.el.po (mate-libs 1.2.12)  #-#-#-#-#
-#
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:3
 msgid "_About..."
 msgstr "_Περί..."
 
-# #-#-#-#-#  mate-libs.mate-libs-1-0.el.po (mate-libs 1.2.12)  #-#-#-#-#
-#
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:4
 msgid "_Edit"
 msgstr "_Επεξεργασία"
 
-# #-#-#-#-#  matecomponent.HEAD.el.po (matecomponent 0.34)  #-#-#-#-#
-#
-# #-#-#-#-#  mate-libs.mate-libs-1-0.el.po (mate-libs 1.2.12)  #-#-#-#-#
-#
-# #-#-#-#-#  mate-print.mate-1-4-branch.el.po (mate-print 0.26pre)  #-#-#-#-#
-#
-# #-#-#-#-#  nautilus.nautilus-mate-1.el.po (nautilus 0.8.3)  #-#-#-#-#
-#
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:5
 #: ../tools/browser/matecomponent-browser.xml.h:4
 msgid "_File"
 msgstr "_Αρχείο"
 
-# #-#-#-#-#  mate-1.4-core-compendium.po (matecomponent 0.34)  #-#-#-#-#
-# #-#-#-#-#  mate-libs.mate-libs-1-0.el.po (mate-libs 1.2.12)  #-#-#-#-#
-#
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:6
 msgid "_Select"
 msgstr "Επιλο_γή"
@@ -461,7 +404,6 @@ msgstr "Δεν κάνει κάτι, είναι μόνο για παρουσία�
 msgid "MateComponentUI-Hello."
 msgstr "MateComponentUI-Hello."
 
-#
 #: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "Καλημέρα Mate"
@@ -487,8 +429,6 @@ msgstr " Περιηγητής συστατικού MateComponent"
 msgid "Shows available MateComponent components"
 msgstr "Εμφανίζει τα διαθέσιμα συστατικά  MateComponent"
 
-# #-#-#-#-#  mate-libs.mate-libs-1-0.el.po (mate-libs 1.2.12)  #-#-#-#-#
-#
 #: ../tools/browser/matecomponent-browser.xml.h:1
 msgid "About this program..."
 msgstr "Περί της εφαρμογής..."
@@ -569,14 +509,3 @@ msgstr "Όλα"
 #: ../tools/browser/window.c:286
 msgid "Inactive"
 msgstr "Ανενεργό"
-
-#
-#~ msgid "HOST"
-#~ msgstr "ΣΥΣΤΗΜΑ"
-
-#~ msgid "PORT"
-#~ msgstr "ΘΥΡΑ"
-
-#
-#~ msgid "STYLE"
-#~ msgstr "ΣΤΥΛ"

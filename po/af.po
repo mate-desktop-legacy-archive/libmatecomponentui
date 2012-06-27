@@ -1,20 +1,24 @@
-# Afrikaans translation of libmatecomponentui.
-# Copyright (C) 2004 Zuza Software Foundation
-# This file is distributed under the same license as the libmatecomponentui package.
-#
-# Zuza Software Foundation <info@translate.org.za>, 2004
-# F Wolff <friedel@translate.org.za>, 2008
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# F Wolff <friedel@translate.org.za>, 2008.
+#   <nato323@gmail.com>, 2012.
+# Zuza Software Foundation <info@translate.org.za>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui 2.6-branch\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-01-03 22:20+0100\n"
-"PO-Revision-Date: 2004-03-30 17:02+0200\n"
-"Last-Translator: Zuza Software Foundation <info@translate.org.za>\n"
-"Language-Team: Afrikaans <translate-discuss-af@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-03-11 21:14+0000\n"
+"Last-Translator: nato323 <nato323@gmail.com>\n"
+"Language-Team: Afrikaans (http://www.transifex.com/projects/p/MATE/language/af/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: af\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -32,62 +36,70 @@ msgstr "corba UI-houer"
 msgid "The User interface container"
 msgstr "Die Gebruikerkoppelvlak-houer"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:255
+#: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
 msgstr "Dok die nutsbalk"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:256
+#: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
 msgstr "Ontdok die nutsbalk"
 
-#: ../matecomponent/matecomponent-dock-item.c:228 ../matecomponent/matecomponent-dock-item.c:229
-#: ../matecomponent/matecomponent-ui-toolbar.c:1161
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Skadu-tipe"
 
-#: ../matecomponent/matecomponent-dock-item.c:239 ../matecomponent/matecomponent-dock-item.c:240
-#: ../matecomponent/matecomponent-ui-toolbar.c:1105 ../matecomponent/matecomponent-ui-toolbar.c:1106
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Oriëntasie"
 
-#: ../matecomponent/matecomponent-dock-item.c:250 ../matecomponent/matecomponent-dock-item.c:251
-#: ../matecomponent/matecomponent-ui-toolbar.c:1124 ../matecomponent/matecomponent-ui-toolbar.c:1125
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Voorkeur-wydte"
 
-#: ../matecomponent/matecomponent-dock-item.c:259 ../matecomponent/matecomponent-dock-item.c:260
-#: ../matecomponent/matecomponent-ui-toolbar.c:1133 ../matecomponent/matecomponent-ui-toolbar.c:1134
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Voorkeur-hoogte"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:357
+#: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
 msgstr "Kies 'n lêer om te open"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:385
+#: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
 msgstr "Kies lêers om te open"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:414
+#: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
 msgstr "Kies 'n lêernaam om te stoor"
 
-#: ../matecomponent/matecomponent-plug.c:423
+#: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
 msgstr "Gebeurtenisaansturing"
 
-#: ../matecomponent/matecomponent-plug.c:424
+#: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
 msgstr "Of X-gebeurtenisse aangestuur moet word"
 
-#: ../matecomponent/matecomponent-selector-widget.c:297 ../matecomponent/matecomponent-window.c:344
-#: ../tools/browser/component-details.c:114
-#: ../tools/browser/component-list.c:378
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
+#: ../tools/browser/component-details.c:108
+#: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "Naam"
 
-#: ../matecomponent/matecomponent-selector-widget.c:319
-#: ../tools/browser/component-details.c:115
+#: ../matecomponent/matecomponent-selector-widget.c:322
+#: ../tools/browser/component-details.c:109
 msgid "Description"
 msgstr "Beskrywing"
 
@@ -98,12 +110,9 @@ msgstr "Koppelvlakke vereis"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"'n NULL-getermineerde skikking van koppelvlakke wat 'n bediener moet "
-"ondersteun ten einde gelys te word in die selekteerder. Verstek na \"IDL:"
-"MateComponent/Verskansbare:1.0\" indien geen koppelvlakke gelys is nie"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "'n NULL-getermineerde skikking van koppelvlakke wat 'n bediener moet ondersteun ten einde gelys te word in die selekteerder. Verstek na \"IDL:MateComponent/Verskansbare:1.0\" indien geen koppelvlakke gelys is nie"
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -113,202 +122,204 @@ msgstr "Koppelvlak het toegang benodig"
 msgid "One of the interfaces that's required"
 msgstr "Een van die koppelvlakke wat benodig word"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:265
+#: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
 msgstr "Sigbaar"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:272
+#: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
 msgstr "_Wys"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:279
+#: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
 msgstr "_Verberg"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:285
+#: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
 msgstr "_Bekyk nutsgoedwenke"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:290
+#: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "Nutsbalke"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:300
+#: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
 msgstr "nutsbalke"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:311
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:313
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
 msgstr "Kyk"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:320
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:322
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
 msgstr "_Ikoon"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:326
+#: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
 msgstr "_Teks en ikoon"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:332
+#: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "Slegs teks"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:338
+#: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
 msgstr "Slegs _voorkeurteks"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "Ontvlooi"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
 msgstr "_Stort XML"
 
-#: ../matecomponent/matecomponent-ui-engine.c:92
+#: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
 msgstr "Stort die hele UI se XML-beskrywing na die konsole"
 
-#: ../matecomponent/matecomponent-ui-engine-config.c:522
+#: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
 msgstr "Konfigureer UI"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:130
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
 msgid "Gdk debugging flags to set"
 msgstr "Gdk-ontvlooiingsmerkers om in  te stel"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:130 ../matecomponent/matecomponent-ui-init-gtk.c:133
-#: ../matecomponent/matecomponent-ui-init-gtk.c:161 ../matecomponent/matecomponent-ui-init-gtk.c:164
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "MERKERS"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:133
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
 msgid "Gdk debugging flags to unset"
 msgstr "Gdk-ontvlooiingsmerkers om te ontstel"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:137
+#: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "X display to use"
 msgstr "X-vertoon om te gebruik"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:137
+#: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "DISPLAY"
 msgstr "VERTOON"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:141
+#: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "X screen to use"
 msgstr "X-skerm om te gebruik"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:141
+#: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "SCREEN"
 msgstr "SKERM"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:145
+#: ../matecomponent/matecomponent-ui-init-gtk.c:146
 msgid "Make X calls synchronous"
 msgstr "Maak X-oproepe gelyktydig"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:151
+#: ../matecomponent/matecomponent-ui-init-gtk.c:152
 msgid "Don't use X shared memory extension"
 msgstr "Moenie X-gedeelde-geheueuitbreiding gebruik nie"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:155
+#: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "Program name as used by the window manager"
 msgstr "Programnaam soos deur vensterbestuurder gebruik"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:155
+#: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "NAME"
 msgstr "NAAM"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:158
+#: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "Program class as used by the window manager"
 msgstr "Programklas soos deur vensterbestuurder gebruik"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:158
+#: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "CLASS"
 msgstr "KLAS"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:161
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
 msgid "Gtk+ debugging flags to set"
 msgstr "Gtk+ ontvlooiingsmerkers om in te stel"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:164
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "Gtk+ debugging flags to unset"
 msgstr "Gtk+ ontvlooiingsmerkers om te ontstel"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:167
+#: ../matecomponent/matecomponent-ui-init-gtk.c:168
 msgid "Make all warnings fatal"
 msgstr "Maak alle waarskuwings fataal"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:170
+#: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "Load an additional Gtk module"
 msgstr "Laai 'n addisionele Gtk-module"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:170
+#: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "MODULE"
 msgstr "MODULE"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:186
+#: ../matecomponent/matecomponent-ui-init-gtk.c:187
 msgid "GTK+"
 msgstr "GTK+"
 
-#: ../matecomponent/matecomponent-ui-main.c:278
+#: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
 msgstr "MateComponent GUI-ondersteuning"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
 msgstr "B_eide"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
 msgstr "T_eks"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
 msgstr "Verberg w_enke"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
 msgstr "Wys w_enke"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
 msgstr "_Verberg nutsbalk"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
 msgstr "Pasma_ak"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
 msgstr "Pasmaak die nutsbalk"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1115
+#: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
 msgstr "is swewend"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1116
+#: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
 msgstr "of die nutsbalk swewend is"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1162
+#: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
 msgstr "Styl van skuinsste rondom nutsbalk"
 
-#: ../matecomponent/matecomponent-ui-util.c:601
+#: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
 msgstr "Kon nie hup vir hierdie program wys nie"
 
-#: ../matecomponent/matecomponent-ui-util.c:643
+#: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
 msgstr "_Inhoud"
 
-#: ../matecomponent/matecomponent-ui-util.c:644
+#: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "Bekyk hulp vir hierdie toepassing"
 
-#: ../matecomponent/matecomponent-window.c:345
+#: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
 msgstr "Naam van die venster - gebruik vir konfigurasie-serialisasie."
 
@@ -385,28 +396,28 @@ msgstr "_Lêer"
 msgid "_Select"
 msgstr "_Selekteer"
 
-#: ../samples/matecomponentui/hello.c:63
+#: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
 msgstr "Dit doen niks; dit is slegs 'n demonstrasie."
 
-#: ../samples/matecomponentui/hello.c:145
+#: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr "MateComponentUI-Hallo."
 
-#: ../samples/matecomponentui/hello.c:217
+#: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "Mate Hallo"
 
 #. Create Label and put it in the Button:
-#: ../samples/matecomponentui/hello.c:272
+#: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
 msgstr "Hallo, Wêreld!"
 
-#: ../samples/matecomponentui/hello.c:312
+#: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
 msgstr "Kan nie libmatecomponentui-kode inisieer nie"
 
-#: ../samples/controls/matecomponent-sample-controls.c:131
+#: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
 msgstr "Kon nie MateComponent UI inisieer nie"
 
@@ -435,33 +446,33 @@ msgid "_Help"
 msgstr "_Hulp"
 
 #. Build the general tab
-#: ../tools/browser/component-details.c:109
+#: ../tools/browser/component-details.c:103
 msgid "General"
 msgstr "Algemeen"
 
-#: ../tools/browser/component-details.c:116
-#: ../tools/browser/component-list.c:398
+#: ../tools/browser/component-details.c:110
+#: ../tools/browser/component-list.c:389
 msgid "IID"
-msgstr ""
+msgstr "IID"
 
-#: ../tools/browser/component-details.c:117
+#: ../tools/browser/component-details.c:111
 msgid "Location"
 msgstr "Ligging"
 
 #. Build the details tab
-#: ../tools/browser/component-details.c:167
+#: ../tools/browser/component-details.c:161
 msgid "Details"
 msgstr "Detail"
 
-#: ../tools/browser/component-details.c:168
+#: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
 msgstr "Gedetaileerde inligting"
 
-#: ../tools/browser/component-list.c:367 ../tools/browser/window.c:283
+#: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
 msgstr "Aktief"
 
-#: ../tools/browser/component-list.c:388
+#: ../tools/browser/component-list.c:379
 msgid "Type"
 msgstr "Tipe"
 
@@ -493,7 +504,7 @@ msgstr "Komponent-blaaier"
 #. Fill out the tool bar
 #: ../tools/browser/window.c:280
 msgid "All"
-msgstr ""
+msgstr "Alles"
 
 #: ../tools/browser/window.c:286
 msgid "Inactive"

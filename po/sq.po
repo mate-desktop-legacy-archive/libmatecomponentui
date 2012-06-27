@@ -1,20 +1,22 @@
-# Përkthimi i mesazheve të libmatecomponentui në shqip
-# This file is distributed under the same license as the libmatecomponentui package.
-# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Laurent Dhima <laurenti@alblinux.net>, 2003, 2004, 2005, 2006, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-07-16 15:33+0200\n"
-"PO-Revision-Date: 2008-03-20 11:52+0100\n"
-"Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
-"Language-Team: albanian <mate-albanian-perkthyesit@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:08+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -32,62 +34,70 @@ msgstr "përmbajtësi UI corba"
 msgid "The User interface container"
 msgstr "Përmbajtësi i interfaqes së përdoruesit"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:255
+#: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
 msgstr "Spiranco panelin e instrumentëve"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:256
+#: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
 msgstr "Shkëput panelin e instrumentëve"
 
-#: ../matecomponent/matecomponent-dock-item.c:228 ../matecomponent/matecomponent-dock-item.c:229
-#: ../matecomponent/matecomponent-ui-toolbar.c:1161
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Lloji i hijes"
 
-#: ../matecomponent/matecomponent-dock-item.c:239 ../matecomponent/matecomponent-dock-item.c:240
-#: ../matecomponent/matecomponent-ui-toolbar.c:1105 ../matecomponent/matecomponent-ui-toolbar.c:1106
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Orientimi"
 
-#: ../matecomponent/matecomponent-dock-item.c:250 ../matecomponent/matecomponent-dock-item.c:251
-#: ../matecomponent/matecomponent-ui-toolbar.c:1124 ../matecomponent/matecomponent-ui-toolbar.c:1125
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Gjerësia e preferuar"
 
-#: ../matecomponent/matecomponent-dock-item.c:259 ../matecomponent/matecomponent-dock-item.c:260
-#: ../matecomponent/matecomponent-ui-toolbar.c:1133 ../matecomponent/matecomponent-ui-toolbar.c:1134
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Lartësia e preferuar"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:357
+#: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
 msgstr "Zgjidh file që duhet hapur"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:385
+#: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
 msgstr "Zgjidh files që duhen hapur"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:414
+#: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
 msgstr "Zgjidh emrin e file për të ruajtur"
 
-#: ../matecomponent/matecomponent-plug.c:423
+#: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
 msgstr "Ridërgimi i ndodhive"
 
-#: ../matecomponent/matecomponent-plug.c:424
+#: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
 msgstr "Nëse ndodhitë X duhen ridërguar"
 
-#: ../matecomponent/matecomponent-selector-widget.c:297 ../matecomponent/matecomponent-window.c:344
-#: ../tools/browser/component-details.c:114
-#: ../tools/browser/component-list.c:378
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
+#: ../tools/browser/component-details.c:108
+#: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "Emri"
 
-#: ../matecomponent/matecomponent-selector-widget.c:319
-#: ../tools/browser/component-details.c:115
+#: ../matecomponent/matecomponent-selector-widget.c:322
+#: ../tools/browser/component-details.c:109
 msgid "Description"
 msgstr "Përshkrimi"
 
@@ -95,16 +105,12 @@ msgstr "Përshkrimi"
 msgid "Interfaces required"
 msgstr "Interfaqet e kërkuara"
 
-# (pofilter) endpunc: checks whether punctuation at the end of the strings match
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Një array interfaqeje përfunduar nga NULL që serveri duhet të suportojë në "
-"mënyrë që të figurojë në listën e zgjedhësit. Vlera e paracaktuar është "
-"\"IDL:MateComponent/Embeddable:1.0\" nëse nuk është figuron asnjë interfaqe."
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Një array interfaqeje përfunduar nga NULL që serveri duhet të suportojë në mënyrë që të figurojë në listën e zgjedhësit. Vlera e paracaktuar është \"IDL:MateComponent/Embeddable:1.0\" nëse nuk është figuron asnjë interfaqe."
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -114,87 +120,83 @@ msgstr "Zëri i interfaqes së kërkuar"
 msgid "One of the interfaces that's required"
 msgstr "Njëra nga interfaqet e kërkuara"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:265
+#: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
 msgstr "I dukshëm"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:272
+#: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
 msgstr "_Shfaq"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:279
+#: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
 msgstr "_Fshih"
 
-# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
-#: ../matecomponent/matecomponent-ui-config-widget.c:285
+#: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
 msgstr "Shfaq _propozimet"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:290
+#: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "Panelët e instrumentëve"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:300
+#: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
 msgstr "panelët e instrumentëve"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:311
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:313
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
 msgstr "Paraqitja"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:320
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:322
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
 msgstr "_Ikonë"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:326
+#: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
 msgstr "_Tekst dhe ikonë"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:332
+#: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "Vetëm tekst"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:338
+#: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
 msgstr "Vetëm teksti _prioritar"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "Gjetja dhe korrigjimi i gabimeve"
 
-# (pofilter) unchanged: please translate
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
 msgstr "_Dump XML"
 
-# (pofilter) endwhitespace: checks whether whitespace at the end of the strings matches
-#: ../matecomponent/matecomponent-ui-engine.c:92
+#: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
 msgstr "Shkarko të gjithë përshkrimin XML të UI në konsolë "
 
-#: ../matecomponent/matecomponent-ui-engine-config.c:522
+#: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
 msgstr "Konfiguro UI"
 
-# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
 #: ../matecomponent/matecomponent-ui-init-gtk.c:131
 msgid "Gdk debugging flags to set"
 msgstr "Flag e debug të Gdk për tu caktuar"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "FLAGS"
 
-# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
 #: ../matecomponent/matecomponent-ui-init-gtk.c:134
 msgid "Gdk debugging flags to unset"
 msgstr "Flag të debug të Gdk që duhen anulluar"
 
-# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
 #: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "X display to use"
 msgstr "Monitori X që duhet përdorur"
@@ -203,12 +205,10 @@ msgstr "Monitori X që duhet përdorur"
 msgid "DISPLAY"
 msgstr "MONITORI"
 
-# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
 #: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "X screen to use"
 msgstr "Ekrani X që duhet përdorur"
 
-# (pofilter) acronyms: acronyms should not be translated: SCREEN
 #: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "SCREEN"
 msgstr "EKRANI"
@@ -225,7 +225,6 @@ msgstr "Mos përdor veçoritë e X për kujtesën e përbashkët"
 msgid "Program name as used by the window manager"
 msgstr "Emri i programit që përdoret nga manazhuesi i dritareve"
 
-# (pofilter) acronyms: acronyms should not be translated: NAME
 #: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "NAME"
 msgstr "EMRI"
@@ -234,17 +233,14 @@ msgstr "EMRI"
 msgid "Program class as used by the window manager"
 msgstr "Klasa e programit që përdoret nga manazhuesi i dritareve"
 
-# (pofilter) acronyms: acronyms should not be translated: CLASS
 #: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "CLASS"
 msgstr "KLASA"
 
-# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
 #: ../matecomponent/matecomponent-ui-init-gtk.c:162
 msgid "Gtk+ debugging flags to set"
 msgstr "Flag e debug të Gtk+ për tu caktuar"
 
-# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
 #: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "Gtk+ debugging flags to unset"
 msgstr "Flag e debug të Gtk+ për tu hequr"
@@ -257,7 +253,6 @@ msgstr "Bëj që të gjithë paralajmërimet të jenë fatale"
 msgid "Load an additional Gtk module"
 msgstr "Ngarko një modul Gtk shtesë"
 
-# (pofilter) acronyms: acronyms should not be translated: MODULE
 #: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "MODULE"
 msgstr "MODULI"
@@ -266,64 +261,63 @@ msgstr "MODULI"
 msgid "GTK+"
 msgstr "GTK+"
 
-#: ../matecomponent/matecomponent-ui-main.c:278
+#: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
 msgstr "Suporti MateComponent GUI"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
 msgstr "_Të dy"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
 msgstr "T_eksti"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
 msgstr "Fshih propoz_imet"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
 msgstr "Trego propoz_imet"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
 msgstr "_Fshih panelin e instrumentëve"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
 msgstr "Personali_zo"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
 msgstr "Personalizo panelin e instrumentëve"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1115
+#: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
 msgstr "është lëvizëse"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1116
+#: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
 msgstr "tregon nëse paneli i instrumentëve është lëvizës"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1162
+#: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
 msgstr "Stili i bordit rreth panelit të instrumentëve"
 
-# (pofilter) isfuzzy: Check if the unit has been marked fuzzy.
-#: ../matecomponent/matecomponent-ui-util.c:601
+#: ../matecomponent/matecomponent-ui-util.c:602
 msgid "Could not display help for this application"
 msgstr "E pamundur shfaqja e ndihmës për këtë aplikativ"
 
-#: ../matecomponent/matecomponent-ui-util.c:643
+#: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
 msgstr "_Përmbajtja"
 
-#: ../matecomponent/matecomponent-ui-util.c:644
+#: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "Shiko ndihmën në lidhje me këtë program"
 
-#: ../matecomponent/matecomponent-window.c:345
+#: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
 msgstr "Emri i dritares - përdoret për të serializuar konfigurimin."
 
@@ -371,7 +365,6 @@ msgstr "Nëse të kemi apo jo një nivel maksimum zmadhimi të vlefshëm"
 msgid "Is continuous"
 msgstr "Është i vazhdueshëm"
 
-# (pofilter) brackets: translation is missing '(', ')'
 #: ../matecomponent/matecomponent-zoomable.c:370
 msgid "Whether we zoom continuously (as opposed to jumps)"
 msgstr "Tregon nëse zmadhimi duhet të jetë i vazhdueshëm (dhe jo gradual)"
@@ -392,7 +385,6 @@ msgstr "_Informacione..."
 msgid "_Edit"
 msgstr "_Ndrysho"
 
-# (pofilter) unchanged: please translate
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:5
 #: ../tools/browser/matecomponent-browser.xml.h:4
 msgid "_File"
@@ -402,30 +394,28 @@ msgstr "_File"
 msgid "_Select"
 msgstr "_Zgjidh"
 
-#: ../samples/matecomponentui/hello.c:63
+#: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
 msgstr "Nuk bën asgjë; është vetëm një shembull."
 
-# (pofilter) unchanged: please translate
-#: ../samples/matecomponentui/hello.c:145
+#: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr "MateComponentUI-Hello."
 
-# (pofilter) unchanged: please translate
-#: ../samples/matecomponentui/hello.c:217
+#: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "Mate Hello"
 
 #. Create Label and put it in the Button:
-#: ../samples/matecomponentui/hello.c:272
+#: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
 msgstr "Botë, përshëndetje!"
 
-#: ../samples/matecomponentui/hello.c:312
+#: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
 msgstr "I pamundur fillimi i kodit të libmatecomponentui"
 
-#: ../samples/controls/matecomponent-sample-controls.c:131
+#: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
 msgstr "E pamundur nisja e MateComponent UI"
 
@@ -454,33 +444,33 @@ msgid "_Help"
 msgstr "_Ndihmë"
 
 #. Build the general tab
-#: ../tools/browser/component-details.c:109
+#: ../tools/browser/component-details.c:103
 msgid "General"
 msgstr "Të përgjithshme"
 
-#: ../tools/browser/component-details.c:116
-#: ../tools/browser/component-list.c:398
+#: ../tools/browser/component-details.c:110
+#: ../tools/browser/component-list.c:389
 msgid "IID"
 msgstr "IID"
 
-#: ../tools/browser/component-details.c:117
+#: ../tools/browser/component-details.c:111
 msgid "Location"
 msgstr "Vendndodhja"
 
 #. Build the details tab
-#: ../tools/browser/component-details.c:167
+#: ../tools/browser/component-details.c:161
 msgid "Details"
 msgstr "Detaje"
 
-#: ../tools/browser/component-details.c:168
+#: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
 msgstr "Informacione të hollësishme"
 
-#: ../tools/browser/component-list.c:367 ../tools/browser/window.c:283
+#: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
 msgstr "Aktiv"
 
-#: ../tools/browser/component-list.c:388
+#: ../tools/browser/component-list.c:379
 msgid "Type"
 msgstr "Lloji"
 
@@ -492,17 +482,14 @@ msgstr "Detajet e komponentit"
 msgid "MateComponent Browser"
 msgstr "Shfletuesi MateComponent"
 
-# (pofilter) unchanged: please translate
 #: ../tools/browser/window.c:210
 msgid "Copyright 2001, The MATE Foundation"
 msgstr "Copyright 2001, The MATE Foundation"
 
-# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
 #: ../tools/browser/window.c:211
 msgid "MateComponent component browser"
 msgstr "Shfletuesi i komponentëve MateComponent"
 
-# (pofilter) credits: checks for messages containing translation credits instead of normal translations.
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
 msgstr "Laurent Dhima <laurenti@alblinux.net>"

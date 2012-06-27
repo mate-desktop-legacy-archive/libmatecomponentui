@@ -1,19 +1,23 @@
-# libmatecomponentui translation to Catalan.
-# Copyright © 2001, 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
-# Softcatalà <tradmate@softcatala.org>, 2001, 2002.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Jordi Mallach <jordi@sindominio.net>, 2003, 2005, 2006.
-#
+# Softcatalà <tradmate@softcatala.org>, 2001, 2002.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui 2.11.92\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-07 18:49+0200\n"
-"PO-Revision-Date: 2008-01-27 11:05+0100\n"
-"Last-Translator: Jordi Mallach <jordi@sindominio.net>\n"
-"Language-Team: Catalan <tradmate@softcatala.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:04+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ca@valencia\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -39,23 +43,30 @@ msgstr "Acobla la barra d'eines"
 msgid "Undock the toolbar"
 msgstr "Separa la barra d'eines"
 
-#: ../matecomponent/matecomponent-dock-item.c:225 ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
 #: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Tipus d'ombra"
 
-#: ../matecomponent/matecomponent-dock-item.c:236 ../matecomponent/matecomponent-dock-item.c:237
-#: ../matecomponent/matecomponent-ui-toolbar.c:1107 ../matecomponent/matecomponent-ui-toolbar.c:1108
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Orientació"
 
-#: ../matecomponent/matecomponent-dock-item.c:247 ../matecomponent/matecomponent-dock-item.c:248
-#: ../matecomponent/matecomponent-ui-toolbar.c:1126 ../matecomponent/matecomponent-ui-toolbar.c:1127
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Amplada preferida"
 
-#: ../matecomponent/matecomponent-dock-item.c:256 ../matecomponent/matecomponent-dock-item.c:257
-#: ../matecomponent/matecomponent-ui-toolbar.c:1135 ../matecomponent/matecomponent-ui-toolbar.c:1136
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Alçada preferida"
 
@@ -79,7 +90,8 @@ msgstr "Reenviament de l'esdeveniment"
 msgid "Whether X events should be forwarded"
 msgstr "Si s'haurien de reenviar els esdeveniments X"
 
-#: ../matecomponent/matecomponent-selector-widget.c:300 ../matecomponent/matecomponent-window.c:347
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
 #: ../tools/browser/component-details.c:108
 #: ../tools/browser/component-list.c:369
 msgid "Name"
@@ -97,12 +109,9 @@ msgstr "Interfícies requerides"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Una matriu d'interfícies acabada en NULL que un servidor ha de saber "
-"gestionar per ser llistada en el selector. Si no es llista cap interfície "
-"s'utilitzarà la «IDL:MateComponent/Embeddable:1.0» com a predeterminada"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Una matriu d'interfícies acabada en NULL que un servidor ha de saber gestionar per ser llistada en el selector. Si no es llista cap interfície s'utilitzarà la «IDL:MateComponent/Embeddable:1.0» com a predeterminada"
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -168,8 +177,7 @@ msgstr "_Bolca en XML"
 
 #: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
-msgstr ""
-"Bolca la descripció sencera de la interfície d'usuari en XML a la consola"
+msgstr "Bolca la descripció sencera de la interfície d'usuari en XML a la consola"
 
 #: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
@@ -179,8 +187,10 @@ msgstr "Configura la interfície d'usuari"
 msgid "Gdk debugging flags to set"
 msgstr "Senyaladors de depuració del Gdk a definir"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "SENYALADORS"
 
@@ -310,8 +320,7 @@ msgstr "Visualitza l'ajuda per a esta aplicació"
 
 #: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
-msgstr ""
-"Nom de la finestra - utilitzat per a la serialització de la configuració."
+msgstr "Nom de la finestra - utilitzat per a la serialització de la configuració."
 
 #: ../matecomponent/matecomponent-zoomable.c:326
 msgid "Zoom level"
@@ -484,9 +493,7 @@ msgstr "Navegador de components MateComponent"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr ""
-"Jordi Mallach <jordi@sindominio.net>\n"
-"Gil Forcada <gilforcada@guifi.net>"
+msgstr "Jordi Mallach <jordi@sindominio.net>\nGil Forcada <gilforcada@guifi.net>"
 
 #. create the window
 #: ../tools/browser/window.c:240

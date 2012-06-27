@@ -1,25 +1,24 @@
-# translation of libmatecomponentui.master.ru.po to Russian
-# translation of libmatecomponentui to Russian
-# Copyright (C) 2001-2003, 2004, 2005, 2006, 2010 Free Software Foundation, Inc.
-#
-# Valek Filippov <frob@df.ru>, 2001-2002.
-# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alexei Sorokin <sor.alexei@hotbox.ru>, 2012.
 # Leonid Kanter <leon@asplinux.ru>, 2004, 2005, 2006.
 # Yuri Kozlov <yuray@komyakino.ru>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui trunk\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-19 18:21+0200\n"
-"PO-Revision-Date: 2010-03-17 20:37+0300\n"
-"Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
-"Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-06-26 13:24+0000\n"
+"Last-Translator: Alexei Sorokin <sor.alexei@hotbox.ru>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/MATE/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -45,23 +44,30 @@ msgstr "Прицепить панель инструментов"
 msgid "Undock the toolbar"
 msgstr "Отцепить панель инструментов"
 
-#: ../matecomponent/matecomponent-dock-item.c:225 ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
 #: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Тип тени"
 
-#: ../matecomponent/matecomponent-dock-item.c:236 ../matecomponent/matecomponent-dock-item.c:237
-#: ../matecomponent/matecomponent-ui-toolbar.c:1107 ../matecomponent/matecomponent-ui-toolbar.c:1108
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Ориентация"
 
-#: ../matecomponent/matecomponent-dock-item.c:247 ../matecomponent/matecomponent-dock-item.c:248
-#: ../matecomponent/matecomponent-ui-toolbar.c:1126 ../matecomponent/matecomponent-ui-toolbar.c:1127
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Предпочтительная ширина"
 
-#: ../matecomponent/matecomponent-dock-item.c:256 ../matecomponent/matecomponent-dock-item.c:257
-#: ../matecomponent/matecomponent-ui-toolbar.c:1135 ../matecomponent/matecomponent-ui-toolbar.c:1136
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Предпочтительная высота"
 
@@ -85,7 +91,8 @@ msgstr "Пересылка события"
 msgid "Whether X events should be forwarded"
 msgstr "Должны ли пересылаться события X"
 
-#: ../matecomponent/matecomponent-selector-widget.c:300 ../matecomponent/matecomponent-window.c:347
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
 #: ../tools/browser/component-details.c:108
 #: ../tools/browser/component-list.c:369
 msgid "Name"
@@ -103,12 +110,9 @@ msgstr "Требуемые интерфейсы"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Завершаемый нулём массив интерфейсов, который сервер должен поддерживать, "
-"чтобы быть перечисленным. По умолчанию - \"IDL:MateComponent/Embeddable:1.0\", если "
-"интерфейсы не перечислены"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Завершаемый нулём массив интерфейсов, который сервер должен поддерживать, чтобы быть перечисленным. По умолчанию - \"IDL:MateComponent/Embeddable:1.0\", если интерфейсы не перечислены"
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -184,8 +188,10 @@ msgstr "Настроить интерфейс"
 msgid "Gdk debugging flags to set"
 msgstr "Флаги отладки Gdk, которые надо установить"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "ФЛАГИ"
 
@@ -488,10 +494,7 @@ msgstr "Обозреватель компонентов MateComponent"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr ""
-"Valek Filippov <frob@df.ru>\n"
-"Dmitry G. Mastrukov\n"
-"Леонид Кантер <leon@asplinux.ru>"
+msgstr "Алексей Сорокин <sor.alexei@hotbox.ru>\nВалек Филлипов <frob@df.ru>\nДмитрий Г. Маструков\nЛеонид Кантер <leon@asplinux.ru>"
 
 #. create the window
 #: ../tools/browser/window.c:240

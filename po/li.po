@@ -1,73 +1,82 @@
-# Copyright (C) 2002 Free Software Foundation, Inc.
-# This file is distributed under the same license as the libmatecomponentUI package.
-# Mathieu van Woerkom <mathieu.brabants.org>, 2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-09-10 18:44+0200\n"
-"PO-Revision-Date: 2003-05-15 17:00+0000\n"
-"Last-Translator: Mathieu van Woerkom <mathieu@brabants.org>\n"
-"Language-Team: Limburgish <li@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:05+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: li\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../matecomponent/matecomponent-canvas-item.c:683
+#: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
 msgstr "corba-febrik"
 
-#: ../matecomponent/matecomponent-canvas-item.c:684
+#: ../matecomponent/matecomponent-canvas-item.c:681
 msgid "The factory pointer"
 msgstr "De febrikpointer"
 
-#: ../matecomponent/matecomponent-canvas-item.c:693
+#: ../matecomponent/matecomponent-canvas-item.c:690
 msgid "corba UI container"
 msgstr "corba UI-container"
 
-#: ../matecomponent/matecomponent-canvas-item.c:694
+#: ../matecomponent/matecomponent-canvas-item.c:691
 msgid "The User interface container"
 msgstr "De Gebroekersinterface-container"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:257
+#: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
 msgstr "Getuugbalk vaszètte"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:258
-#, fuzzy
+#: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
-msgstr "Getuugbalk vriemake"
+msgstr ""
 
-#: ../matecomponent/matecomponent-dock-item.c:235 ../matecomponent/matecomponent-dock-item.c:236
-#: ../matecomponent/matecomponent-ui-toolbar.c:1175
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Sjeem tiep"
 
-#: ../matecomponent/matecomponent-dock-item.c:246 ../matecomponent/matecomponent-dock-item.c:247
-#: ../matecomponent/matecomponent-ui-toolbar.c:1119 ../matecomponent/matecomponent-ui-toolbar.c:1120
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Orjentasie"
 
-#: ../matecomponent/matecomponent-dock-item.c:257 ../matecomponent/matecomponent-dock-item.c:258
-#: ../matecomponent/matecomponent-ui-toolbar.c:1138 ../matecomponent/matecomponent-ui-toolbar.c:1139
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Gewunsjde breide"
 
-#: ../matecomponent/matecomponent-dock-item.c:266 ../matecomponent/matecomponent-dock-item.c:267
-#: ../matecomponent/matecomponent-ui-toolbar.c:1147 ../matecomponent/matecomponent-ui-toolbar.c:1148
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Gewunsjde huugde"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:357
+#: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
 msgstr "Keus 't te äöpene besjtandj"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:385
+#: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
 msgstr "Keus de te äöpene bestanden"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:414
+#: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
 msgstr "Keus 't besjtandj veur op te sjlaon"
 
@@ -79,231 +88,235 @@ msgstr "Gebäörtenisse Doorsjikke"
 msgid "Whether X events should be forwarded"
 msgstr "Of gebäörtenisse van X doorgesjik mote waere"
 
-#: ../matecomponent/matecomponent-selector-widget.c:302 ../matecomponent/matecomponent-window.c:346
-#: ../tools/browser/component-details.c:114
-#: ../tools/browser/component-list.c:381
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
+#: ../tools/browser/component-details.c:108
+#: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "Naam"
 
-#: ../matecomponent/matecomponent-selector-widget.c:324
-#: ../tools/browser/component-details.c:115
+#: ../matecomponent/matecomponent-selector-widget.c:322
+#: ../tools/browser/component-details.c:109
 msgid "Description"
 msgstr "Ómsjrieving"
 
-#: ../matecomponent/matecomponent-selector.c:345
+#: ../matecomponent/matecomponent-selector.c:343
 msgid "Interfaces required"
 msgstr "Interfaces benudig"
 
-#: ../matecomponent/matecomponent-selector.c:346
+#: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Ein NULL_getermineerde array van interfaces die ein server moot sjtiepe veur "
-"in de selector te kènne waere opgesómp. Sjteit sjtanderd op \"IDL:MateComponent/"
-"Embeddable:1.0\" wen dao gei interfaces waere geneump"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Ein NULL_getermineerde array van interfaces die ein server moot sjtiepe veur in de selector te kènne waere opgesómp. Sjteit sjtanderd op \"IDL:MateComponent/Embeddable:1.0\" wen dao gei interfaces waere geneump"
 
-#: ../matecomponent/matecomponent-selector.c:348
+#: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
 msgstr "Interface benudig veldj"
 
-#: ../matecomponent/matecomponent-selector.c:349
+#: ../matecomponent/matecomponent-selector.c:347
 msgid "One of the interfaces that's required"
 msgstr "Ein van de interfaces die benudig zeen"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:268
+#: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
 msgstr "Zichbaar"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:275
+#: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
 msgstr "_Tuine"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:282
+#: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
 msgstr "_Maskere"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:288
+#: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
 msgstr "T_uin tooltips"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:293
+#: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "Getuugbalke"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:303
+#: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
 msgstr "getuugbalke"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:314
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:313
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
 msgstr "Uterlik"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:323
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:322
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
 msgstr "_Piktogram"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:329
+#: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
 msgstr "_Teks en Piktogram"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:335
+#: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "Allein teks"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:341
+#: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
 msgstr "Allein _belangrieke teks"
 
-#: ../matecomponent/matecomponent-ui-engine.c:90
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "Debugge"
 
-#: ../matecomponent/matecomponent-ui-engine.c:90
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
 msgstr "XML _dumpe"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
 msgstr "De ganse XML-besjrieving van de UI in de console dumpe"
 
-#: ../matecomponent/matecomponent-ui-engine-config.c:522
+#: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
 msgstr "Gebroekersinterface insjtèlle"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:113
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
 msgid "Gdk debugging flags to set"
 msgstr "Aan te zètte Gdk debugmarkeringe "
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:113 ../matecomponent/matecomponent-ui-init-gtk.c:116
-#: ../matecomponent/matecomponent-ui-init-gtk.c:144 ../matecomponent/matecomponent-ui-init-gtk.c:147
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "MARKERINGE"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:116
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
 msgid "Gdk debugging flags to unset"
 msgstr "Oet te zètte Gdk debugmarkeringe"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:120
+#: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "X display to use"
 msgstr "Te gebroeke X-display"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:120
+#: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "DISPLAY"
 msgstr "DISPLAY"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:124
+#: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "X screen to use"
 msgstr "Te gebroeken X-sjirm"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:124
+#: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "SCREEN"
 msgstr "SJIRM"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:128
+#: ../matecomponent/matecomponent-ui-init-gtk.c:146
 msgid "Make X calls synchronous"
 msgstr "X-calls sinkroon make"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:152
 msgid "Don't use X shared memory extension"
 msgstr "Gei gebroek make van  X shared memory extension"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:138
+#: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "Program name as used by the window manager"
 msgstr "Programnaam wie de windowmanager deze gebroek"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:138
+#: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "NAME"
 msgstr "NAAM"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:141
+#: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "Program class as used by the window manager"
 msgstr "Pragramklas wie de windowmanager dees gebroek"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:141
+#: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "CLASS"
 msgstr "KLAS"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:144
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
 msgid "Gtk+ debugging flags to set"
 msgstr "Aan te zètte Gtk+ debugmarkeringe"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:147
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "Gtk+ debugging flags to unset"
 msgstr "Oet te zètte Gtk+ debugmarkeringe"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:150
+#: ../matecomponent/matecomponent-ui-init-gtk.c:168
 msgid "Make all warnings fatal"
 msgstr "Laot alle waarsjoewinge fataal zeen"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:153
+#: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "Load an additional Gtk module"
 msgstr "Laoj ein extra Gtk module"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:153
+#: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "MODULE"
 msgstr "MODULE"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:187
 msgid "GTK+"
 msgstr "GTK+"
 
-#: ../matecomponent/matecomponent-ui-main.c:278
+#: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
 msgstr "MateComponent GUI sjtiep"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
 msgstr "_Beids"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
 msgstr "T_eks"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
 msgstr "Maskeringst_ips"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
 msgstr "Tuin _tips"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
 msgstr "_Maskeer getuugbalk"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
 msgstr "_Aanpasse"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
 msgstr "Getuugbalk aanpasse"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1129
+#: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
 msgstr "is sjwevend"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1130
+#: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
 msgstr "of de getuugbalk sjwevend is"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1176
+#: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
 msgstr "Sjtiel van effek róndj de getuugbalk"
 
-#: ../matecomponent/matecomponent-ui-util.c:630
+#: ../matecomponent/matecomponent-ui-util.c:602
+msgid "Could not display help for this application"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
 msgstr "_Inhaud"
 
-#: ../matecomponent/matecomponent-ui-util.c:631
+#: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "Tuin de hulp veur dit program"
 
-#: ../matecomponent/matecomponent-window.c:347
+#: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
 msgstr "Naam van 't vinster - gebroek veur configurasieserialisasie."
 
@@ -380,28 +393,28 @@ msgstr "_Besjtandj"
 msgid "_Select"
 msgstr "_Keus"
 
-#: ../samples/matecomponentui/hello.c:63
+#: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
 msgstr "Hie gebäört niks; Dit is zjus ein demonstrasie."
 
-#: ../samples/matecomponentui/hello.c:145
+#: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr "MateComponentUI-Hallo."
 
-#: ../samples/matecomponentui/hello.c:217
+#: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "Mate Hallo"
 
 #. Create Label and put it in the Button:
-#: ../samples/matecomponentui/hello.c:272
+#: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
 msgstr "Hallo, Welt!"
 
-#: ../samples/matecomponentui/hello.c:312
+#: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
 msgstr "De libmatecomponentui kood kèn neet geïnisialiseerd waere"
 
-#: ../samples/controls/matecomponent-sample-controls.c:131
+#: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
 msgstr "Kós MateComponent UI neet inisialisere"
 
@@ -414,9 +427,8 @@ msgid "Shows available MateComponent components"
 msgstr ""
 
 #: ../tools/browser/matecomponent-browser.xml.h:1
-#, fuzzy
 msgid "About this program..."
-msgstr "Euver dit program"
+msgstr ""
 
 #: ../tools/browser/matecomponent-browser.xml.h:2
 msgid "Close the current window"
@@ -427,67 +439,70 @@ msgid "Open a new window"
 msgstr ""
 
 #: ../tools/browser/matecomponent-browser.xml.h:5
-#, fuzzy
 msgid "_Help"
-msgstr "_Maskere"
+msgstr ""
 
 #. Build the general tab
-#: ../tools/browser/component-details.c:109
+#: ../tools/browser/component-details.c:103
 msgid "General"
 msgstr ""
 
-#: ../tools/browser/component-details.c:116
-#: ../tools/browser/component-list.c:401
+#: ../tools/browser/component-details.c:110
+#: ../tools/browser/component-list.c:389
 msgid "IID"
 msgstr ""
 
-#: ../tools/browser/component-details.c:117
+#: ../tools/browser/component-details.c:111
 msgid "Location"
 msgstr ""
 
 #. Build the details tab
-#: ../tools/browser/component-details.c:167
+#: ../tools/browser/component-details.c:161
 msgid "Details"
 msgstr ""
 
-#: ../tools/browser/component-details.c:168
+#: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
 msgstr ""
 
-#: ../tools/browser/component-list.c:370 ../tools/browser/window.c:290
+#: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
 msgstr ""
 
-#: ../tools/browser/component-list.c:391
+#: ../tools/browser/component-list.c:379
 msgid "Type"
 msgstr ""
 
-#: ../tools/browser/window.c:170
+#: ../tools/browser/window.c:162
 msgid "Component Details"
 msgstr ""
 
-#: ../tools/browser/window.c:215
+#: ../tools/browser/window.c:208
 msgid "MateComponent Browser"
 msgstr ""
 
-#: ../tools/browser/window.c:216
+#: ../tools/browser/window.c:210
 msgid "Copyright 2001, The MATE Foundation"
 msgstr ""
 
-#: ../tools/browser/window.c:217
+#: ../tools/browser/window.c:211
 msgid "MateComponent component browser"
 msgstr ""
 
+#: ../tools/browser/window.c:214
+msgid "translator-credits"
+msgstr ""
+
 #. create the window
-#: ../tools/browser/window.c:247
+#: ../tools/browser/window.c:240
 msgid "Component Browser"
 msgstr ""
 
 #. Fill out the tool bar
-#: ../tools/browser/window.c:287
+#: ../tools/browser/window.c:280
 msgid "All"
 msgstr ""
 
-#: ../tools/browser/window.c:293
+#: ../tools/browser/window.c:286
 msgid "Inactive"
 msgstr ""

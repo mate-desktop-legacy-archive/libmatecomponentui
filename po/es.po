@@ -1,26 +1,26 @@
-# translation of libmatecomponentui.HEAD.po to Español
-# Héctor García Álvarez <hector@scouts-es.org>, 2001.
-# Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2002.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Francisco Javier F. Serrador <serrador@arrakis.es>, 2003.
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004, 2006.
-# traducción de es.po al Spanish
-# Translation into spanish of libmatecomponentui.
-# Copyright (C) 2001,2003, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Héctor García Álvarez <hector@scouts-es.org>, 2001.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 200, 2009.
+# Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2002.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=libmatecomponentui&component=general\n"
-"POT-Creation-Date: 2009-04-17 13:14+0000\n"
-"PO-Revision-Date: 2009-05-02 14:59+0200\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
-"Language-Team: Español <mate-es-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:07+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Spanish (Castilian) (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -46,23 +46,30 @@ msgstr "Empotrar la barra de herramientas"
 msgid "Undock the toolbar"
 msgstr "Desempotrar la barra de herramientas"
 
-#: ../matecomponent/matecomponent-dock-item.c:225 ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
 #: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Tipo oculto"
 
-#: ../matecomponent/matecomponent-dock-item.c:236 ../matecomponent/matecomponent-dock-item.c:237
-#: ../matecomponent/matecomponent-ui-toolbar.c:1107 ../matecomponent/matecomponent-ui-toolbar.c:1108
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Orientación"
 
-#: ../matecomponent/matecomponent-dock-item.c:247 ../matecomponent/matecomponent-dock-item.c:248
-#: ../matecomponent/matecomponent-ui-toolbar.c:1126 ../matecomponent/matecomponent-ui-toolbar.c:1127
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Ancho preferido"
 
-#: ../matecomponent/matecomponent-dock-item.c:256 ../matecomponent/matecomponent-dock-item.c:257
-#: ../matecomponent/matecomponent-ui-toolbar.c:1135 ../matecomponent/matecomponent-ui-toolbar.c:1136
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Altura preferida"
 
@@ -86,7 +93,8 @@ msgstr "Redirección de eventos"
 msgid "Whether X events should be forwarded"
 msgstr "Si se deben redirigir los eventos de X"
 
-#: ../matecomponent/matecomponent-selector-widget.c:300 ../matecomponent/matecomponent-window.c:347
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
 #: ../tools/browser/component-details.c:108
 #: ../tools/browser/component-list.c:369
 msgid "Name"
@@ -104,12 +112,9 @@ msgstr "Interfaces requeridas"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Para que un servidor sea listado en el selector, debe soportar un array de "
-"interfaces terminado en nulo. De forma predeterminada es «IDL:MateComponent/"
-"Embeddable:1.0» si no se listan ninguna interfaz"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Para que un servidor sea listado en el selector, debe soportar un array de interfaces terminado en nulo. De forma predeterminada es «IDL:MateComponent/Embeddable:1.0» si no se listan ninguna interfaz"
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -185,8 +190,10 @@ msgstr "Configurar UI"
 msgid "Gdk debugging flags to set"
 msgstr "Banderas de depuración de GDK a establecer"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "BANDERAS"
 
@@ -364,8 +371,7 @@ msgstr "Es continuo"
 
 #: ../matecomponent/matecomponent-zoomable.c:370
 msgid "Whether we zoom continuously (as opposed to jumps)"
-msgstr ""
-"Si se realiza ampliación de forma continua (opuesto a hacerlo a saltos)"
+msgstr "Si se realiza ampliación de forma continua (opuesto a hacerlo a saltos)"
 
 #: ../samples/matecomponentui/MateComponent_Sample_Hello.xml.h:1
 msgid "About this application"
@@ -490,9 +496,7 @@ msgstr "Examinador de componentes MateComponent"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr ""
-"Jorge González <jorgegonz@svn.gnome.org>\n"
-"Francisco Javier F. Serrador <serrador@openshine.com>"
+msgstr "Jorge González <jorgegonz@svn.gnome.org>\nFrancisco Javier F. Serrador <serrador@openshine.com>"
 
 #. create the window
 #: ../tools/browser/window.c:240

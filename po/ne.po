@@ -1,25 +1,28 @@
-# translation of libmatecomponentui.HEAD.ne.po to Nepali
-# Ganesh Ghimire <gghimire@gmail.com>, 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Bishnu Adhikari <bsn_adk@hotmail.com>, 2005.
+# Ganesh Ghimire <gghimire@gmail.com>, 2005.
 # Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
-# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
 # Mahesh subedi <submanesh@hotmail.com>, 2006.
-# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
 # Nabin Gautam <nabin@mpp.org.np>, 2007.
-# translation of libmatecomponentui.mate-2-14.ne.po to
+# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui.HEAD.ne\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-02 03:22+0000\n"
-"PO-Revision-Date: 2007-12-17 11:04+0545\n"
-"Last-Translator: Nabin Gautam <nabin@mpp.org.np>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:07+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=n !=1\n"
+"Language: ne\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -37,62 +40,70 @@ msgstr "कोर्बा UI कन्टेनर"
 msgid "The User interface container"
 msgstr "प्रयोगकर्ता इन्टरफेस कन्टेनर"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:255
+#: ../matecomponent/matecomponent-dock-item-grip.c:254
 msgid "Dock the toolbar"
 msgstr "उपकरणपट्टी डक गर्नुहोस्"
 
-#: ../matecomponent/matecomponent-dock-item-grip.c:256
+#: ../matecomponent/matecomponent-dock-item-grip.c:255
 msgid "Undock the toolbar"
 msgstr "उपकरणपट्टीको डक हटाउनुहोस्"
 
-#: ../matecomponent/matecomponent-dock-item.c:228 ../matecomponent/matecomponent-dock-item.c:229
-#: ../matecomponent/matecomponent-ui-toolbar.c:1161
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "छायाँ प्रकार"
 
-#: ../matecomponent/matecomponent-dock-item.c:239 ../matecomponent/matecomponent-dock-item.c:240
-#: ../matecomponent/matecomponent-ui-toolbar.c:1105 ../matecomponent/matecomponent-ui-toolbar.c:1106
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "अभिमूखिकरण"
 
-#: ../matecomponent/matecomponent-dock-item.c:250 ../matecomponent/matecomponent-dock-item.c:251
-#: ../matecomponent/matecomponent-ui-toolbar.c:1124 ../matecomponent/matecomponent-ui-toolbar.c:1125
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "छानिएका चौडाइ"
 
-#: ../matecomponent/matecomponent-dock-item.c:259 ../matecomponent/matecomponent-dock-item.c:260
-#: ../matecomponent/matecomponent-ui-toolbar.c:1133 ../matecomponent/matecomponent-ui-toolbar.c:1134
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "छानिएका उचाइ"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:357
+#: ../matecomponent/matecomponent-file-selector-util.c:350
 msgid "Select a file to open"
 msgstr "खोल्नु पर्ने फाइल चयन गर्नुहोस्"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:385
+#: ../matecomponent/matecomponent-file-selector-util.c:378
 msgid "Select files to open"
 msgstr "खोल्नु पर्ने फाइलहरू चयन गर्नुहोस्"
 
-#: ../matecomponent/matecomponent-file-selector-util.c:414
+#: ../matecomponent/matecomponent-file-selector-util.c:407
 msgid "Select a filename to save"
 msgstr "बचत गरिने फाइलनाम चयन गर्नुहोस्"
 
-#: ../matecomponent/matecomponent-plug.c:424
+#: ../matecomponent/matecomponent-plug.c:425
 msgid "Event Forwarding"
 msgstr "घटना फरवार्ड"
 
-#: ../matecomponent/matecomponent-plug.c:425
+#: ../matecomponent/matecomponent-plug.c:426
 msgid "Whether X events should be forwarded"
 msgstr "X घटना फरवार्ड गर्नुपर्दछ या पर्दैन"
 
-#: ../matecomponent/matecomponent-selector-widget.c:298 ../matecomponent/matecomponent-window.c:344
-#: ../tools/browser/component-details.c:114
-#: ../tools/browser/component-list.c:378
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
+#: ../tools/browser/component-details.c:108
+#: ../tools/browser/component-list.c:369
 msgid "Name"
 msgstr "नाम"
 
-#: ../matecomponent/matecomponent-selector-widget.c:320
-#: ../tools/browser/component-details.c:115
+#: ../matecomponent/matecomponent-selector-widget.c:322
+#: ../tools/browser/component-details.c:109
 msgid "Description"
 msgstr "वर्णन"
 
@@ -103,8 +114,8 @@ msgstr "इन्टरफेस आवश्यक हुन्छ"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
 msgstr "इन्टरफेसको शून्यमा अन्त्य हुने एरे जसलाई चयनकर्तामा सूचीकृत हुनका लागि सर्भर समर्थन हुनु पर्दछ । यदि इन्टरफेस सूचीकृत छैनन् भने \"IDL:MateComponent/Embeddable:1.0\" मा पूर्वनिर्धारण गर्नुहोस्"
 
 #: ../matecomponent/matecomponent-selector.c:346
@@ -115,198 +126,204 @@ msgstr "इन्टरफेसलाई प्रविष्टि आवश�
 msgid "One of the interfaces that's required"
 msgstr "आवश्यक हुने एउटा इन्टरफेस"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:265
+#: ../matecomponent/matecomponent-ui-config-widget.c:267
 msgid "Visible"
 msgstr "दृश्यात्मक"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:272
+#: ../matecomponent/matecomponent-ui-config-widget.c:274
 msgid "_Show"
 msgstr "देखाउनुहोस्"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:279
+#: ../matecomponent/matecomponent-ui-config-widget.c:281
 msgid "_Hide"
 msgstr "लुकाउनुहोस्"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:285
+#: ../matecomponent/matecomponent-ui-config-widget.c:287
 msgid "_View tooltips"
 msgstr "उपकरण टिपहरू हेर्नुहोस्"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:290
+#: ../matecomponent/matecomponent-ui-config-widget.c:292
 msgid "Toolbars"
 msgstr "उपकरणपट्टी"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:300
+#: ../matecomponent/matecomponent-ui-config-widget.c:302
 msgid "toolbars"
 msgstr "उपकरणपट्टी"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:311
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:313
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "Look"
 msgstr "हेर्नुहोस्"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:320
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-config-widget.c:322
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "_Icon"
 msgstr "प्रतिमा"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:326
+#: ../matecomponent/matecomponent-ui-config-widget.c:328
 msgid "_Text and Icon"
 msgstr "पाठ र प्रतिमा"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:332
+#: ../matecomponent/matecomponent-ui-config-widget.c:334
 msgid "Text only"
 msgstr "पाठ मात्र"
 
-#: ../matecomponent/matecomponent-ui-config-widget.c:338
+#: ../matecomponent/matecomponent-ui-config-widget.c:340
 msgid "_Priority text only"
 msgstr "प्राथमिक पाठ मात्र"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "Debug"
 msgstr "त्रुटि सच्याउनुहोस्"
 
-#: ../matecomponent/matecomponent-ui-engine.c:91
+#: ../matecomponent/matecomponent-ui-engine.c:93
 msgid "_Dump XML"
 msgstr "XML डम्प गर्नुहोस्"
 
-#: ../matecomponent/matecomponent-ui-engine.c:92
+#: ../matecomponent/matecomponent-ui-engine.c:94
 msgid "Dump the entire UI's XML description to the console"
 msgstr "कन्सोलमा UI को पुरै XML वर्णन डम्प गर्नुहोस्"
 
-#: ../matecomponent/matecomponent-ui-engine-config.c:522
+#: ../matecomponent/matecomponent-ui-engine-config.c:524
 msgid "Configure UI"
 msgstr "UI कन्फिगर गर्नुहोस्"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:127
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
 msgid "Gdk debugging flags to set"
 msgstr "सेट गरिने Gdk डिबगिङ झन्डा"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:127 ../matecomponent/matecomponent-ui-init-gtk.c:130
-#: ../matecomponent/matecomponent-ui-init-gtk.c:158 ../matecomponent/matecomponent-ui-init-gtk.c:161
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "FLAGS"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:130
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
 msgid "Gdk debugging flags to unset"
 msgstr "अनसेट गरिने Gdk डिबगिङ झन्डा"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "X display to use"
 msgstr "प्रयोग गरिने X प्रदर्शन"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:138
 msgid "DISPLAY"
 msgstr "प्रदर्शन"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:138
+#: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "X screen to use"
 msgstr "प्रयोग गरिने X पर्दा"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:138
+#: ../matecomponent/matecomponent-ui-init-gtk.c:142
 msgid "SCREEN"
 msgstr "पर्दा"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:142
+#: ../matecomponent/matecomponent-ui-init-gtk.c:146
 msgid "Make X calls synchronous"
 msgstr " X कल समकालीन बनाउनुहोस्"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:148
+#: ../matecomponent/matecomponent-ui-init-gtk.c:152
 msgid "Don't use X shared memory extension"
 msgstr " X साझा बनाइएको स्मृति विस्तार प्रयोग नगर्नुहोस्"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:152
+#: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "Program name as used by the window manager"
 msgstr "सञ्झ्याल प्रबन्धकद्वारा प्रयोग गरिए अनुरूपको कार्यक्रमको नाम"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:152
+#: ../matecomponent/matecomponent-ui-init-gtk.c:156
 msgid "NAME"
 msgstr "नाम"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:155
+#: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "Program class as used by the window manager"
 msgstr "सञ्झ्याल प्रबन्धकद्वारा प्रयोग गरिए अनुरूपको कार्यक्रम वर्ग"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:155
+#: ../matecomponent/matecomponent-ui-init-gtk.c:159
 msgid "CLASS"
 msgstr "वर्ग"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:158
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
 msgid "Gtk+ debugging flags to set"
 msgstr "सेट गरिने Gtk+ डिबगिङ झन्डा"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:161
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "Gtk+ debugging flags to unset"
 msgstr "अनसेट गरिने Gtk+ डिबगिङ झन्डा"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:164
+#: ../matecomponent/matecomponent-ui-init-gtk.c:168
 msgid "Make all warnings fatal"
 msgstr "सबै चेतावनी घातक बनाउनुहोस्"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:167
+#: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "Load an additional Gtk module"
 msgstr "अतिरिक्त GTK मोड्युल लोड गर्नुहोस्"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:167
+#: ../matecomponent/matecomponent-ui-init-gtk.c:171
 msgid "MODULE"
 msgstr "मोड्युल"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:183
+#: ../matecomponent/matecomponent-ui-init-gtk.c:187
 msgid "GTK+"
 msgstr "GTK+"
 
-#: ../matecomponent/matecomponent-ui-main.c:278
+#: ../matecomponent/matecomponent-ui-main.c:281
 msgid "MateComponent GUI support"
 msgstr "बोनोबो GUI समर्थन"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "B_oth"
 msgstr "दुबै"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:566
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
 msgid "T_ext"
 msgstr "पाठ"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Hide t_ips"
 msgstr "टिप लुकाउनुहोस्"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:567
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
 msgid "Show t_ips"
 msgstr "टिप देखाउनुहोस्"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "_Hide toolbar"
 msgstr "उपकरणपट्टी लुकाउनुहोस्"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:568
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:570
 msgid "Customi_ze"
 msgstr "अनुकूलन गर्नुहोस्"
 
-#: ../matecomponent/matecomponent-ui-sync-toolbar.c:569
+#: ../matecomponent/matecomponent-ui-sync-toolbar.c:571
 msgid "Customize the toolbar"
 msgstr "उपकरणपट्टी अनुकूलन गर्नुहोस्"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1115
+#: ../matecomponent/matecomponent-ui-toolbar.c:1117
 msgid "is floating"
 msgstr "उत्प्लावन छ"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1116
+#: ../matecomponent/matecomponent-ui-toolbar.c:1118
 msgid "whether the toolbar is floating"
 msgstr "उपकरणपट्टी उत्प्लावन छ या छैन"
 
-#: ../matecomponent/matecomponent-ui-toolbar.c:1162
+#: ../matecomponent/matecomponent-ui-toolbar.c:1164
 msgid "Style of bevel around the toolbar"
 msgstr "उपकरणपट्टी वरिपरि बेभेलको शैली"
 
-#: ../matecomponent/matecomponent-ui-util.c:630
+#: ../matecomponent/matecomponent-ui-util.c:602
+msgid "Could not display help for this application"
+msgstr ""
+
+#: ../matecomponent/matecomponent-ui-util.c:644
 msgid "_Contents"
 msgstr "सामाग्रीहरू"
 
-#: ../matecomponent/matecomponent-ui-util.c:631
+#: ../matecomponent/matecomponent-ui-util.c:645
 msgid "View help for this application"
 msgstr "यस अनुप्रयोगका लागि मद्दत हेर्नुहोस्"
 
-#: ../matecomponent/matecomponent-window.c:345
+#: ../matecomponent/matecomponent-window.c:348
 msgid "Name of the window - used for configuration serialization."
 msgstr "सञ्झ्यालको नाम - कन्फिगरेसन क्रमानुगत बनाउनका लागि प्रयोग ।"
 
@@ -383,29 +400,28 @@ msgstr "फाइल"
 msgid "_Select"
 msgstr "चयन गर्नुहोस्"
 
-#: ../samples/matecomponentui/hello.c:63
+#: ../samples/matecomponentui/hello.c:65
 msgid "This does nothing; it is only a demonstration."
 msgstr "यसले केही गर्दैन; यो केवल प्रदर्शन मात्र हो ।"
 
-#: ../samples/matecomponentui/hello.c:145
+#: ../samples/matecomponentui/hello.c:147
 msgid "MateComponentUI-Hello."
 msgstr "हेलो बोनोबियू"
 
-#: ../samples/matecomponentui/hello.c:217
+#: ../samples/matecomponentui/hello.c:219
 msgid "Mate Hello"
 msgstr "हेलो जिनोम"
 
-#  Create Label and put it in the Button:
 #. Create Label and put it in the Button:
-#: ../samples/matecomponentui/hello.c:272
+#: ../samples/matecomponentui/hello.c:274
 msgid "Hello, World!"
 msgstr "हेलो, संसार !"
 
-#: ../samples/matecomponentui/hello.c:312
+#: ../samples/matecomponentui/hello.c:314
 msgid "Cannot init libmatecomponentui code"
 msgstr "लिबोनोबोयू कोड सुरु गर्न सकिँदैन"
 
-#: ../samples/controls/matecomponent-sample-controls.c:131
+#: ../samples/controls/matecomponent-sample-controls.c:133
 msgid "Could not initialize MateComponent UI"
 msgstr "बोनोबो UI सुरु गर्न सकेन"
 
@@ -434,33 +450,33 @@ msgid "_Help"
 msgstr "मद्दत"
 
 #. Build the general tab
-#: ../tools/browser/component-details.c:109
+#: ../tools/browser/component-details.c:103
 msgid "General"
 msgstr "साधारण"
 
-#: ../tools/browser/component-details.c:116
-#: ../tools/browser/component-list.c:398
+#: ../tools/browser/component-details.c:110
+#: ../tools/browser/component-list.c:389
 msgid "IID"
 msgstr "IID"
 
-#: ../tools/browser/component-details.c:117
+#: ../tools/browser/component-details.c:111
 msgid "Location"
 msgstr "स्थान"
 
 #. Build the details tab
-#: ../tools/browser/component-details.c:167
+#: ../tools/browser/component-details.c:161
 msgid "Details"
 msgstr "विवरण"
 
-#: ../tools/browser/component-details.c:168
+#: ../tools/browser/component-details.c:162
 msgid "Detailed Information"
 msgstr "विवरण सूचना"
 
-#: ../tools/browser/component-list.c:367 ../tools/browser/window.c:283
+#: ../tools/browser/component-list.c:358 ../tools/browser/window.c:283
 msgid "Active"
 msgstr "सक्रिय"
 
-#: ../tools/browser/component-list.c:388
+#: ../tools/browser/component-list.c:379
 msgid "Type"
 msgstr "प्रकार"
 
@@ -497,4 +513,3 @@ msgstr "सबै"
 #: ../tools/browser/window.c:286
 msgid "Inactive"
 msgstr "निस्क्रिय"
-

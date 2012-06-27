@@ -1,20 +1,23 @@
-# Czech translation of libmatecomponentui.
-# Copyright (C) 2002 Free Software Foundation, Inc.
-# Copyright (C) 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
-# Miloslav Trmac <mitr@volny.cz>, 2002, 2004, 2005, 2006.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Lucas Lommer <llommer@svn.gnome.org>, 2008, 2010.
-#
+# Miloslav Trmac <mitr@volny.cz>, 2002, 2004, 2005, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: libmatecomponentui\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-29 01:15+0200\n"
-"PO-Revision-Date: 2010-03-28 17:04+0100\n"
-"Last-Translator: Lucas Lommer <llommer@svn.gnome.org>\n"
-"Language-Team: Czech <mate-cs-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-20 23:01+0100\n"
+"PO-Revision-Date: 2012-02-20 22:04+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Czech (http://www.transifex.com/projects/p/MATE/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 
 #: ../matecomponent/matecomponent-canvas-item.c:680
 msgid "corba factory"
@@ -40,23 +43,30 @@ msgstr "Dokovat nástrojovou lištu"
 msgid "Undock the toolbar"
 msgstr "Oddokovat nástrojovou lištu"
 
-#: ../matecomponent/matecomponent-dock-item.c:225 ../matecomponent/matecomponent-dock-item.c:226
+#: ../matecomponent/matecomponent-dock-item.c:225
+#: ../matecomponent/matecomponent-dock-item.c:226
 #: ../matecomponent/matecomponent-ui-toolbar.c:1163
 msgid "Shadow type"
 msgstr "Typ stínu"
 
-#: ../matecomponent/matecomponent-dock-item.c:236 ../matecomponent/matecomponent-dock-item.c:237
-#: ../matecomponent/matecomponent-ui-toolbar.c:1107 ../matecomponent/matecomponent-ui-toolbar.c:1108
+#: ../matecomponent/matecomponent-dock-item.c:236
+#: ../matecomponent/matecomponent-dock-item.c:237
+#: ../matecomponent/matecomponent-ui-toolbar.c:1107
+#: ../matecomponent/matecomponent-ui-toolbar.c:1108
 msgid "Orientation"
 msgstr "Orientace"
 
-#: ../matecomponent/matecomponent-dock-item.c:247 ../matecomponent/matecomponent-dock-item.c:248
-#: ../matecomponent/matecomponent-ui-toolbar.c:1126 ../matecomponent/matecomponent-ui-toolbar.c:1127
+#: ../matecomponent/matecomponent-dock-item.c:247
+#: ../matecomponent/matecomponent-dock-item.c:248
+#: ../matecomponent/matecomponent-ui-toolbar.c:1126
+#: ../matecomponent/matecomponent-ui-toolbar.c:1127
 msgid "Preferred width"
 msgstr "Preferovaná šířka"
 
-#: ../matecomponent/matecomponent-dock-item.c:256 ../matecomponent/matecomponent-dock-item.c:257
-#: ../matecomponent/matecomponent-ui-toolbar.c:1135 ../matecomponent/matecomponent-ui-toolbar.c:1136
+#: ../matecomponent/matecomponent-dock-item.c:256
+#: ../matecomponent/matecomponent-dock-item.c:257
+#: ../matecomponent/matecomponent-ui-toolbar.c:1135
+#: ../matecomponent/matecomponent-ui-toolbar.c:1136
 msgid "Preferred height"
 msgstr "Preferovaná výška"
 
@@ -80,7 +90,8 @@ msgstr "Přeposílání událostí"
 msgid "Whether X events should be forwarded"
 msgstr "Jestli mají být přeposílány události X"
 
-#: ../matecomponent/matecomponent-selector-widget.c:300 ../matecomponent/matecomponent-window.c:347
+#: ../matecomponent/matecomponent-selector-widget.c:300
+#: ../matecomponent/matecomponent-window.c:347
 #: ../tools/browser/component-details.c:108
 #: ../tools/browser/component-list.c:369
 msgid "Name"
@@ -98,12 +109,9 @@ msgstr "Požadovaná rozhraní"
 #: ../matecomponent/matecomponent-selector.c:344
 msgid ""
 "A NULL-terminated array of interfaces which a server must support in order "
-"to be listed in the selector. Defaults to \"IDL:MateComponent/Embeddable:1.0\" if "
-"no interfaces are listed"
-msgstr ""
-"Pole ukončené NULL obsahující rozhraní, které musí server podporovat, aby "
-"byl uveden ve výběru. Nejsou-li požadována žádná rozhraní, ve výchozím "
-"nastavení se bere „IDL:MateComponent/Embeddable:1.0“"
+"to be listed in the selector. Defaults to "
+"\"IDL:MateComponent/Embeddable:1.0\" if no interfaces are listed"
+msgstr "Pole ukončené NULL obsahující rozhraní, které musí server podporovat, aby byl uveden ve výběru. Nejsou-li požadována žádná rozhraní, ve výchozím nastavení se bere „IDL:MateComponent/Embeddable:1.0“"
 
 #: ../matecomponent/matecomponent-selector.c:346
 msgid "Interface required entry"
@@ -179,8 +187,10 @@ msgstr "Nastavit UI"
 msgid "Gdk debugging flags to set"
 msgstr "Nastavit ladicí volby Gdk"
 
-#: ../matecomponent/matecomponent-ui-init-gtk.c:131 ../matecomponent/matecomponent-ui-init-gtk.c:134
-#: ../matecomponent/matecomponent-ui-init-gtk.c:162 ../matecomponent/matecomponent-ui-init-gtk.c:165
+#: ../matecomponent/matecomponent-ui-init-gtk.c:131
+#: ../matecomponent/matecomponent-ui-init-gtk.c:134
+#: ../matecomponent/matecomponent-ui-init-gtk.c:162
+#: ../matecomponent/matecomponent-ui-init-gtk.c:165
 msgid "FLAGS"
 msgstr "VOLBY"
 
@@ -483,9 +493,7 @@ msgstr "Prohlížeč komponent MateComponent"
 
 #: ../tools/browser/window.c:214
 msgid "translator-credits"
-msgstr ""
-"Miloslav Trmač <mitr@volny.cz>\n"
-"Lucas Lommer <llommer@svn.gnome.org>"
+msgstr "Miloslav Trmač <mitr@volny.cz>\nLucas Lommer <llommer@svn.gnome.org>"
 
 #. create the window
 #: ../tools/browser/window.c:240
