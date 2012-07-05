@@ -1,3 +1,122 @@
+commit 8be30f25ce35ec7c7e7c61dd4e0c003d50f9983a
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Jun 27 17:31:31 2012 +0200
+
+    sync translations with transifex
+
+ po/af.po          |  223 +++++++++++----------
+ po/am.po          |  253 ++++++++++++-----------
+ po/ar.po          |   73 +++----
+ po/as.po          |  181 +++++++++--------
+ po/ast.po         |   35 ++--
+ po/az.po          |  254 +++++++++++++-----------
+ po/be.po          |  255 +++++++++++++-----------
+ po/bg.po          |  197 +++++++++---------
+ po/bn.po          |  131 ++++--------
+ po/bn_IN.po       |  291 +++++++++++----------------
+ po/br.po          |   61 +++---
+ po/bs.po          |  256 +++++++++++++-----------
+ po/ca.po          |   73 ++++---
+ po/ca@valencia.po |   73 ++++---
+ po/cs.po          |   68 ++++---
+ po/cy.po          |   84 ++++----
+ po/da.po          |  203 +++++++++----------
+ po/de.po          |  227 ++++++++++-----------
+ po/dz.po          |  228 ++++++++++-----------
+ po/el.po          |  149 ++++----------
+ po/en_CA.po       |  217 ++++++++++----------
+ po/en_GB.po       |  186 +++++++++--------
+ po/eo.po          |   38 ++--
+ po/es.po          |   76 +++----
+ po/et.po          |  226 ++++++++++-----------
+ po/eu.po          |   67 ++++---
+ po/fa.po          |  243 ++++++++++++-----------
+ po/fi.po          |  192 +++++++++---------
+ po/fr.po          |  234 +++++++++++-----------
+ po/ga.po          |  244 ++++++++++++-----------
+ po/gl.po          |   80 ++++----
+ po/gu.po          |  216 ++++++++++----------
+ po/he.po          |  215 ++++++++++----------
+ po/hi.po          |  176 ++++++++--------
+ po/hr.po          |  191 +++++++++---------
+ po/hu.po          |  225 ++++++++++-----------
+ po/id.po          |   67 ++++---
+ po/is.po          |  257 +++++++++++++-----------
+ po/it.po          |  183 ++++++++---------
+ po/ka.po          |  227 +++++++++++----------
+ po/kn.po          |  162 ++++++++-------
+ po/ko.po          |  172 ++++++++--------
+ po/ku.po          |  248 ++++++++++++-----------
+ po/li.po          |  255 +++++++++++++-----------
+ po/lt.po          |   69 ++++---
+ po/lv.po          |  170 ++++++++--------
+ po/mai.po         |  179 +++++++++--------
+ po/mg.po          |  230 ++++++++++-----------
+ po/mk.po          |  219 ++++++++++----------
+ po/ml.po          |  234 +++++++++++-----------
+ po/mn.po          |  184 ++++++++---------
+ po/mr.po          |  213 ++++++++++----------
+ po/ms.po          |  255 +++++++++++++-----------
+ po/nb.po          |  216 ++++++++++----------
+ po/ne.po          |  219 ++++++++++----------
+ po/nl.po          |  227 +++++++++++----------
+ po/nn.po          |  186 ++++++++---------
+ po/nso.po         |  259 ++++++++++++------------
+ po/oc.po          |  179 +++++++++--------
+ po/or.po          |   70 ++++---
+ po/pa.po          |  175 ++++++++--------
+ po/pl.po          |  182 +++++++++--------
+ po/ps.po          |   59 +++---
+ po/pt.po          |  298 ++++++++++++++--------------
+ po/pt_BR.po       |   69 ++++---
+ po/ro.po          |  147 +++++++-------
+ po/ru.po          |   73 +++----
+ po/rw.po          |  573 ++++++++++++++++++++---------------------------------
+ po/si.po          |  210 +++++++++++---------
+ po/sk.po          |  177 +++++++++--------
+ po/sl.po          |  232 +++++++++++-----------
+ po/sq.po          |  201 +++++++++----------
+ po/sr.po          |  190 +++++++++---------
+ po/sr@latin.po    |  190 +++++++++---------
+ po/sv.po          |  291 +++++++++++----------------
+ po/ta.po          |  223 +++++++++++----------
+ po/te.po          |  178 +++++++++--------
+ po/th.po          |  178 +++++++++--------
+ po/tr.po          |  186 +++++++++--------
+ po/uk.po          |  182 +++++++++--------
+ po/vi.po          |  241 +++++++++++-----------
+ po/wa.po          |  255 +++++++++++++-----------
+ po/xh.po          |  253 ++++++++++++-----------
+ po/yi.po          |  253 ++++++++++++-----------
+ po/zh_CN.po       |  251 +++++++++++------------
+ po/zh_HK.po       |  150 +++++++-------
+ po/zh_TW.po       |  155 ++++++++-------
+ po/zu.po          |  258 ++++++++++++------------
+ 88 files changed, 8397 insertions(+), 8254 deletions(-)
+
+commit d1e41f18586ffa0ee7def429e0c139e23a925cdd
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Wed Jun 27 17:31:22 2012 +0200
+
+    add po gnome copyrights file
+
+ po/gnome-copyrights.txt | 1039 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1039 insertions(+)
+
+commit 27396ba5023015d8e9d742cb3b11fb6d33618b99
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Mon Feb 20 23:16:49 2012 +0100
+
+    update for 1.2 release
+
+ AUTHORS      |    1 +
+ ChangeLog    |  546 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ MAINTAINERS  |   11 --
+ README       |    6 +-
+ autogen.sh   |    4 +-
+ configure.in |    6 +-
+ 6 files changed, 554 insertions(+), 20 deletions(-)
+
 commit 82bc4a46af3b9cc34b2e9d0610876dc29717493c
 Author: Perberos <perberos@gmail.com>
 Date:   Tue Jan 24 15:57:09 2012 -0300
@@ -5,7 +124,7 @@ Date:   Tue Jan 24 15:57:09 2012 -0300
     changing pkgbuild source method
 
  distro/archlinux/PKGBUILD |   10 +++++-----
- 1 files changed, 5 insertions(+), 5 deletions(-)
+ 1 file changed, 5 insertions(+), 5 deletions(-)
 
 commit 637b001b75562a65f94d619ffc34b963641cf9bf
 Author: Perberos <perberos@gmail.com>
@@ -14,7 +133,7 @@ Date:   Tue Jan 24 15:57:05 2012 -0300
     removing autogenerated file
 
  matecomponent/Makefile.in |  921 ---------------------------------------------
- 1 files changed, 0 insertions(+), 921 deletions(-)
+ 1 file changed, 921 deletions(-)
 
 commit 4f5fb8f0f93cbd3f096eff5c31e9da9ee20d0583
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -23,7 +142,7 @@ Date:   Mon Jan 9 21:17:19 2012 -0500
     Replaced mate.gr.jp with gnome.gr.jp as requested in Issue #86
 
  po/ChangeLog |  106 +++++++++++++++++++++++++++++-----------------------------
- po/ja.po     |    8 ++--
+ po/ja.po     |    8 ++---
  2 files changed, 57 insertions(+), 57 deletions(-)
 
 commit ee807a3513207bbcbd3bcc2ae6ea18ec18880683
@@ -44,7 +163,7 @@ Date:   Fri Dec 16 15:54:40 2011 +0100
     Fixed MATE version requirements
 
  matecomponent/matecomponent-ui-main.c |    6 +++---
- 1 files changed, 3 insertions(+), 3 deletions(-)
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 
 commit 06b96e3c73e9dbadcc5943e18baaeded42830898
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -65,7 +184,7 @@ Date:   Thu Dec 8 12:54:58 2011 -0300
     removing autogenerated file
 
  install-sh |  520 ------------------------------------------------------------
- 1 files changed, 0 insertions(+), 520 deletions(-)
+ 1 file changed, 520 deletions(-)
 
 commit 0de988ce6f7d157ef8bb818634923a6c88336fe1
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -92,7 +211,7 @@ Date:   Tue Dec 6 18:45:01 2011 -0500
     Trying to fix spacing issue...again
 
  matecomponent/matecomponent-ui-engine.c |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit f9c272ef63b61095834c62f81243d7f52cceb1ab
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -101,7 +220,7 @@ Date:   Tue Dec 6 18:42:17 2011 -0500
     Trying to fix spacing issue
 
  matecomponent/matecomponent-ui-engine.c |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit 512d93b2ec9ab8c3e6f9b7bc2107dd2c193ff122
 Merge: c92a63b 9c0c8dd
@@ -117,7 +236,7 @@ Date:   Tue Dec 6 18:41:08 2011 -0500
     Trying to fix spacing issue
 
  matecomponent/matecomponent-ui-engine.c |    2 +-
- 1 files changed, 1 insertions(+), 1 deletions(-)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
 commit 9c0c8dd202c4eaab88e651fc028700c92dc5f453
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -126,7 +245,7 @@ Date:   Tue Dec 6 18:38:35 2011 -0500
     Added missing semi-colon.
 
  matecomponent/matecomponent-ui-engine.c |    1 +
- 1 files changed, 1 insertions(+), 0 deletions(-)
+ 1 file changed, 1 insertion(+)
 
 commit c92a63b1fea63ad53e2e4fe1ec5bbff85c9be995
 Author: Stefano Karapetsas <stefano@karapetsas.com>
@@ -154,7 +273,7 @@ Date:   Wed Dec 7 00:15:06 2011 +0100
  tests/control/Makefile.in                  |  532 ------------------
  tools/Makefile.in                          |  604 --------------------
  tools/browser/Makefile.in                  |  668 ----------------------
- 20 files changed, 1 insertions(+), 9894 deletions(-)
+ 20 files changed, 1 insertion(+), 9894 deletions(-)
 
 commit e46b4069b1d7a26934f581c1188faa295a5867d4
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -274,7 +393,7 @@ Date:   Thu Dec 1 20:48:21 2011 -0300
  glade/Makefile.am                                  |   20 +
  glade/Makefile.in                                  |  587 ++++
  glade/glade-matecomponent.c                        |  287 ++
- install-sh                                         |  520 +++
+ install-sh                                         |  520 ++++
  libmatecomponentui-zip.in                          |   38 +
  libmatecomponentui.h                               |   52 +
  matecomponent.h                                    |   16 +
@@ -519,7 +638,7 @@ Date:   Thu Dec 1 20:48:21 2011 -0300
  tests/mate-test-events.c                           |   83 +
  tests/mate-test-filesel.c                          |   70 +
  tests/mate-test-focus.c                            |  115 +
- tests/mate-test-moniker.c                          |  347 ++
+ tests/mate-test-moniker.c                          |  347 +++
  tests/mate-test-reparent.c                         |  151 +
  tests/mate-test-selector.c                         |   25 +
  tests/mate-test-sensitivity.c                      |  215 ++
@@ -542,4 +661,4 @@ Date:   Thu Dec 1 20:48:21 2011 -0300
  tools/browser/oaf-helper.c                         |  386 +++
  tools/browser/oaf-helper.h                         |   90 +
  tools/browser/window.c                             |  318 ++
- 370 files changed, 135598 insertions(+), 0 deletions(-)
+ 370 files changed, 135598 insertions(+)
