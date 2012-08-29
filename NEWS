@@ -1,7 +1,11 @@
-libmatecomponentui 2.24.4
+libmatecomponentui 1.5.0
+	dropped matecomponent_ui_util_build_help_menu () in matecomponent-ui-util.c
+	dropped matecomponent_ui_util_fixup_help () in matecomponent-ui-util.c
+
+libgnomecomponentui 2.24.4
 	* Updated translations (en@shaw, eo, eu, gl, ja, or, sl)
 
-libmatecomponentui 2.24.3
+libgnomecomponentui 2.24.3
 	* Skip unknown accelerators (Jeff Cai)
 	* Don't pass NULL to G_OBJECT_GET_CLASS() (Paul Bolle)
 	* Updated translations (ast, bn, cs, cy, en@shaw, gl, lt, ru)

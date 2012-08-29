@@ -14,7 +14,6 @@
 
 #include <gtk/gtk.h>
 
-#include <libmate/mate-help.h>
 #include <libmate/mate-init.h>
 #include <libmate/mate-program.h>
 
@@ -538,130 +537,6 @@ help_display_closure_free (gpointer  user_data,
 	g_free (cl);
 }
 
-static void
-matecomponent_help_display_cb (MateComponentUIComponent *component,
-			gpointer           user_data,
-			const char        *cname)
-{
-	GError *error = NULL;
-	const char *doc_id;
-	HelpDisplayClosure *cl = user_data;
-
-	if (cl->app_name)
-		doc_id = cl->app_name;
-	else
-		doc_id = mate_program_get_app_id (mate_program_get ());
-
-	if (!cl->program) {
-		int   argc = 1;
-		char *argv[2];
-		char *prefix;
-		char *datadir;
-
-		argv [0] = (char *) (doc_id ? doc_id : "unknown-lib");
-		argv [1] = NULL;
-
-		if (cl->app_prefix)
-			prefix = g_strdup (cl->app_prefix);
-		else
-			prefix = NULL;
-
-		if (prefix)
-			datadir = g_strdup_printf ("%s/share", prefix);
-
- 		else {
-			datadir = NULL;
-			g_object_get (G_OBJECT (mate_program_get ()),
-				      MATE_PARAM_APP_DATADIR, &datadir, NULL);
-		}
-
-		if (!datadir) /* desparate fallback */
-			datadir = g_strdup (MATECOMPONENT_DATADIR);
-
-		cl->program = mate_program_init (
-			doc_id, "2.1",
-			LIBMATE_MODULE,
-			argc, argv, 
-			MATE_PARAM_APP_PREFIX, prefix,
-			MATE_PARAM_APP_DATADIR, datadir,
-			NULL);
-
-		g_free (datadir);
-		g_free (prefix);
-	}
-
-	mate_help_display_with_doc_id (
-		cl->program, doc_id, doc_id, NULL, &error);
-
-	if (error) {
-		GtkWidget *dialog;
-
-		dialog = gtk_message_dialog_new (NULL, 0, 
-                                                 GTK_MESSAGE_ERROR,
-						 GTK_BUTTONS_OK,
-						 _("Could not display help for this application"));
-		gtk_message_dialog_format_secondary_text (GTK_MESSAGE_DIALOG (dialog),
-							  "%s",
-							  error->message);
-		g_signal_connect_swapped (dialog, "response",
-					  G_CALLBACK (gtk_widget_destroy),
-					  dialog);
-
-		gtk_window_present (GTK_WINDOW (dialog));
-
-		g_error_free (error);
-	}
-}
-
-/**
- * matecomponent_ui_util_build_help_menu:
- * @listener: associated component
- * @app_prefix: application prefix
- * @app_name: application name
- * @parent: toplevel node
- * 
- * This routine inserts all the help menu items appropriate for this
- * application as children of the @parent node.
- **/
-void
-matecomponent_ui_util_build_help_menu (MateComponentUIComponent *listener,
-				const char        *app_prefix,
-				const char        *app_name,
-				MateComponentUINode      *parent)
-{
-	static int unique = 0;
-	char *id;
-	MateComponentUINode *node;
-	HelpDisplayClosure *cl;
- 
-	node = matecomponent_ui_node_new ("menuitem");
-
-	id = g_strdup_printf ("Help%s%d",
-			      app_name ? app_name : "main",
-			      unique++);
-	matecomponent_ui_node_set_attr (node, "name", id);
-	matecomponent_ui_node_set_attr (node, "verb", "");
-	matecomponent_ui_node_set_attr (node, "label", _("_Contents"));
-	matecomponent_ui_node_set_attr (node, "tip", _("View help for this application"));
-	matecomponent_ui_node_set_attr (node, "pixtype", "stock");
-	matecomponent_ui_node_set_attr (node, "pixname", "gtk-help");
-	matecomponent_ui_node_set_attr (node, "accel", "F1");
-
-	cl = g_new0 (HelpDisplayClosure, 1);
-	cl->app_name = g_strdup (app_name);
-	cl->app_prefix = g_strdup (app_prefix);
-
-	matecomponent_ui_component_add_verb_full (
-		listener, id,
-		g_cclosure_new (
-			G_CALLBACK (matecomponent_help_display_cb),
-			cl, help_display_closure_free));
-
-	matecomponent_ui_node_add_child (parent, node);
-
-	g_free (id);
-}
-
 /**
  * matecomponent_ui_util_get_ui_fname:
  * @component_datadir: the datadir for the component, e.g. /usr/share
@@ -756,44 +631,6 @@ matecomponent_ui_util_translate_ui (MateComponentUINode *node)
 }
 
 /**
- * matecomponent_ui_util_fixup_help:
- * @component: the UI component
- * @node: the node to search under
- * @app_prefix: the application prefix
- * @app_name: the application name
- * 
- * This searches for 'BuiltMenuItems' placeholders, and then
- * fills them with the application's menu items.
- **/
-void
-matecomponent_ui_util_fixup_help (MateComponentUIComponent *component,
-			   MateComponentUINode      *node,
-			   const char        *app_prefix,
-			   const char        *app_name)
-{
-	MateComponentUINode *l;
-	gboolean build_here = FALSE;
-
-	if (!node)
-		return;
-
-	if (matecomponent_ui_node_has_name (node, "placeholder")) {
-		const char *txt;
-
-		if ((txt = matecomponent_ui_node_peek_attr (node, "name")))
-			build_here = !strcmp (txt, "BuiltMenuItems");
-	}
-
-	if (build_here) {
-		matecomponent_ui_util_build_help_menu (
-			component, app_prefix, app_name, node);
-	}
-
-	for (l = matecomponent_ui_node_children (node); l; l = matecomponent_ui_node_next (l))
-		matecomponent_ui_util_fixup_help (component, l, app_prefix, app_name);
-}
-
-/**
  * matecomponent_ui_util_fixup_icons:
  * @node: the node
  * 
@@ -869,8 +706,6 @@ matecomponent_ui_util_new_ui (MateComponentUIComponent *component,
         node = matecomponent_ui_node_from_file (file_name);
 
 	matecomponent_ui_util_translate_ui (node);
-
-	matecomponent_ui_util_fixup_help (component, node, app_prefix, app_name);
 
 	matecomponent_ui_util_fixup_icons (node);
 
