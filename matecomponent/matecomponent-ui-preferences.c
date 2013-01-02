@@ -15,7 +15,8 @@
 #include <string.h>
 #include <mateconf/mateconf.h>
 #include <mateconf/mateconf-client.h>
-#include <libmate/mate-mateconf.h>
+// https://github.com/mate-desktop/libmatecomponentui/issues/3
+//#include <libmate/mate-mateconf.h>
 #include <matecomponent/matecomponent-ui-private.h>
 #include <matecomponent/matecomponent-ui-preferences.h>
 
